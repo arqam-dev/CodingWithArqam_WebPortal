@@ -1,0 +1,188 @@
+{
+  "subject": "JavaScript",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of JavaScript language and its characteristics",
+      "points": [
+        "JavaScript is a scripting language, not compiled like C#, Java",
+        "Old name: LiveScript, originally called Mocha",
+        "Scripting language meaning it is rendered when code is loaded",
+        "JavaScript can execute in browser and on server",
+        "Browser has embedded engine called JavaScript virtual machine",
+        "Different engines: V8 (Chrome, Opera), SpiderMonkey (Firefox)",
+        "JavaScript is always synchronous and single-threaded",
+        "JavaScript is only asynchronous in sense that it can make Ajax calls",
+        "JS is faster than ASP (Active Server Pages)",
+        "JavaScript is case sensitive language"
+      ]
+    },
+    {
+      "title": "Data Types",
+      "description": "Primitive and non-primitive data types in JavaScript",
+      "points": [
+        "Primitives: null, undefined, boolean, number, string, NaN, Symbol",
+        "Non-primitives: Object, Array, RegExp",
+        "JavaScript only has single type for numbers (floating numbers)",
+        "JavaScript has no type for characters (only string type)",
+        "Arrays are also objects",
+        "Objects can store properties",
+        "Symbol type used to create unique identifiers for objects",
+        "NaN !== NaN (special case)",
+        "Null: represents 'nothing', 'empty' or 'value unknown'",
+        "Undefined: 'value is not assigned'"
+      ]
+    },
+    {
+      "title": "Variables and Scope",
+      "description": "Variable declaration and scoping in JavaScript",
+      "points": [
+        "var (global scope, old way)",
+        "let, const (block scope, modern way)",
+        "let = mutable variable declaration, reference can be changed",
+        "const = immutable variable declaration, must initialize, reference cannot be changed",
+        "Same variables cannot be declared within same scope (Shadowing)",
+        "Local variables (bound variables), global (free variables)",
+        "Hoisting: All declarations are hoisted, var initialized with undefined, let/const remain uninitialized",
+        "Temporal Dead Zone for let and const variables"
+      ]
+    },
+    {
+      "title": "Functions",
+      "description": "Function types and behavior in JavaScript",
+      "points": [
+        "Function statement = function declaration",
+        "Cannot call arrow or anonymous function with name after placing in variable",
+        "First Class Functions: can be assigned to variables, passed as parameters, returned from functions",
+        "Arrow functions: shorter syntax, don't bind their own this, arguments, super, or new.target",
+        "Regular functions: follow run-to-completion model",
+        "Constructor functions: used with 'new' keyword",
+        "Function factory: function that returns another function"
+      ],
+      "children": [
+        {
+          "title": "Closures",
+          "description": "Function closures and lexical scoping",
+          "points": [
+            "Variables and functions use lexical scope",
+            "Preserve data from outer function",
+            "Combination of function bundled with references to surrounding state",
+            "Created every time a function is created",
+            "Three scopes: Local, Outer Functions, Global",
+            "Applications: Generators, Iterators, object data privacy, event handlers, currying"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Objects and Arrays",
+      "description": "Working with objects and arrays in JavaScript",
+      "points": [
+        "Objects are reference type - comparing two objects checks reference mismatch",
+        "Shallow copy = by reference, faster",
+        "Deep copy = by value, slower but independent",
+        "Object literal syntax: {name, course} equivalent to {name: name, course: course}",
+        "Array methods: pop(), shift(), unshift(), splice(), concat()",
+        "Array length manipulation: arr.length = 0 clears array",
+        "for...of loop for iterating arrays",
+        "Object.freeze() makes array immutable"
+      ]
+    },
+    {
+      "title": "Asynchronous Programming",
+      "description": "Handling asynchronous operations in JavaScript",
+      "points": [
+        "Asynchronous processing: callbacks → Promises → async/await",
+        "Promises: placeholder for value that can resolve or reject",
+        "Promise states: fulfilled (resolved), rejected, pending",
+        "async function always returns a promise",
+        "await only blocks code within async function",
+        "Event Loop: continuously checks call stack and callback queue",
+        "Call Stack: tracks function calls",
+        "Callback Queue: stores callbacks from async operations",
+        "Micro Task Queue: higher priority than callback queue"
+      ],
+      "children": [
+        {
+          "title": "Promises vs Async/Await",
+          "description": "Comparison of asynchronous patterns",
+          "points": [
+            "Next line executes when promise resolves, await blocks code within async function",
+            "Promise cons: kills purpose of asynchronous non-blocking I/O",
+            "Only one object can be returned from promise",
+            "Cannot return multiple arguments from promise",
+            "Async/await enables writing async code in synchronous fashion",
+            "Under the hood, async/await uses generators and yield statements"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "DOM Manipulation",
+      "description": "Working with the Document Object Model",
+      "points": [
+        "When browser loads page, it parses HTML and generates DOM objects",
+        "DOM methods for element selection and manipulation",
+        "Event handling: onClick, onChange, onSubmit, etc.",
+        "Event delegation for dynamic content",
+        "Query selectors: getElementById, getElementsByClassName, querySelector",
+        "Element manipulation: innerHTML, textContent, appendChild, removeChild"
+      ]
+    },
+    {
+      "title": "Memory Management",
+      "description": "How JavaScript handles memory allocation and garbage collection",
+      "points": [
+        "JavaScript is garbage collector language",
+        "Mark-and-Sweep algorithm: starts from root objects, checks references, removes unreachable objects",
+        "Memory leaks: global variables, circular references, event listeners, setInterval",
+        "Stack: static memory allocation for primitives",
+        "Heap: dynamic memory allocation for objects and functions",
+        "Garbage collection removes unused variables, objects, and libraries"
+      ]
+    },
+    {
+      "title": "ES6+ Features",
+      "description": "Modern JavaScript features and syntax",
+      "points": [
+        "Template literals: `Hello ${name}`",
+        "Destructuring: const [user] = array, const {name} = object",
+        "Spread operator: ...array, ...object",
+        "Arrow functions: (a, b) => a + b",
+        "Classes: syntactic sugar for constructor functions",
+        "Modules: import/export syntax",
+        "Map and Set data structures",
+        "Symbols for unique identifiers",
+        "Generators: functions that can pause and resume execution"
+      ]
+    },
+    {
+      "title": "Error Handling",
+      "description": "Managing errors and exceptions in JavaScript",
+      "points": [
+        "try-catch blocks for error handling",
+        "throw statement for throwing custom errors",
+        "finally block for cleanup code",
+        "Error objects: Error, TypeError, ReferenceError, SyntaxError",
+        "Custom error classes",
+        "Error boundaries in React applications"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for JavaScript development",
+      "points": [
+        "Use strict mode for better error checking",
+        "Avoid global variables",
+        "Use const by default, let when reassignment needed",
+        "Prefer arrow functions for short functions",
+        "Use template literals instead of string concatenation",
+        "Handle errors gracefully",
+        "Use meaningful variable and function names",
+        "Follow consistent coding style",
+        "Use modern JavaScript features",
+        "Avoid memory leaks by cleaning up event listeners"
+      ]
+    }
+  ]
+}

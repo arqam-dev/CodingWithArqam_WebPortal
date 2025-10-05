@@ -1,0 +1,172 @@
+{
+  "subject": "Networking",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of computer networking concepts",
+      "points": [
+        "Networking enables communication between devices",
+        "Fundamental for modern computing and internet",
+        "Involves protocols, hardware, and software components",
+        "Enables data sharing and resource access",
+        "Critical for distributed systems and cloud computing",
+        "Foundation for web development and applications"
+      ]
+    },
+    {
+      "title": "Network Types",
+      "description": "Different types of computer networks",
+      "points": [
+        "LAN (Local Area Network): Small geographic area",
+        "WAN (Wide Area Network): Large geographic area",
+        "MAN (Metropolitan Area Network): City-wide network",
+        "PAN (Personal Area Network): Personal devices",
+        "VPN (Virtual Private Network): Secure remote access",
+        "Internet: Global network of networks",
+        "Intranet: Private network within organization",
+        "Extranet: Network shared with external partners"
+      ]
+    },
+    {
+      "title": "Network Topologies",
+      "description": "Physical and logical arrangement of network devices",
+      "points": [
+        "Bus Topology: All devices connected to single cable",
+        "Star Topology: All devices connected to central hub",
+        "Ring Topology: Devices connected in circular fashion",
+        "Mesh Topology: Every device connected to every other device",
+        "Tree Topology: Hierarchical arrangement of devices",
+        "Hybrid Topology: Combination of different topologies",
+        "Point-to-Point: Direct connection between two devices",
+        "Point-to-Multipoint: One device connected to multiple devices"
+      ]
+    },
+    {
+      "title": "OSI Model",
+      "description": "Open Systems Interconnection model layers",
+      "points": [
+        "Layer 7 - Application: User interfaces and applications",
+        "Layer 6 - Presentation: Data encryption, compression, translation",
+        "Layer 5 - Session: Establishes, manages, and terminates connections",
+        "Layer 4 - Transport: End-to-end communication, error recovery",
+        "Layer 3 - Network: Routing, logical addressing, path determination",
+        "Layer 2 - Data Link: Physical addressing, error detection",
+        "Layer 1 - Physical: Electrical, mechanical, functional specifications",
+        "Each layer communicates with corresponding layer on remote system"
+      ]
+    },
+    {
+      "title": "TCP/IP Model",
+      "description": "Internet protocol suite layers",
+      "points": [
+        "Application Layer: HTTP, FTP, SMTP, DNS protocols",
+        "Transport Layer: TCP (reliable) and UDP (unreliable) protocols",
+        "Internet Layer: IP, ICMP, ARP protocols",
+        "Network Access Layer: Physical and data link protocols",
+        "Simplified version of OSI model",
+        "Foundation of internet communication",
+        "Each layer adds specific functionality"
+      ]
+    },
+    {
+      "title": "IP Addressing",
+      "description": "Internet Protocol addressing system",
+      "points": [
+        "IPv4: 32-bit addresses (e.g., 192.168.1.1)",
+        "IPv6: 128-bit addresses (e.g., 2001:0db8:85a3::8a2e:0370:7334)",
+        "Public IP: Globally routable internet addresses",
+        "Private IP: Reserved for internal networks",
+        "Subnetting: Dividing networks into smaller subnets",
+        "CIDR: Classless Inter-Domain Routing notation",
+        "NAT: Network Address Translation for private networks",
+        "DHCP: Dynamic Host Configuration Protocol"
+      ]
+    },
+    {
+      "title": "Protocols",
+      "description": "Network communication protocols",
+      "points": [
+        "HTTP/HTTPS: Web page transfer protocols",
+        "FTP: File Transfer Protocol",
+        "SMTP: Simple Mail Transfer Protocol",
+        "DNS: Domain Name System for name resolution",
+        "TCP: Transmission Control Protocol (reliable)",
+        "UDP: User Datagram Protocol (unreliable but fast)",
+        "ICMP: Internet Control Message Protocol",
+        "ARP: Address Resolution Protocol"
+      ]
+    },
+    {
+      "title": "Network Security",
+      "description": "Security measures for network protection",
+      "points": [
+        "Firewalls: Control incoming and outgoing traffic",
+        "VPN: Secure remote access to private networks",
+        "Encryption: Protect data in transit",
+        "Authentication: Verify user identity",
+        "Authorization: Control access to resources",
+        "Intrusion Detection: Monitor for security threats",
+        "SSL/TLS: Secure communication protocols",
+        "WPA/WPA2: Wireless network security"
+      ]
+    },
+    {
+      "title": "Wireless Networking",
+      "description": "Wireless network technologies",
+      "points": [
+        "Wi-Fi: Wireless local area networking",
+        "Bluetooth: Short-range wireless communication",
+        "Cellular: Mobile network communication",
+        "WiMAX: Wireless broadband access",
+        "Zigbee: Low-power wireless mesh networking",
+        "NFC: Near Field Communication",
+        "Frequency bands: 2.4GHz, 5GHz, etc.",
+        "Security: WEP, WPA, WPA2, WPA3 protocols"
+      ]
+    },
+    {
+      "title": "Network Devices",
+      "description": "Hardware components in networking",
+      "points": [
+        "Router: Connects different networks",
+        "Switch: Connects devices within same network",
+        "Hub: Basic network device (obsolete)",
+        "Bridge: Connects two network segments",
+        "Gateway: Connects different network types",
+        "Modem: Modulates/demodulates signals",
+        "Access Point: Wireless network access",
+        "Firewall: Network security device"
+      ]
+    },
+    {
+      "title": "Troubleshooting",
+      "description": "Network problem diagnosis and resolution",
+      "points": [
+        "Ping: Test connectivity between devices",
+        "Traceroute: Trace path to destination",
+        "Netstat: Display network connections",
+        "Nslookup: Query DNS servers",
+        "Ipconfig: Display IP configuration",
+        "Wireshark: Network protocol analyzer",
+        "Common issues: DNS problems, connectivity issues",
+        "Performance monitoring and optimization"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for network management",
+      "points": [
+        "Use strong passwords and authentication",
+        "Keep network devices updated",
+        "Implement proper firewall rules",
+        "Monitor network traffic and performance",
+        "Use encryption for sensitive data",
+        "Regular security audits and updates",
+        "Document network topology and configurations",
+        "Implement backup and disaster recovery plans",
+        "Train users on security best practices",
+        "Use network monitoring tools"
+      ]
+    }
+  ]
+}

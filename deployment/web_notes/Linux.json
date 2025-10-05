@@ -1,0 +1,194 @@
+{
+  "subject": "Linux",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of Linux operating system",
+      "points": [
+        "Linux is an open-source Unix-like operating system",
+        "Based on the Linux kernel developed by Linus Torvalds",
+        "Widely used in servers, embedded systems, and development",
+        "Free and open-source software",
+        "Highly customizable and secure",
+        "Command-line interface and graphical user interface",
+        "Supports multiple programming languages and tools"
+      ]
+    },
+    {
+      "title": "File System Commands",
+      "description": "Essential Linux commands for file operations",
+      "points": [
+        "mkdir: Create directories/folders",
+        "touch: Create empty files",
+        "ls: List directory contents",
+        "cd: Change directory",
+        "pwd: Print working directory",
+        "cp: Copy files and directories",
+        "mv: Move or rename files and directories",
+        "rm: Remove files and directories",
+        "find: Search for files and directories",
+        "grep: Search text within files"
+      ]
+    },
+    {
+      "title": "File Permissions",
+      "description": "Understanding and managing file permissions",
+      "points": [
+        "Read (r): Permission to read file contents",
+        "Write (w): Permission to modify file",
+        "Execute (x): Permission to run file as program",
+        "Owner: User who owns the file",
+        "Group: Users in the same group",
+        "Others: All other users",
+        "chmod: Change file permissions",
+        "chown: Change file ownership",
+        "chgrp: Change file group",
+        "umask: Set default permissions"
+      ]
+    },
+    {
+      "title": "Process Management",
+      "description": "Managing processes and system resources",
+      "points": [
+        "ps: Display running processes",
+        "top: Real-time process monitoring",
+        "htop: Enhanced process viewer",
+        "kill: Terminate processes by PID",
+        "killall: Terminate processes by name",
+        "pkill: Kill processes by pattern",
+        "jobs: Display background jobs",
+        "bg: Run job in background",
+        "fg: Bring job to foreground",
+        "nohup: Run command immune to hangups"
+      ]
+    },
+    {
+      "title": "Network Commands",
+      "description": "Linux networking and connectivity commands",
+      "points": [
+        "netstat: Display network connections and routing tables",
+        "netstat -ano: Show all connections with process IDs",
+        "ss: Modern replacement for netstat",
+        "ping: Test network connectivity",
+        "traceroute: Trace route to destination",
+        "nslookup: Query DNS servers",
+        "dig: DNS lookup utility",
+        "wget: Download files from web",
+        "curl: Transfer data from servers",
+        "ssh: Secure shell remote access"
+      ]
+    },
+    {
+      "title": "Text Processing",
+      "description": "Commands for text manipulation and processing",
+      "points": [
+        "cat: Display file contents",
+        "less: View file contents page by page",
+        "more: View file contents page by page",
+        "head: Display first lines of file",
+        "tail: Display last lines of file",
+        "grep: Search text patterns",
+        "sed: Stream editor for filtering and transforming text",
+        "awk: Pattern scanning and processing language",
+        "sort: Sort lines of text",
+        "uniq: Remove duplicate lines"
+      ]
+    },
+    {
+      "title": "System Information",
+      "description": "Commands to get system information and status",
+      "points": [
+        "uname: Display system information",
+        "whoami: Display current user",
+        "id: Display user and group IDs",
+        "who: Display logged-in users",
+        "w: Display logged-in users and their activities",
+        "uptime: Display system uptime and load",
+        "free: Display memory usage",
+        "df: Display disk space usage",
+        "du: Display directory space usage",
+        "lscpu: Display CPU information"
+      ]
+    },
+    {
+      "title": "Package Management",
+      "description": "Installing and managing software packages",
+      "points": [
+        "apt: Advanced Package Tool (Debian/Ubuntu)",
+        "yum: Yellowdog Updater Modified (Red Hat/CentOS)",
+        "dnf: Dandified YUM (Fedora)",
+        "pacman: Package manager (Arch Linux)",
+        "zypper: Package manager (openSUSE)",
+        "snap: Universal package manager",
+        "flatpak: Application sandboxing and distribution",
+        "dpkg: Debian package manager",
+        "rpm: Red Hat Package Manager",
+        "pip: Python package installer"
+      ]
+    },
+    {
+      "title": "Shell Scripting",
+      "description": "Automating tasks with shell scripts",
+      "points": [
+        "#!/bin/bash: Shebang for bash scripts",
+        "Variables: Store and manipulate data",
+        "Conditionals: if, elif, else statements",
+        "Loops: for, while, until loops",
+        "Functions: Reusable code blocks",
+        "Arrays: Store multiple values",
+        "Input/Output: Read user input and display output",
+        "Error handling: Check command exit status",
+        "File operations: Read, write, and manipulate files",
+        "Regular expressions: Pattern matching"
+      ]
+    },
+    {
+      "title": "System Administration",
+      "description": "Advanced Linux system administration tasks",
+      "points": [
+        "User management: Create, modify, delete users",
+        "Group management: Manage user groups",
+        "Service management: Start, stop, enable services",
+        "Log management: View and analyze system logs",
+        "Cron jobs: Schedule tasks to run automatically",
+        "Backup and restore: Data protection strategies",
+        "Security: Firewall configuration, SSH setup",
+        "Performance monitoring: System resource usage",
+        "Disk management: Partitioning, mounting, formatting",
+        "Network configuration: IP addresses, routing"
+      ]
+    },
+    {
+      "title": "Development Tools",
+      "description": "Linux tools for software development",
+      "points": [
+        "gcc: GNU Compiler Collection",
+        "gdb: GNU Debugger",
+        "make: Build automation tool",
+        "git: Version control system",
+        "vim: Text editor",
+        "nano: Simple text editor",
+        "emacs: Advanced text editor",
+        "valgrind: Memory debugging tool",
+        "strace: System call tracer",
+        "tcpdump: Network packet analyzer"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for Linux usage",
+      "points": [
+        "Use strong passwords and authentication",
+        "Keep system and packages updated",
+        "Use appropriate file permissions",
+        "Regular backups of important data",
+        "Monitor system logs for issues",
+        "Use version control for configuration files",
+        "Document system configurations",
+        "Test changes in development environment",
+        "Use package managers instead of manual installation",
+        "Follow security best practices"
+      ]
+    }
+  ]
+}

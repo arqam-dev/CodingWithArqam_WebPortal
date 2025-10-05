@@ -1,0 +1,225 @@
+{
+  "subject": "Bootstrap",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of Bootstrap framework",
+      "points": [
+        "Bootstrap is a free, open-source CSS framework",
+        "Developed by Twitter team",
+        "Provides responsive, mobile-first design",
+        "Includes HTML, CSS, and JavaScript components",
+        "Speeds up web development process",
+        "Cross-browser compatible",
+        "Customizable and extensible"
+      ]
+    },
+    {
+      "title": "Bootstrap Package Contents",
+      "description": "Components included in Bootstrap framework",
+      "points": [
+        "Scaffolding: Grid system, responsive design",
+        "CSS: Base styles, components, utilities",
+        "Components: Buttons, forms, navigation, etc.",
+        "JavaScript Plugins: Interactive components",
+        "Customize: Build custom versions",
+        "Icons: Bootstrap Icons library",
+        "Themes: Pre-built color schemes"
+      ]
+    },
+    {
+      "title": "Grid System",
+      "description": "Bootstrap's responsive grid layout system",
+      "points": [
+        "Allows up to 12 columns across the page",
+        "Container: .container (fixed width) or .container-fluid (full width)",
+        "Row: .row class contains columns",
+        "Columns: .col-* classes for different screen sizes",
+        "Breakpoints: xs, sm, md, lg, xl, xxl",
+        "Responsive: Automatically adjusts to screen size",
+        "Nesting: Rows can be nested within columns",
+        "Offset: .offset-* classes for column spacing"
+      ]
+    },
+    {
+      "title": "Container Classes",
+      "description": "Bootstrap container system",
+      "points": [
+        ".container: Fixed-width container with responsive breakpoints",
+        ".container-fluid: Full-width container",
+        "Responsive behavior: Adjusts margins based on screen size",
+        "Contains row elements",
+        "Row elements contain columns (grid system)",
+        "Creates boxed content layout",
+        "Structure: container > row > column"
+      ]
+    },
+    {
+      "title": "Components",
+      "description": "Bootstrap UI components",
+      "points": [
+        "Jumbotron: Large box for special content attention",
+        "Buttons: Various styles and sizes",
+        "Forms: Styled form controls and layouts",
+        "Navigation: Navbar, breadcrumbs, pagination",
+        "Cards: Flexible content containers",
+        "Modals: Dialog boxes and popups",
+        "Carousel: Image sliders and content rotators",
+        "Dropdowns: Toggleable dropdown menus",
+        "Tabs: Tabbed navigation interface",
+        "Accordion: Collapsible content panels"
+      ],
+      "children": [
+        {
+          "title": "Button Styles",
+          "description": "Different button styles in Bootstrap",
+          "points": [
+            ".btn-default: Default button style",
+            ".btn-primary: Primary action button",
+            ".btn-success: Success/positive action",
+            ".btn-info: Informational button",
+            ".btn-warning: Warning button",
+            ".btn-danger: Danger/delete button",
+            ".btn-link: Link-styled button",
+            "Button sizes: .btn-lg, .btn-sm, .btn-xs",
+            "Button states: active, disabled"
+          ]
+        },
+        {
+          "title": "Jumbotron",
+          "description": "Bootstrap jumbotron component",
+          "points": [
+            "Large grey box with rounded corners",
+            "Used for special content or information",
+            "Enlarges font sizes of text inside",
+            "Can contain any valid HTML or Bootstrap elements",
+            "Class: .jumbotron within <div> element",
+            "Full-width: .jumbotron-fluid for full-width jumbotron",
+            "Responsive: Adapts to different screen sizes"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Typography",
+      "description": "Bootstrap typography classes and utilities",
+      "points": [
+        "Headings: .h1 to .h6 classes",
+        "Display headings: .display-1 to .display-6",
+        "Lead paragraph: .lead class",
+        "Text alignment: .text-left, .text-center, .text-right",
+        "Text colors: .text-primary, .text-success, .text-danger",
+        "Text utilities: .text-uppercase, .text-lowercase, .text-capitalize",
+        "Font weights: .font-weight-bold, .font-weight-normal",
+        "Font styles: .font-italic",
+        "Text truncation: .text-truncate"
+      ]
+    },
+    {
+      "title": "Forms",
+      "description": "Bootstrap form styling and components",
+      "points": [
+        "Form groups: .form-group for spacing",
+        "Form controls: .form-control for inputs",
+        "Form validation: .is-valid, .is-invalid classes",
+        "Input groups: .input-group for addons",
+        "Checkboxes and radios: .form-check classes",
+        "Select elements: .form-control for selects",
+        "Textareas: .form-control for textareas",
+        "Form layouts: .form-inline, .form-horizontal",
+        "Help text: .form-text for help messages",
+        "Custom controls: .custom-checkbox, .custom-radio"
+      ]
+    },
+    {
+      "title": "Navigation",
+      "description": "Bootstrap navigation components",
+      "points": [
+        "Navbar: .navbar for navigation bars",
+        "Nav: .nav for navigation links",
+        "Breadcrumbs: .breadcrumb for navigation breadcrumbs",
+        "Pagination: .pagination for page navigation",
+        "Tabs: .nav-tabs for tabbed navigation",
+        "Pills: .nav-pills for pill navigation",
+        "Dropdowns: .dropdown for dropdown menus",
+        "Navbar variants: .navbar-light, .navbar-dark",
+        "Responsive navbar: .navbar-toggler for mobile"
+      ]
+    },
+    {
+      "title": "Utilities",
+      "description": "Bootstrap utility classes",
+      "points": [
+        "Spacing: .m-*, .p-* for margins and padding",
+        "Display: .d-* for display properties",
+        "Flexbox: .d-flex, .justify-content-*, .align-items-*",
+        "Position: .position-* for positioning",
+        "Sizing: .w-*, .h-* for width and height",
+        "Borders: .border, .border-* for borders",
+        "Colors: .bg-*, .text-* for background and text colors",
+        "Shadows: .shadow-* for box shadows",
+        "Visibility: .visible, .invisible for visibility"
+      ]
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Bootstrap responsive design features",
+      "points": [
+        "Mobile-first approach",
+        "Breakpoints: xs, sm, md, lg, xl, xxl",
+        "Responsive utilities: .d-*-none, .d-*-block",
+        "Responsive images: .img-responsive, .img-fluid",
+        "Responsive tables: .table-responsive",
+        "Responsive embeds: .embed-responsive",
+        "Flexible grid system",
+        "Responsive navigation",
+        "Mobile-friendly components"
+      ]
+    },
+    {
+      "title": "JavaScript Components",
+      "description": "Interactive Bootstrap components",
+      "points": [
+        "Modals: .modal for dialog boxes",
+        "Tooltips: .tooltip for hover information",
+        "Popovers: .popover for click information",
+        "Dropdowns: .dropdown for dropdown menus",
+        "Collapse: .collapse for collapsible content",
+        "Carousel: .carousel for image sliders",
+        "Tabs: .tab for tabbed content",
+        "Scrollspy: .scrollspy for navigation highlighting",
+        "Affix: .affix for sticky positioning"
+      ]
+    },
+    {
+      "title": "Customization",
+      "description": "Customizing Bootstrap framework",
+      "points": [
+        "Sass variables: Customize colors, fonts, spacing",
+        "Custom CSS: Override Bootstrap styles",
+        "Build tools: Use npm, webpack, gulp",
+        "Themes: Bootstrap themes and templates",
+        "Icons: Bootstrap Icons or Font Awesome",
+        "Custom components: Create your own components",
+        "Color schemes: Custom color palettes",
+        "Typography: Custom font families and sizes"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for Bootstrap development",
+      "points": [
+        "Use semantic HTML with Bootstrap classes",
+        "Customize via Sass variables instead of overriding CSS",
+        "Use responsive utilities for mobile-first design",
+        "Keep components accessible with proper ARIA attributes",
+        "Optimize for performance by using only needed components",
+        "Test across different browsers and devices",
+        "Use Bootstrap's grid system for layouts",
+        "Follow Bootstrap's naming conventions",
+        "Use utility classes for quick styling",
+        "Combine Bootstrap with custom CSS when needed"
+      ]
+    }
+  ]
+}

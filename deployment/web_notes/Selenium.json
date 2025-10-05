@@ -1,0 +1,150 @@
+{
+  "subject": "Selenium",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of Selenium WebDriver for automated testing",
+      "points": [
+        "Selenium is an open-source web automation framework",
+        "Supports multiple programming languages (Java, Python, C#, JavaScript)",
+        "Cross-browser testing capabilities",
+        "Widely used for functional and regression testing",
+        "Supports various operating systems",
+        "Integrates with CI/CD pipelines",
+        "Essential tool for web application testing"
+      ]
+    },
+    {
+      "title": "WebDriver Commands",
+      "description": "Essential Selenium WebDriver commands and methods",
+      "points": [
+        "get(String url): Open webpage URL",
+        "navigate().to(Url url): Navigate to specific webpage",
+        "navigate().forward(): Move forward in browser history",
+        "navigate().back(): Move backward in browser history",
+        "navigate().refresh(): Refresh current page",
+        "getTitle(): Get page title",
+        "getCurrentUrl(): Get current page URL",
+        "close(): Close current browser window",
+        "quit(): Close all browser windows and end session"
+      ]
+    },
+    {
+      "title": "Navigation Commands",
+      "description": "Browser navigation and page control",
+      "points": [
+        "driver.get('https://www.example.com'): Load specific URL",
+        "driver.navigate().to('https://example.com'): Alternative navigation",
+        "driver.navigate().back(): Go to previous page",
+        "driver.navigate().forward(): Go to next page",
+        "driver.navigate().refresh(): Reload current page",
+        "driver.navigate().to(new URL('https://example.com')): Navigate with URL object",
+        "Browser history management",
+        "Page loading and timeout handling"
+      ]
+    },
+    {
+      "title": "Element Location",
+      "description": "Finding and locating web elements",
+      "points": [
+        "findElement(): Find single element",
+        "findElements(): Find multiple elements",
+        "By.id(): Locate by element ID",
+        "By.className(): Locate by CSS class",
+        "By.tagName(): Locate by HTML tag",
+        "By.name(): Locate by name attribute",
+        "By.linkText(): Locate by link text",
+        "By.partialLinkText(): Locate by partial link text",
+        "By.cssSelector(): Locate by CSS selector",
+        "By.xpath(): Locate by XPath expression"
+      ]
+    },
+    {
+      "title": "Element Interactions",
+      "description": "Interacting with web elements",
+      "points": [
+        "click(): Click on element",
+        "sendKeys(): Type text into input fields",
+        "clear(): Clear input field content",
+        "submit(): Submit forms",
+        "getText(): Get element text content",
+        "getAttribute(): Get element attribute value",
+        "isDisplayed(): Check if element is visible",
+        "isEnabled(): Check if element is enabled",
+        "isSelected(): Check if element is selected"
+      ]
+    },
+    {
+      "title": "Wait Strategies",
+      "description": "Handling dynamic content and timing issues",
+      "points": [
+        "Implicit Wait: Set default wait time for all elements",
+        "Explicit Wait: Wait for specific conditions",
+        "WebDriverWait: Advanced waiting mechanism",
+        "Expected Conditions: Predefined wait conditions",
+        "FluentWait: Configurable wait with polling",
+        "Thread.sleep(): Fixed time delays (not recommended)",
+        "Custom wait conditions",
+        "Timeout handling and error management"
+      ]
+    },
+    {
+      "title": "Browser Management",
+      "description": "Browser configuration and control",
+      "points": [
+        "ChromeDriver: Chrome browser automation",
+        "FirefoxDriver: Firefox browser automation",
+        "EdgeDriver: Microsoft Edge automation",
+        "SafariDriver: Safari browser automation",
+        "Browser options and preferences",
+        "Headless browser execution",
+        "Browser window management",
+        "Browser capabilities and settings"
+      ]
+    },
+    {
+      "title": "Test Framework Integration",
+      "description": "Integrating Selenium with testing frameworks",
+      "points": [
+        "TestNG: Java testing framework integration",
+        "JUnit: Unit testing framework support",
+        "Pytest: Python testing framework",
+        "NUnit: .NET testing framework",
+        "Maven: Build automation and dependency management",
+        "Gradle: Build automation tool",
+        "Page Object Model: Design pattern for maintainable tests",
+        "Data-driven testing: External data sources"
+      ]
+    },
+    {
+      "title": "Advanced Features",
+      "description": "Advanced Selenium capabilities and techniques",
+      "points": [
+        "Actions Class: Complex user interactions",
+        "JavaScript Execution: Run JavaScript in browser",
+        "Screenshots: Capture browser screenshots",
+        "Cookies Management: Handle browser cookies",
+        "Alerts and Popups: Handle browser dialogs",
+        "Frames and Windows: Switch between contexts",
+        "File Upload/Download: Handle file operations",
+        "Mobile Testing: Appium integration"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for Selenium automation",
+      "points": [
+        "Use Page Object Model for maintainable tests",
+        "Implement proper wait strategies",
+        "Use meaningful locators and element identification",
+        "Handle dynamic content and timing issues",
+        "Implement proper error handling and reporting",
+        "Use data-driven testing approaches",
+        "Maintain test data and configuration separately",
+        "Implement cross-browser testing",
+        "Use version control for test scripts",
+        "Regular maintenance and updates"
+      ]
+    }
+  ]
+}

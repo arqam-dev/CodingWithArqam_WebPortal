@@ -1,0 +1,214 @@
+{
+  "subject": "Database (MySQL)",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of MySQL database management system",
+      "points": [
+        "MySQL is an open-source relational database management system",
+        "Uses SQL (Structured Query Language) for database operations",
+        "Supports ACID properties for data integrity",
+        "Widely used in web applications and enterprise systems",
+        "Supports multiple storage engines (InnoDB, MyISAM, etc.)",
+        "Cross-platform compatibility",
+        "High performance and scalability"
+      ]
+    },
+    {
+      "title": "Data Types",
+      "description": "MySQL data types for different kinds of data",
+      "points": [
+        "Numeric: TINYINT, SMALLINT, MEDIUMINT, INT, BIGINT",
+        "Floating-point: FLOAT, DOUBLE, DECIMAL",
+        "String: CHAR, VARCHAR, TEXT, BLOB",
+        "Date/Time: DATE, TIME, DATETIME, TIMESTAMP, YEAR",
+        "JSON: Native JSON data type support",
+        "Spatial: GEOMETRY, POINT, LINESTRING, POLYGON",
+        "Boolean: TINYINT(1) or BOOLEAN",
+        "Enum: Predefined set of values",
+        "Set: Multiple values from predefined set"
+      ]
+    },
+    {
+      "title": "Database Design",
+      "description": "Principles of good database design",
+      "points": [
+        "Normalization: Reducing data redundancy",
+        "First Normal Form (1NF): Atomic values",
+        "Second Normal Form (2NF): No partial dependencies",
+        "Third Normal Form (3NF): No transitive dependencies",
+        "Primary Keys: Unique identifiers for records",
+        "Foreign Keys: Relationships between tables",
+        "Indexes: Improve query performance",
+        "Constraints: Data integrity rules",
+        "Denormalization: Strategic redundancy for performance"
+      ]
+    },
+    {
+      "title": "SQL Operations",
+      "description": "Basic SQL operations for data manipulation",
+      "points": [
+        "SELECT: Retrieve data from tables",
+        "INSERT: Add new records to tables",
+        "UPDATE: Modify existing records",
+        "DELETE: Remove records from tables",
+        "CREATE: Create databases, tables, indexes",
+        "ALTER: Modify table structure",
+        "DROP: Remove databases, tables, indexes",
+        "TRUNCATE: Remove all records from table",
+        "RENAME: Rename tables or columns"
+      ]
+    },
+    {
+      "title": "Joins",
+      "description": "Combining data from multiple tables",
+      "points": [
+        "INNER JOIN: Returns matching records from both tables",
+        "LEFT JOIN: Returns all records from left table and matching from right",
+        "RIGHT JOIN: Returns all records from right table and matching from left",
+        "FULL OUTER JOIN: Returns all records from both tables",
+        "CROSS JOIN: Cartesian product of two tables",
+        "SELF JOIN: Join table with itself",
+        "NATURAL JOIN: Join on columns with same names",
+        "USING clause: Specify join columns",
+        "ON clause: Specify join conditions"
+      ]
+    },
+    {
+      "title": "Advanced Queries",
+      "description": "Complex SQL query techniques",
+      "points": [
+        "Subqueries: Queries within queries",
+        "Common Table Expressions (CTE): WITH clause for temporary results",
+        "Window Functions: ROW_NUMBER(), RANK(), DENSE_RANK()",
+        "Aggregate Functions: COUNT(), SUM(), AVG(), MIN(), MAX()",
+        "GROUP BY: Grouping data for aggregation",
+        "HAVING: Filtering grouped data",
+        "UNION: Combining results from multiple queries",
+        "EXISTS: Check for existence of records",
+        "CASE: Conditional logic in queries"
+      ]
+    },
+    {
+      "title": "Stored Procedures and Functions",
+      "description": "Database programming with MySQL",
+      "points": [
+        "Stored Procedures: Precompiled SQL code blocks",
+        "Functions: Return single values",
+        "Parameters: Input, output, and input/output parameters",
+        "Variables: Local variables in procedures",
+        "Control Structures: IF, CASE, LOOP, WHILE",
+        "Cursors: Iterate through result sets",
+        "Error Handling: DECLARE HANDLER for exceptions",
+        "Benefits: Performance, security, code reuse",
+        "Precompiled execution plan for better performance"
+      ]
+    },
+    {
+      "title": "Indexing",
+      "description": "Database indexing for performance optimization",
+      "points": [
+        "Primary Index: Automatically created for primary key",
+        "Unique Index: Ensures uniqueness of values",
+        "Composite Index: Multiple columns in one index",
+        "B-Tree Index: Most common index type",
+        "Hash Index: For exact matches",
+        "Full-Text Index: For text searching",
+        "Spatial Index: For geographic data",
+        "Index Maintenance: REBUILD, REORGANIZE",
+        "Index Statistics: ANALYZE TABLE for optimization"
+      ]
+    },
+    {
+      "title": "Transactions",
+      "description": "ACID properties and transaction management",
+      "points": [
+        "ACID Properties: Atomicity, Consistency, Isolation, Durability",
+        "BEGIN: Start transaction",
+        "COMMIT: Save transaction changes",
+        "ROLLBACK: Undo transaction changes",
+        "SAVEPOINT: Create transaction checkpoints",
+        "Isolation Levels: READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE",
+        "Locking: Row-level and table-level locks",
+        "Deadlock: Prevention and detection",
+        "Concurrency Control: Managing simultaneous access"
+      ]
+    },
+    {
+      "title": "Performance Optimization",
+      "description": "Techniques for improving database performance",
+      "points": [
+        "Query Optimization: Use EXPLAIN to analyze query execution",
+        "Index Usage: Proper indexing strategy",
+        "Query Caching: Cache frequently used queries",
+        "Connection Pooling: Reuse database connections",
+        "Partitioning: Split large tables into smaller parts",
+        "Normalization vs Denormalization: Balance between structure and performance",
+        "Bulk Operations: Batch insert/update operations",
+        "Memory Configuration: Buffer pool, query cache settings",
+        "Hardware Optimization: SSD storage, sufficient RAM"
+      ]
+    },
+    {
+      "title": "Security",
+      "description": "Database security best practices",
+      "points": [
+        "User Management: Create and manage database users",
+        "Privileges: GRANT and REVOKE permissions",
+        "Password Security: Strong password policies",
+        "SQL Injection Prevention: Use prepared statements",
+        "Data Encryption: Encrypt sensitive data",
+        "SSL Connections: Secure data transmission",
+        "Audit Logging: Track database access and changes",
+        "Backup Security: Secure backup storage",
+        "Network Security: Firewall and access controls"
+      ]
+    },
+    {
+      "title": "Backup and Recovery",
+      "description": "Database backup and disaster recovery",
+      "points": [
+        "Full Backup: Complete database backup",
+        "Incremental Backup: Only changed data since last backup",
+        "Differential Backup: Changes since last full backup",
+        "Point-in-Time Recovery: Restore to specific time",
+        "Binary Log: Transaction log for recovery",
+        "Replication: Master-slave database replication",
+        "Clustering: High availability database clusters",
+        "Disaster Recovery: Business continuity planning",
+        "Testing: Regular backup and recovery testing"
+      ]
+    },
+    {
+      "title": "Monitoring and Maintenance",
+      "description": "Database monitoring and maintenance tasks",
+      "points": [
+        "Performance Monitoring: Track query performance and resource usage",
+        "SHOW PROCESSLIST: View current database processes",
+        "SHOW VARIABLES: Display MySQL configuration",
+        "SHOW STATUS: Display MySQL status information",
+        "Log Files: Error log, slow query log, general log",
+        "Table Maintenance: OPTIMIZE TABLE, ANALYZE TABLE",
+        "Index Maintenance: Monitor and rebuild indexes",
+        "Storage Engine: Choose appropriate storage engine",
+        "Regular Updates: Keep MySQL version current"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for MySQL development",
+      "points": [
+        "Use appropriate data types for columns",
+        "Create indexes on frequently queried columns",
+        "Use prepared statements to prevent SQL injection",
+        "Normalize database design but denormalize for performance when needed",
+        "Regular backup and recovery testing",
+        "Monitor database performance and optimize queries",
+        "Use connection pooling for web applications",
+        "Implement proper security measures",
+        "Document database schema and procedures",
+        "Test database changes in development environment first"
+      ]
+    }
+  ]
+}

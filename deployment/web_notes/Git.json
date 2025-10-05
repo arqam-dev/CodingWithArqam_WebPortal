@@ -1,0 +1,206 @@
+{
+  "subject": "Git",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of Git version control system",
+      "points": [
+        "Git is a distributed version control system",
+        "Tracks changes in source code during software development",
+        "Allows multiple developers to work on same project",
+        "Maintains history of all changes",
+        "Enables branching and merging",
+        "Works offline - full repository on local machine",
+        "Created by Linus Torvalds in 2005"
+      ]
+    },
+    {
+      "title": "Configuration",
+      "description": "Setting up Git for first-time use",
+      "points": [
+        "git config --global user.name 'Your Name'",
+        "git config --global user.email 'your.email@example.com'",
+        "git config --global credential.helper cache",
+        "git config -l (list all configuration)",
+        "git config --global core.editor 'code --wait'",
+        "git config --global init.defaultBranch main"
+      ]
+    },
+    {
+      "title": "Repository Setup",
+      "description": "Creating and initializing Git repositories",
+      "points": [
+        "git init - initialize new repository",
+        "git clone <url> - clone existing repository",
+        "git remote add origin <url> - add remote repository",
+        "git remote -v - list remote repositories",
+        "git remote remove origin - remove remote repository"
+      ]
+    },
+    {
+      "title": "Basic Commands",
+      "description": "Essential Git commands for daily use",
+      "points": [
+        "git status - check repository status",
+        "git add <file> - stage specific file",
+        "git add . - stage all changes",
+        "git add *.js - stage files with pattern",
+        "git commit -m 'message' - commit with message",
+        "git commit -am 'message' - add and commit in one step",
+        "git log - view commit history",
+        "git log --oneline - compact commit history",
+        "git show <commit-id> - show specific commit"
+      ]
+    },
+    {
+      "title": "Branching",
+      "description": "Working with branches in Git",
+      "points": [
+        "git branch - list all branches",
+        "git branch <name> - create new branch",
+        "git checkout <branch> - switch to branch",
+        "git checkout -b <branch> - create and switch to new branch",
+        "git switch <branch> - modern way to switch branches",
+        "git switch -c <branch> - create and switch to new branch",
+        "git merge <branch> - merge branch into current",
+        "git branch -d <branch> - delete branch",
+        "git branch -D <branch> - force delete branch"
+      ]
+    },
+    {
+      "title": "Remote Operations",
+      "description": "Working with remote repositories",
+      "points": [
+        "git push origin <branch> - push to remote",
+        "git push -u origin <branch> - push and set upstream",
+        "git push --all - push all branches",
+        "git push --tags - push all tags",
+        "git push --delete origin <branch> - delete remote branch",
+        "git pull origin <branch> - pull from remote",
+        "git fetch origin - fetch without merging",
+        "git fetch --all - fetch all remotes"
+      ]
+    },
+    {
+      "title": "Git Fetch vs Git Pull",
+      "description": "Understanding the difference between fetch and pull",
+      "points": [
+        "git fetch: Downloads content from remote repository",
+        "git pull: Combines fetch and merge operations",
+        "Fetch is safer - doesn't modify working directory",
+        "Pull automatically merges changes",
+        "Use fetch when you want to review changes first",
+        "Use pull when you want to immediately update your branch"
+      ]
+    },
+    {
+      "title": "Git Rebase vs Merge",
+      "description": "Different approaches to integrating changes",
+      "points": [
+        "Merge: Creates merge commit, preserves branch history",
+        "Rebase: Replays commits on top of target branch",
+        "Merge maintains chronological order",
+        "Rebase creates linear history",
+        "Use merge for public branches",
+        "Use rebase for cleaning up local commits",
+        "Interactive rebase: git rebase -i <commit>"
+      ]
+    },
+    {
+      "title": "Undoing Changes",
+      "description": "Reverting and undoing Git operations",
+      "points": [
+        "git reset --soft HEAD~1 - undo last commit, keep changes staged",
+        "git reset --mixed HEAD~1 - undo last commit, unstage changes",
+        "git reset --hard HEAD~1 - undo last commit, discard changes",
+        "git revert <commit> - create new commit that undoes changes",
+        "git checkout -- <file> - discard changes to file",
+        "git clean -fd - remove untracked files and directories"
+      ]
+    },
+    {
+      "title": "Stashing",
+      "description": "Temporarily saving work in progress",
+      "points": [
+        "git stash - save current changes",
+        "git stash push -m 'message' - stash with message",
+        "git stash list - list all stashes",
+        "git stash pop - apply and remove latest stash",
+        "git stash apply - apply stash without removing",
+        "git stash drop - delete latest stash",
+        "git stash clear - delete all stashes"
+      ]
+    },
+    {
+      "title": "GitHub",
+      "description": "Working with GitHub platform",
+      "points": [
+        "GitHub is a Git repository hosting service",
+        "Provides access control and collaboration features",
+        "Pull requests for code review",
+        "Issues for bug tracking and feature requests",
+        "Actions for CI/CD automation",
+        "Pages for hosting static websites",
+        "Fork repositories to contribute to open source"
+      ],
+      "children": [
+        {
+          "title": "Pull Requests",
+          "description": "Creating and managing pull requests",
+          "points": [
+            "Create pull request from feature branch",
+            "Add reviewers and assignees",
+            "Link issues with 'Fixes #123'",
+            "Request changes and approve",
+            "Merge strategies: merge commit, squash, rebase",
+            "Delete branch after merge",
+            "Draft pull requests for work in progress"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Advanced Features",
+      "description": "Advanced Git features and techniques",
+      "points": [
+        "Git hooks: pre-commit, post-commit, pre-push",
+        "Git submodules: include other repositories",
+        "Git worktree: multiple working directories",
+        "Git bisect: find commit that introduced bug",
+        "Git blame: see who changed each line",
+        "Git cherry-pick: apply specific commits",
+        "Git reflog: recover lost commits"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for Git workflow",
+      "points": [
+        "Write clear, descriptive commit messages",
+        "Make small, focused commits",
+        "Use feature branches for new features",
+        "Keep main branch stable and deployable",
+        "Review code before merging",
+        "Use .gitignore to exclude unnecessary files",
+        "Regularly pull from main branch",
+        "Delete merged branches",
+        "Use meaningful branch names",
+        "Commit often, push regularly"
+      ]
+    },
+    {
+      "title": "Troubleshooting",
+      "description": "Common Git issues and solutions",
+      "points": [
+        "Merge conflicts: resolve manually in editor",
+        "Detached HEAD: checkout to branch",
+        "Lost commits: use git reflog",
+        "Large files: use Git LFS",
+        "Authentication issues: check credentials",
+        "Network issues: check internet connection",
+        "Permission denied: check SSH keys",
+        "Repository corruption: re-clone if necessary"
+      ]
+    }
+  ]
+}

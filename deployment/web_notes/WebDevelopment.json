@@ -1,0 +1,750 @@
+{
+  "subject": "Web Development",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of web development and its components",
+      "points": [
+        "Web development involves creating websites and web applications",
+        "Three main tiers: client, server, and database",
+        "Runs over the Internet unlike standalone applications",
+        "Examples: Google, Amazon, eBay, Facebook, UCT website",
+        "Combines frontend and backend technologies",
+        "Requires understanding of protocols, databases, and user interfaces",
+        "Event deplexer = event loop for handling asynchronous operations",
+        "Hash map implementation using new hash or simple objects"
+      ]
+    },
+    {
+      "title": "JavaScript and Node.js",
+      "description": "JavaScript runtime and asynchronous operations",
+      "points": [
+        "JS puts expensive tasks on separate threads using LibUV library",
+        "File reading operations run on separate threads",
+        "Encryption/Decryption operations use separate threads",
+        "I/O intensive operations are handled asynchronously",
+        "CPU extensive tasks should be avoided on main thread",
+        "Compression of media (like Zipping) uses separate threads",
+        "DNS resolution runs on separate threads",
+        "Package imports are handled asynchronously",
+        "Hashing operations use separate threads",
+        "Networking operations run on main thread except DNS"
+      ]
+    },
+    {
+      "title": "Web Architecture",
+      "description": "Components and structure of web applications",
+      "points": [
+        "HTTP Server: Apache, Tomcat, IIS, nginx, Google Web Server",
+        "HTTP Client: Web browsers (Chrome, Firefox, Safari, Edge)",
+        "Database: MySQL, PostgreSQL, MongoDB, etc.",
+        "Application Server: Handles business logic",
+        "Web Server: Serves static content and handles requests",
+        "Load Balancer: Distributes traffic across servers",
+        "CDN: Content delivery network for global distribution",
+        "Caching: Redis, Memcached for performance optimization"
+      ]
+    },
+    {
+      "title": "Frontend Development",
+      "description": "Client-side web development technologies",
+      "points": [
+        "HTML: Structure and content markup",
+        "CSS: Styling and layout design",
+        "JavaScript: Interactive functionality and behavior",
+        "Frameworks: React, Angular, Vue.js for complex applications",
+        "Responsive Design: Mobile-first and adaptive layouts",
+        "Progressive Web Apps: Enhanced web applications",
+        "Single Page Applications: Dynamic content loading",
+        "Web Components: Reusable custom elements",
+        "Polyfills: Browser compatibility code for ES6 features",
+        "Angular Polyfills: polyfills.ts file for browser compatibility"
+      ]
+    },
+    {
+      "title": "Backend Development",
+      "description": "Server-side web development technologies",
+      "points": [
+        "Server Languages: Node.js, Python, Java, PHP, C#",
+        "Frameworks: Express.js, Django, Spring, Laravel, ASP.NET",
+        "APIs: RESTful and GraphQL API development",
+        "Authentication: JWT, OAuth, session management",
+        "Database Integration: ORM, database drivers",
+        "Security: Input validation, encryption, HTTPS",
+        "Performance: Caching, optimization, monitoring",
+        "Deployment: Cloud platforms, containers, CI/CD",
+        "Asynchronous Communication: Server responds immediately, job continues in background",
+        "Lambda Functions: Similar to asynchronous communication pattern"
+      ]
+    },
+    {
+      "title": "Database Technologies",
+      "description": "Database systems for web applications",
+      "points": [
+        "SQL Databases: MySQL, PostgreSQL, SQL Server, Oracle",
+        "NoSQL Databases: MongoDB, Redis, Cassandra, Neo4j",
+        "Database Design: Normalization, relationships, indexing",
+        "Query Optimization: Performance tuning and analysis",
+        "Data Migration: Moving data between systems",
+        "Backup and Recovery: Data protection strategies",
+        "Replication: Data synchronization across servers",
+        "Sharding: Horizontal database partitioning",
+        "MySQL vs PostgreSQL: PostgreSQL suitable for multi-tenant projects",
+        "SQLite: Open-source database for Android, stores data as text file"
+      ]
+    },
+    {
+      "title": "Database Architecture",
+      "description": "Database design patterns and architectures",
+      "points": [
+        "Single Table Architecture: Combine frequently accessed tables",
+        "Multi-Table Architecture: Separate tables with relationships",
+        "Denormalization: Combine tables to avoid joins in NoSQL",
+        "Example: Customer and records tables combined for frequent access",
+        "Avoid extra calls for second table in NoSQL",
+        "RDBMS: Use joins for related data",
+        "NoSQL: Denormalize for better performance",
+        "Key-Value (KV) storage patterns"
+      ]
+    },
+    {
+      "title": "Concurrency and Transactions",
+      "description": "Handling concurrent database operations",
+      "points": [
+        "DBMS Isolation Levels: Read Uncommitted, Read Committed, Repeatable Read, Serializable",
+        "Locking: Row-level, table-level, and granular locking",
+        "Concurrency Control: Two-phase locking, timestamp ordering, optimistic concurrency",
+        "Timestamps and Versioning: Track data changes",
+        "Rollback and Redo: Transaction recovery mechanisms",
+        "Conflict Resolution: Handle concurrent updates",
+        "Transaction Isolation and Durability: ACID properties",
+        "Deadlock Prevention: Avoid circular dependencies"
+      ]
+    },
+    {
+      "title": "API Design and Idempotency",
+      "description": "RESTful API design principles",
+      "points": [
+        "Idempotent Operations: Same request produces same result",
+        "GET Requests: Inherently idempotent, no server state change",
+        "PUT and DELETE: Designed to be idempotent",
+        "POST Requests: Not inherently idempotent",
+        "Unique Identifiers: Use UUIDs to prevent duplicate submissions",
+        "Idempotent Tokens: Client-provided tokens for request identification",
+        "Conditional Requests: If-Match, If-None-Match headers",
+        "Response Headers: Include idempotency information",
+        "Transaction IDs: Track and prevent duplicate transactions",
+        "Retry Mechanisms: Handle network failures gracefully"
+      ]
+    },
+    {
+      "title": "Authentication and Security",
+      "description": "Web application security and authentication",
+      "points": [
+        "JWT (JSON Web Token): Authentication and authorization",
+        "JWT Structure: Header, Payload, Signature",
+        "Token Security: Private keys for digital signatures",
+        "Cross-Platform Tokens: Tokens are platform-specific",
+        "Private Key Verification: Each platform has unique private key",
+        "Token Validation: Verify signature and claims",
+        "Session Management: Secure session handling",
+        "OAuth: Third-party authentication",
+        "HTTPS: Secure communication protocol",
+        "Input Validation: Prevent injection attacks"
+      ]
+    },
+    {
+      "title": "Data Storage Formats",
+      "description": "JSON and data storage formats",
+      "points": [
+        "JSON: Plain text format, preserves original formatting",
+        "JSONB: Binary format, optimized for fast operations",
+        "Storage Space: JSONB more compact than JSON",
+        "Indexing: SQL supports JSON indexing",
+        "Generated Columns: Stored and Virtual types",
+        "PostgreSQL: Supports JSONB with advanced indexing",
+        "MySQL: Supports JSON with generated columns",
+        "Performance: JSONB faster for read/write operations",
+        "Query Optimization: Use appropriate format for use case"
+      ]
+    },
+    {
+      "title": "Database Types and Categories",
+      "description": "Different database categories and use cases",
+      "points": [
+        "SQL Databases: MySQL, PostgreSQL, SQL Server, Oracle",
+        "NoSQL Document Stores: MongoDB for document-based data",
+        "NoSQL Key-Value: Redis for caching and session storage",
+        "NoSQL Column-Family: Apache Cassandra for big data",
+        "NoSQL Graph: Neo4j for relationship data",
+        "Database Selection: Choose based on data structure and requirements",
+        "ACID Properties: Consistency and reliability",
+        "BASE Properties: Availability and partition tolerance",
+        "CAP Theorem: Consistency, Availability, Partition tolerance"
+      ]
+    },
+    {
+      "title": "Design Patterns",
+      "description": "Software design patterns for web development",
+      "points": [
+        "Creational Patterns (5): Object instantiation patterns",
+        "Structural Patterns (7): Class structure and composition",
+        "Behavioral Patterns (11): Class interaction patterns",
+        "Abstract Factory: Create families of related objects",
+        "Factory Method: Create objects without specifying exact class",
+        "Builder: Construct complex objects step by step",
+        "Singleton: Ensure single instance of class",
+        "Adapter: Make incompatible interfaces work together",
+        "Observer: Notify multiple objects of changes",
+        "Strategy: Define family of algorithms and make them interchangeable"
+      ]
+    },
+    {
+      "title": "Design Principles",
+      "description": "Fundamental design principles for software development",
+      "points": [
+        "Divide and Conquer: Break complex problems into smaller parts",
+        "Increase Cohesion: Keep related functionality together",
+        "Reducing Coupling: Minimize dependencies between modules",
+        "Increase Abstraction: Use interfaces and abstract classes",
+        "Increase Reusability: Follow DRY (Don't Repeat Yourself)",
+        "Design for Flexibility: Allow for future changes",
+        "Anticipate Obsolescence: Plan for technology changes",
+        "Design for Portability: Ensure cross-platform compatibility",
+        "Design for Testability: Make systems easy to test",
+        "Design Defensively: Handle errors and edge cases"
+      ]
+    },
+    {
+      "title": "System Scaling",
+      "description": "Scaling web applications for growth",
+      "points": [
+        "Vertical Scaling: Add more power to existing servers",
+        "Horizontal Scaling: Add more servers to handle load",
+        "Database Scaling: Replication, sharding, partitioning",
+        "Load Balancing: Distribute traffic across servers",
+        "Caching: Multiple levels of caching for performance",
+        "CDN: Content delivery networks for global reach",
+        "Microservices: Break monolith into smaller services",
+        "Auto-scaling: Automatically adjust resources based on demand"
+      ]
+    },
+    {
+      "title": "Database Scaling Strategies",
+      "description": "Database scaling techniques and patterns",
+      "points": [
+        "Database Replication: Copy data to multiple databases",
+        "Master-Slave Replication: Primary for writes, slaves for reads",
+        "Sharding: Split large database into smaller pieces",
+        "Partitioning: Divide tables into smaller manageable pieces",
+        "Horizontal Partitioning: Distribute data across servers",
+        "Vertical Partitioning: Split tables by columns",
+        "Read Replicas: Distribute read operations",
+        "Database Clustering: Multiple database instances",
+        "SQL vs NoSQL: SQL for vertical scaling, NoSQL for horizontal"
+      ]
+    },
+    {
+      "title": "Caching Strategies",
+      "description": "Multi-level caching for performance optimization",
+      "points": [
+        "Database Cache: Query cache for MySQL",
+        "Backend Cache: Redis, Memcached for application data",
+        "Application-Level Caching: Logic within application code",
+        "Cache-Control Headers: HTTP cache instructions",
+        "CDN Caching: Global content distribution",
+        "Query Cache: MySQL built-in query result caching",
+        "In-Memory Caching: Fast access to frequently used data",
+        "Cache Invalidation: Remove outdated cache entries"
+      ]
+    },
+    {
+      "title": "System Architectures",
+      "description": "Different architectural patterns for web applications",
+      "points": [
+        "Monolithic: Single application with all components",
+        "Microservices: Small, independent services",
+        "Micro-frontend: Frontend microservices architecture",
+        "Serverless: Function-as-a-Service architecture",
+        "SOA: Service-oriented architecture",
+        "CQRS: Command and Query Responsibility Segregation",
+        "Event Sourcing: Store events instead of state",
+        "Monorepo: Single repository for multiple projects",
+        "Polyrepo: Multiple repositories for different projects"
+      ]
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Distributing traffic across multiple servers",
+      "points": [
+        "Round Robin: Distribute requests evenly",
+        "Weighted Round Robin: Assign weights to servers",
+        "Least Connection: Route to server with fewest connections",
+        "IP Hash: Route based on client IP address",
+        "Least Response Time: Route to fastest responding server",
+        "Least Bandwidth: Route to server with least bandwidth usage",
+        "Random: Random server selection",
+        "Least Packets: Route to server with fewest packets"
+      ]
+    },
+    {
+      "title": "API Gateway",
+      "description": "Single entry point for backend services",
+      "points": [
+        "Definition: Single entry point for all client requests",
+        "Routing: Direct requests to appropriate services",
+        "Authentication and Authorization: Secure API access",
+        "Rate Limiting and Throttling: Control request rates",
+        "Load Balancing: Distribute requests across services",
+        "Caching: Cache responses for better performance",
+        "Logging and Monitoring: Track API usage and performance",
+        "Transformation: Modify requests and responses",
+        "Popular Solutions: AWS API Gateway, Nginx, Kong, Zuul"
+      ]
+    },
+    {
+      "title": "Distributed Systems",
+      "description": "Network of autonomous computers working together",
+      "points": [
+        "Definition: Network of autonomous computers",
+        "Common Goal: Work together to achieve objectives",
+        "Applications: Cloud computing, CDNs, E-commerce platforms",
+        "Cloud Computing: AWS, Azure, Google Cloud",
+        "CDNs: Content delivery networks for global distribution",
+        "E-commerce Platforms: Online shopping and marketplaces",
+        "Scalability: Handle growing user base and traffic",
+        "Reliability: Fault tolerance and high availability"
+      ]
+    },
+    {
+      "title": "Network Protocols",
+      "description": "Communication protocols for web applications",
+      "points": [
+        "HTTP vs HTTPS: Secure and non-secure web protocols",
+        "TCP vs UDP: Reliable vs fast communication",
+        "TCP: Two-way handshake, slower but secure, used for file transfer",
+        "UDP: Direct data transmission, faster but less secure, used in gaming",
+        "URL vs URI vs URN: Different types of resource identifiers",
+        "DNS: Domain Name System for IP address resolution",
+        "WebSocket: Real-time bidirectional communication",
+        "Server-Sent Events: One-way server-to-client communication"
+      ]
+    },
+    {
+      "title": "CDN Architecture",
+      "description": "Content delivery network components and strategies",
+      "points": [
+        "Origin Server: Where original content resides",
+        "Edge Servers: Distributed servers in various locations",
+        "CDN Provider: Company operating CDN infrastructure",
+        "Push CDN: Content pushed to edge servers",
+        "Pull CDN: Content pulled from origin on demand",
+        "Geographic Distribution: Servers located worldwide",
+        "Caching Strategy: Cache content at edge locations",
+        "Performance Optimization: Reduce latency and bandwidth"
+      ]
+    },
+    {
+      "title": "Security Concepts",
+      "description": "Web application security fundamentals",
+      "points": [
+        "Security vs Privacy: Different aspects of protection",
+        "Authentication: Verify user identity",
+        "Authorization: Control access to resources",
+        "OAuth: Third-party authentication protocol",
+        "JWT: JSON Web Token for authentication",
+        "Encryption vs Encoding: Different data protection methods",
+        "DDoS Attacks: Distributed denial of service protection",
+        "Input Validation: Prevent malicious input",
+        "HTTPS: Secure communication protocol",
+        "Session Management: Secure user sessions"
+      ]
+    },
+    {
+      "title": "Cloud Computing Categories",
+      "description": "Different cloud service models",
+      "points": [
+        "SaaS: Software as a Service",
+        "PaaS: Platform as a Service",
+        "IaaS: Infrastructure as a Service",
+        "FaaS: Function as a Service",
+        "DaaS: Database as a Service",
+        "LaaS: Logging as a Service",
+        "Service Models: Different levels of cloud abstraction",
+        "Shared Responsibility: Provider vs customer responsibilities",
+        "Scalability: Automatic resource scaling",
+        "Cost Model: Pay-as-you-use pricing"
+      ]
+    },
+    {
+      "title": "System Design Examples",
+      "description": "Real-world system design patterns",
+      "points": [
+        "Consistent Hashing: Distributed system hashing",
+        "Key-Value Store: Distributed storage systems",
+        "Unique ID Generator: Distributed ID generation",
+        "Web Crawler: Web scraping and indexing",
+        "News Feed System: Social media feed architecture",
+        "Chat System: Real-time messaging architecture",
+        "Search Auto Complete: Search suggestion systems",
+        "Google Drive: File storage and synchronization",
+        "LMS: Learning management system architecture",
+        "Popular Systems: Netflix, Reddit, Instagram, Dropbox, YouTube"
+      ]
+    },
+    {
+      "title": "System Design Fundamentals",
+      "description": "Core concepts for designing scalable systems",
+      "points": [
+        "Single Server Setup: Start with everything on one server",
+        "Database Separation: Separate web/mobile traffic and database servers",
+        "Vertical Scaling: Add more power (CPU, RAM) to existing servers",
+        "Horizontal Scaling: Add more servers to handle increased load",
+        "Load Balancer: Distribute traffic evenly across multiple servers",
+        "Database Replication: Master-slave relationship for data redundancy",
+        "Cache Implementation: Temporary storage for frequently accessed data",
+        "CDN: Content delivery network for global content distribution"
+      ]
+    },
+    {
+      "title": "Scaling Strategies",
+      "description": "Different approaches to system scaling",
+      "points": [
+        "Vertical Scaling: Scale up by adding more power to servers",
+        "Horizontal Scaling: Scale out by adding more servers",
+        "Load Balancer Benefits: Even traffic distribution and failover",
+        "Private IP Communication: Secure server-to-server communication",
+        "Database Replication: Master for writes, slaves for reads",
+        "Cache Types: CDN, Server-side, Client-side caching",
+        "Read-through Cache: Check cache before database query",
+        "Cache Considerations: Expiration policy, consistency, eviction policy"
+      ]
+    },
+    {
+      "title": "Cache Management",
+      "description": "Caching strategies and considerations",
+      "points": [
+        "Cache Types: CDN, Server-side, Client-side",
+        "Read-through Cache: Check cache first, then database",
+        "Cache Expiration: Implement appropriate expiration policies",
+        "Cache Consistency: Keep data store and cache in sync",
+        "Cache Eviction: LRU (Least Recently Used) most popular",
+        "Cache Eviction Policies: LFU, FIFO for different use cases",
+        "Cache Failures: Mitigate single point of failure",
+        "CDN Benefits: Geographic distribution of static content"
+      ]
+    },
+    {
+      "title": "Stateless Architecture",
+      "description": "Stateless vs stateful web application design",
+      "points": [
+        "Stateless Web Tier: Move session data out of web servers",
+        "Stateful Architecture: Server remembers client data between requests",
+        "Sticky Sessions: Route same client to same server",
+        "Stateless Benefits: Simpler, more robust, and scalable",
+        "Session Storage: Use persistent storage (RDB or NoSQL)",
+        "Shared Data Store: Store state data outside web servers",
+        "Server Failures: Easier to handle with stateless design",
+        "Adding Servers: Much easier with stateless architecture"
+      ]
+    },
+    {
+      "title": "Data Centers and Geographic Distribution",
+      "description": "Multi-data center architecture for global applications",
+      "points": [
+        "Geographic Distribution: Support multiple data centers globally",
+        "Data Center Examples: US-East-1, US-West-1, etc.",
+        "Availability Improvement: Better user experience across regions",
+        "Message Queues: Durable components for asynchronous communication",
+        "Logging and Metrics: Monitor errors and performance",
+        "Automation: Tools for centralized logging and monitoring",
+        "International Users: Serve users from closest data center",
+        "Disaster Recovery: Multiple data centers for business continuity"
+      ]
+    },
+    {
+      "title": "Rate Limiting and API Management",
+      "description": "Controlling API usage and traffic",
+      "points": [
+        "Rate Limiter: Control rate of traffic from clients or services",
+        "API Throttling: Block excess calls beyond defined threshold",
+        "Client-side Rate Limiter: Implement on client side",
+        "Server-side Rate Limiter: Implement on server side",
+        "Distributed Systems: Cellular networks as distributed systems",
+        "Resource Sharing: Controlled access to remote resources",
+        "Sliding Window: Deal with selected data for rate limiting",
+        "Middleware Implementation: Rate limiter as separate service"
+      ]
+    },
+    {
+      "title": "CAP Theorem",
+      "description": "Consistency, Availability, and Partition tolerance",
+      "points": [
+        "CAP Theorem: Cannot provide all three guarantees simultaneously",
+        "Consistency: All clients see same data at same time",
+        "Availability: Any client gets response even if nodes are down",
+        "Partition Tolerance: System continues despite network partitions",
+        "AP Systems: Available and Partition tolerant, not Consistent",
+        "CP Systems: Consistent and Partition tolerant, not Available",
+        "CA Systems: Consistent and Available, not Partition tolerant",
+        "Real-world Examples: ATMs need consistency, social media needs availability"
+      ]
+    },
+    {
+      "title": "Microservices Architecture",
+      "description": "Microservices design patterns and implementation",
+      "points": [
+        "Service Independence: Each service has its own database ideally",
+        "Real-world Implementation: Often share single database",
+        "Scaling Management: Read replicas, caching, query optimization",
+        "Service Communication: Inter-service communication patterns",
+        "Database per Service: Ideal but not always practical",
+        "Shared Database: Common in real-world implementations",
+        "Service Boundaries: Define clear service boundaries",
+        "Deployment Independence: Deploy services independently"
+      ]
+    },
+    {
+      "title": "Load Balancing Types",
+      "description": "Different load balancing algorithms and types",
+      "points": [
+        "Application Load Balancer (ALB): OSI Layer 7 routing",
+        "Network Load Balancer (NLB): OSI Layer 4 routing",
+        "ALB Features: Route based on URL path, multiple services",
+        "NLB Features: Route based on protocol and port",
+        "Spiky Traffic: NLB handles better than ALB",
+        "Health Checks: Monitor server health and availability",
+        "DNS Integration: Route53 integration for load balancing",
+        "Backend Services: Route to different backend services"
+      ]
+    },
+    {
+      "title": "API Gateway vs Load Balancer",
+      "description": "Comparison between API Gateway and Load Balancer",
+      "points": [
+        "Rate Limiting: API Gateway has built-in, ALB does not",
+        "HTTPS Support: API Gateway supports both HTTP/HTTPS",
+        "Request Validation: API Gateway can validate requests",
+        "Spiky Traffic: ALB handles better with delay",
+        "Cross-Account: API Gateway can communicate across AWS accounts",
+        "Swagger Support: API Gateway supports Swagger documentation",
+        "Response Caching: API Gateway can cache responses",
+        "Execution Time: API Gateway has 30s limit, ALB has 4000s",
+        "AWS Integration: API Gateway integrates with more AWS services",
+        "Health Checks: ALB has health checks, API Gateway does not",
+        "Pricing: API Gateway pay-per-use, ALB pay-per-idle"
+      ]
+    },
+    {
+      "title": "Database Comparison",
+      "description": "SQL vs NoSQL database characteristics",
+      "points": [
+        "Caching Mechanisms: SQL relies on external caching, NoSQL has built-in options",
+        "Sharding: SQL requires manual setup, NoSQL has automatic sharding",
+        "Consistency Models: SQL offers strong consistency, NoSQL offers configurable consistency",
+        "Indexing: SQL has robust indexing, NoSQL varies by database",
+        "Data Integrity: SQL enforces referential integrity, NoSQL lacks strong support",
+        "Data Modeling: SQL has pre-defined schemas, NoSQL is flexible",
+        "Scalability: SQL does vertical scaling, NoSQL does horizontal scaling",
+        "Use Cases: SQL for financial systems, NoSQL for real-time analytics"
+      ]
+    },
+    {
+      "title": "AWS Well-Architected Framework",
+      "description": "AWS best practices for system architecture",
+      "points": [
+        "Operational Excellence: Monitoring disasters and operations",
+        "Security: Implement proper security measures",
+        "Reliability: Handle traffic spikes and failures",
+        "Performance Efficiency: Optimize for performance",
+        "Cost Optimization: Optimize costs while maintaining performance",
+        "Well-Architected Tool: Document decisions and get recommendations",
+        "Trusted Advisor: Integration for cost and security recommendations",
+        "Service Catalog: Integration for service discovery"
+      ]
+    },
+    {
+      "title": "Three-Tier Architecture",
+      "description": "Classic three-tier architecture patterns",
+      "points": [
+        "Frontend Tier: User interface and presentation layer",
+        "Backend Tier: Business logic and application server",
+        "Database Tier: Data storage and persistence layer",
+        "DNS Integration: Use DNS instead of hardcoded IPs",
+        "High Availability: Multi-AZ and Global DB replication",
+        "Database Optimization: Read replicas, caching, query tuning",
+        "Serverless Architecture: Lambda functions for business logic",
+        "Kubernetes Architecture: Container orchestration for scaling"
+      ]
+    },
+    {
+      "title": "Content-Based Messaging",
+      "description": "Message routing based on content",
+      "points": [
+        "Content Routing: Route messages based on content type",
+        "SQS Integration: Use SQS for message queuing",
+        "Lambda Processing: Use Lambda for content processing",
+        "SNS Topics: Use SNS for message distribution",
+        "Event Bridge: Advanced event routing with filtering",
+        "Metadata Filtering: Filter based on message metadata",
+        "Data Filtering: Filter based on actual message data",
+        "Scalability: Handle high-volume message processing"
+      ]
+    },
+    {
+      "title": "Image Storage and Retrieval",
+      "description": "Scalable image storage and delivery",
+      "points": [
+        "S3 Auto Scaling: No need for ASG with S3",
+        "Image Processing: Downscaling for different devices",
+        "URL Management: Store URLs in DynamoDB",
+        "Device Optimization: Serve appropriate image sizes",
+        "Lambda Processing: Business logic for image handling",
+        "Storage Architecture: Original and processed images",
+        "Retrieval Architecture: Serve optimized images",
+        "Cost Optimization: Store only necessary image sizes"
+      ]
+    },
+    {
+      "title": "Priority Queuing Systems",
+      "description": "High-priority message queuing",
+      "points": [
+        "Priority Queues: Handle high-priority messages first",
+        "Task Queuing: Separate queues for different priority levels",
+        "Event Bridge: Use Event Bridge for priority routing",
+        "Business Logic: Implement priority logic in services",
+        "ASG Integration: Use Auto Scaling Groups for processing",
+        "Latency Optimization: Minimize processing latency",
+        "Queue Management: Manage multiple priority queues",
+        "Service Decoupling: Decouple priority logic from main service"
+      ]
+    },
+    {
+      "title": "Security and Authentication",
+      "description": "Web application security patterns",
+      "points": [
+        "Identity Provider (IDP): OAuth, Cognito for authentication",
+        "Token Verification: Verify tokens at API Gateway",
+        "Authorization: Control access to resources",
+        "Encryption at Rest: Encrypt stored data",
+        "Encryption in Transit: SSL/TLS for data transmission",
+        "MTLS: Mutual TLS for client-server verification",
+        "Security Groups: Network-level security controls",
+        "NACLs: Network Access Control Lists",
+        "IDS vs IPS: Intrusion Detection vs Prevention Systems"
+      ]
+    },
+    {
+      "title": "Twelve-Factor App",
+      "description": "Methodology for building SaaS applications",
+      "points": [
+        "Codebase: One codebase tracked in revision control",
+        "Dependencies: Explicitly declare and isolate dependencies",
+        "Config: Store config in environment variables",
+        "Backing Services: Treat backing services as attached resources",
+        "Build, Release, Run: Strictly separate build and run stages",
+        "Processes: Execute app as stateless processes",
+        "Port Binding: Export services via port binding",
+        "Concurrency: Scale out via process model",
+        "Disposability: Fast startup and graceful shutdown",
+        "Dev/Prod Parity: Keep development and production similar",
+        "Logs: Treat logs as event streams",
+        "Admin Processes: Run admin tasks as one-off processes"
+      ]
+    },
+    {
+      "title": "System Design Examples",
+      "description": "Real-world system design patterns",
+      "points": [
+        "URL Shortener: Hash function to create short URLs",
+        "Web Crawler: Distributed web scraping system",
+        "Notification System: Multi-channel notification delivery",
+        "News Feed System: Social media feed architecture",
+        "Chat System: Real-time messaging with 1-on-1 and group chat",
+        "Search Autocomplete: Fast response time with relevance",
+        "YouTube: Video streaming and content delivery",
+        "Google Drive: File storage and synchronization",
+        "Twitter: Microblogging platform architecture",
+        "Instagram: Photo sharing and social features",
+        "Netflix: Video streaming and recommendation system",
+        "Uber: Ride-sharing and real-time tracking"
+      ]
+    },
+    {
+      "title": "Chat System Design",
+      "description": "Real-time messaging system architecture",
+      "points": [
+        "Chat Types: 1-on-1 and group chat support",
+        "DAU: Daily Active Users measurement",
+        "Features: Typing indicators, online status, multimedia support",
+        "Message Status: Sent, received, seen status tracking",
+        "Challenges: Long chat history, large DAU, nested replies",
+        "Polling: Client periodically checks for new messages",
+        "Long Polling: Wait for specific time to minimize costs",
+        "Microservices: Authentication, notifications, load balancing",
+        "Offline Features: Handle offline message delivery",
+        "Encryption: End-to-end encryption for security",
+        "Caching: Cache frequently accessed messages",
+        "Error Handling: Robust error handling and warnings"
+      ]
+    },
+    {
+      "title": "Search Autocomplete System",
+      "description": "Real-time search suggestion system",
+      "points": [
+        "Autocomplete Features: Typeahead, search-as-you-type",
+        "Spell Checker: Handle misspelled queries",
+        "Sorted Results: Results sorted by popularity",
+        "Fast Response: Sub-second response time",
+        "Relevance: Highly relevant search suggestions",
+        "Scalability: Handle high query volume",
+        "High Availability: 99.9% uptime requirement",
+        "Performance: Optimize for speed and accuracy",
+        "Ranking Models: Popularity-based ranking",
+        "Real-time Updates: Update suggestions in real-time"
+      ]
+    },
+    {
+      "title": "Performance Optimization",
+      "description": "System performance optimization techniques",
+      "points": [
+        "Caching Strategies: Multiple levels of caching",
+        "Database Optimization: Query tuning and indexing",
+        "CDN Usage: Global content delivery",
+        "Load Balancing: Distribute traffic efficiently",
+        "Auto Scaling: Scale resources based on demand",
+        "Connection Pooling: Reuse database connections",
+        "Compression: Compress data for faster transmission",
+        "Monitoring: Track performance metrics",
+        "Profiling: Identify performance bottlenecks",
+        "Optimization: Continuous performance improvement"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for web development",
+      "points": [
+        "Write clean, maintainable code",
+        "Follow security best practices",
+        "Implement responsive design",
+        "Optimize for performance and speed",
+        "Use version control effectively",
+        "Test thoroughly across browsers",
+        "Document code and APIs",
+        "Stay updated with technology trends",
+        "Implement proper error handling",
+        "Follow accessibility guidelines",
+        "Use appropriate design patterns",
+        "Plan for scalability from the beginning",
+        "Implement proper monitoring and logging",
+        "Follow RESTful API design principles",
+        "Use appropriate database technologies",
+        "Design for failure and recovery",
+        "Implement proper backup strategies",
+        "Use appropriate caching strategies",
+        "Monitor system health and performance",
+        "Follow the Twelve-Factor App methodology"
+      ]
+    }
+  ]
+}

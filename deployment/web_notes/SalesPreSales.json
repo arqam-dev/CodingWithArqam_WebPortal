@@ -1,0 +1,176 @@
+{
+  "subject": "Sales & Pre-Sales",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of sales and pre-sales processes",
+      "points": [
+        "Sales and pre-sales are critical business functions",
+        "Pre-sales activities happen before the actual sale",
+        "Involves technical support and product demonstrations",
+        "Focuses on understanding customer needs and requirements",
+        "Essential for building customer relationships",
+        "Requires both technical and business skills",
+        "Key to successful software and technology sales"
+      ]
+    },
+    {
+      "title": "Key Terminologies",
+      "description": "Essential sales and pre-sales terminology",
+      "points": [
+        "Sales Qualified Lead (SQL): Lead ready for sales team pursuit",
+        "Pre-sales: Activities before sale, including technical support",
+        "Proof of Concept (PoC): Demonstration of solution feasibility",
+        "Request for Proposal (RFP): Document outlining project requirements",
+        "Value Proposition: Unique value statement for product",
+        "ROI (Return on Investment): Measure of investment gain/loss",
+        "Feature Set: Collection of product functionalities",
+        "Closing: Final step in sales process",
+        "Upselling: Encouraging additional feature purchases",
+        "Cross-selling: Offering complementary products/services"
+      ]
+    },
+    {
+      "title": "Sales Process",
+      "description": "Stages of the sales process",
+      "points": [
+        "Lead Generation: Identifying potential customers",
+        "Qualification: Assessing lead potential and fit",
+        "Needs Assessment: Understanding customer requirements",
+        "Solution Presentation: Demonstrating product capabilities",
+        "Proposal Development: Creating detailed proposals",
+        "Negotiation: Discussing terms and pricing",
+        "Closing: Finalizing the deal",
+        "Follow-up: Post-sale relationship management"
+      ]
+    },
+    {
+      "title": "Pre-Sales Activities",
+      "description": "Key pre-sales activities and responsibilities",
+      "points": [
+        "Technical Consultation: Providing technical expertise",
+        "Product Demonstrations: Showing product capabilities",
+        "Requirements Analysis: Understanding customer needs",
+        "Solution Design: Creating custom solutions",
+        "Proof of Concept: Demonstrating feasibility",
+        "Technical Documentation: Creating technical materials",
+        "Customer Education: Training and knowledge transfer",
+        "Technical Support: Assisting with technical questions"
+      ]
+    },
+    {
+      "title": "Sales Pipeline",
+      "description": "Managing the sales pipeline effectively",
+      "points": [
+        "Pipeline Stages: Awareness, Interest, Consideration, Purchase",
+        "Lead Qualification: Assessing lead quality and potential",
+        "Opportunity Management: Tracking sales opportunities",
+        "Forecasting: Predicting sales outcomes",
+        "Pipeline Analysis: Identifying bottlenecks and opportunities",
+        "Conversion Rates: Measuring pipeline effectiveness",
+        "Sales Velocity: Speed of deal progression",
+        "Pipeline Health: Overall pipeline quality and performance"
+      ]
+    },
+    {
+      "title": "Objection Handling",
+      "description": "Addressing customer objections and concerns",
+      "points": [
+        "Common Objections: Price, timing, authority, need",
+        "Objection Categories: Price, product, process, people",
+        "Response Strategies: Acknowledge, investigate, respond",
+        "Value Demonstration: Showing product value",
+        "Risk Mitigation: Addressing customer concerns",
+        "Competitive Differentiation: Highlighting advantages",
+        "Reference Stories: Using customer success stories",
+        "Follow-up: Ensuring objection resolution"
+      ]
+    },
+    {
+      "title": "Sales Collateral",
+      "description": "Marketing materials and sales support tools",
+      "points": [
+        "Product Brochures: Product information and features",
+        "Case Studies: Customer success stories",
+        "White Papers: Technical and business insights",
+        "Presentations: Sales and product presentations",
+        "Demo Scripts: Structured demonstration guides",
+        "Proposal Templates: Standardized proposal formats",
+        "ROI Calculators: Investment return tools",
+        "Competitive Analysis: Market positioning materials"
+      ]
+    },
+    {
+      "title": "Closing Techniques",
+      "description": "Strategies for closing sales deals",
+      "points": [
+        "Assumptive Close: Assuming the sale will happen",
+        "Urgency Close: Creating time-sensitive offers",
+        "Alternative Close: Offering multiple options",
+        "Summary Close: Summarizing benefits and value",
+        "Trial Close: Testing customer readiness",
+        "Direct Close: Asking directly for the sale",
+        "Consultative Close: Collaborative decision-making",
+        "Follow-up Close: Maintaining relationship after presentation"
+      ]
+    },
+    {
+      "title": "Customer Relationship Management",
+      "description": "Building and maintaining customer relationships",
+      "points": [
+        "Relationship Building: Establishing trust and rapport",
+        "Customer Needs Analysis: Understanding requirements",
+        "Solution Mapping: Matching solutions to needs",
+        "Value Communication: Articulating product value",
+        "Relationship Maintenance: Ongoing relationship management",
+        "Customer Success: Ensuring customer satisfaction",
+        "Account Management: Managing customer accounts",
+        "Customer Retention: Maintaining long-term relationships"
+      ]
+    },
+    {
+      "title": "Technical Sales Skills",
+      "description": "Technical skills required for sales success",
+      "points": [
+        "Product Knowledge: Deep understanding of products",
+        "Technical Communication: Explaining complex concepts",
+        "Solution Architecture: Designing technical solutions",
+        "Integration Expertise: Understanding system integration",
+        "Performance Analysis: Assessing technical requirements",
+        "Security Knowledge: Understanding security implications",
+        "Scalability Planning: Planning for growth",
+        "Technology Trends: Staying current with technology"
+      ]
+    },
+    {
+      "title": "Sales Metrics",
+      "description": "Key performance indicators for sales success",
+      "points": [
+        "Sales Revenue: Total sales generated",
+        "Deal Size: Average value of closed deals",
+        "Sales Cycle: Time from lead to close",
+        "Conversion Rate: Percentage of leads converted",
+        "Pipeline Value: Total value in sales pipeline",
+        "Win Rate: Percentage of deals won",
+        "Customer Acquisition Cost: Cost to acquire customers",
+        "Customer Lifetime Value: Total value of customer relationship"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for sales and pre-sales success",
+      "points": [
+        "Listen actively to customer needs",
+        "Build strong technical knowledge",
+        "Develop effective communication skills",
+        "Create compelling value propositions",
+        "Use data-driven decision making",
+        "Maintain customer relationships",
+        "Continuously improve sales processes",
+        "Stay updated with industry trends",
+        "Collaborate with technical teams",
+        "Focus on customer success and satisfaction"
+      ]
+    }
+  ]
+}

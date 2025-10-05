@@ -1,0 +1,168 @@
+{
+  "subject": "Software Houses",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of software development companies",
+      "points": [
+        "Software houses are companies specializing in software development",
+        "Provide custom software solutions and services",
+        "Range from startups to large enterprises",
+        "Offer various development services and expertise",
+        "Employ software developers, designers, and project managers",
+        "Serve clients across different industries",
+        "Contribute to technology innovation and digital transformation"
+      ]
+    },
+    {
+      "title": "Software Development Companies",
+      "description": "List of software development companies",
+      "points": [
+        "Conovo Technologies: Software development and consulting",
+        "BrainX Technologies: AI and machine learning solutions",
+        "Code District: Custom software development",
+        "Square63: Digital transformation services",
+        "Phaedra Solutions: Enterprise software solutions",
+        "Coding Pixel USA: Web and mobile development",
+        "Novatore Solutions: Software consulting and development",
+        "TEKHQS: Technology solutions and services",
+        "Intelliscence: AI and data science solutions",
+        "IntelliasPro Private Limited: Software development services"
+      ]
+    },
+    {
+      "title": "Technology Service Providers",
+      "description": "Companies providing technology services",
+      "points": [
+        "Suave Solutions HRD: Human resource technology solutions",
+        "Contegris HRD: HR technology and consulting",
+        "DevStudio: Software development studio",
+        "Software Alliance: Technology partnership network",
+        "Finz Games: Gaming software development",
+        "Synavos: Software solutions and consulting",
+        "Dynexcel: Excel and data management solutions",
+        "SpurSol: Software solutions and development",
+        "AppsGenii Technologies: Mobile and web applications",
+        "Kavtech Solutions: Technology consulting and development"
+      ]
+    },
+    {
+      "title": "Specialized Development Companies",
+      "description": "Companies with specialized development focus",
+      "points": [
+        "Codility Solutions: Software development and testing",
+        "DevBatch: Batch processing and automation solutions",
+        "Gicoh: Technology consulting and development",
+        "Cinnova Technologies: Innovation and software development",
+        "Upgenics International: Software development services",
+        "Dtechsystems.co: Technology systems and solutions",
+        "7Vals: Software development and consulting",
+        "xiQ, Inc.: Technology solutions and services",
+        "SIXLOGICS: Software development and consulting",
+        "Contrive Solutions: Custom software development"
+      ]
+    },
+    {
+      "title": "Emerging Technology Companies",
+      "description": "Companies focused on emerging technologies",
+      "points": [
+        "Digicon Valley: Digital transformation solutions",
+        "Gigalabs: Technology innovation and development",
+        "Focusteck: Technology solutions and consulting",
+        "Yotascale: Scalable software solutions",
+        "AlgoRepublic: Algorithm and software solutions",
+        "SDSol Technologies: Software development services",
+        "Hashe Computer Solutions: Computer technology solutions",
+        "System Plus: System integration and development",
+        "RLTSquare: Real-time software solutions",
+        "Remotebase: Remote software development services"
+      ]
+    },
+    {
+      "title": "Company Types",
+      "description": "Different types of software development companies",
+      "points": [
+        "Startups: New companies with innovative ideas",
+        "SMEs: Small and medium enterprises",
+        "Large Enterprises: Established companies with extensive resources",
+        "Consulting Firms: Technology consulting and advisory",
+        "Product Companies: Companies developing their own products",
+        "Service Companies: Companies providing development services",
+        "Outsourcing Companies: Companies providing offshore development",
+        "Nearshore Companies: Companies in nearby countries"
+      ]
+    },
+    {
+      "title": "Services Offered",
+      "description": "Common services provided by software houses",
+      "points": [
+        "Custom Software Development: Tailored software solutions",
+        "Web Development: Website and web application development",
+        "Mobile App Development: iOS and Android applications",
+        "Cloud Solutions: Cloud migration and development",
+        "AI/ML Solutions: Artificial intelligence and machine learning",
+        "Data Analytics: Data processing and analysis solutions",
+        "System Integration: Connecting different systems",
+        "Maintenance and Support: Ongoing software maintenance"
+      ]
+    },
+    {
+      "title": "Technology Expertise",
+      "description": "Technology areas of expertise",
+      "points": [
+        "Programming Languages: Java, Python, C#, JavaScript, etc.",
+        "Frameworks: React, Angular, Vue.js, Spring, Django, etc.",
+        "Databases: MySQL, PostgreSQL, MongoDB, Redis, etc.",
+        "Cloud Platforms: AWS, Azure, Google Cloud, etc.",
+        "Mobile Technologies: iOS, Android, React Native, Flutter",
+        "DevOps: CI/CD, Docker, Kubernetes, etc.",
+        "AI/ML: Machine learning, deep learning, NLP, etc.",
+        "Blockchain: Smart contracts, cryptocurrency, etc."
+      ]
+    },
+    {
+      "title": "Company Culture",
+      "description": "Work culture and environment in software houses",
+      "points": [
+        "Remote Work: Flexible work arrangements",
+        "Agile Methodology: Scrum, Kanban, etc.",
+        "Continuous Learning: Professional development opportunities",
+        "Innovation: Encouraging creative solutions",
+        "Collaboration: Team-based development approach",
+        "Work-Life Balance: Flexible working hours",
+        "Technology Focus: Staying current with technology",
+        "Career Growth: Opportunities for advancement"
+      ]
+    },
+    {
+      "title": "Client Industries",
+      "description": "Industries served by software development companies",
+      "points": [
+        "Healthcare: Medical software and health tech",
+        "Finance: Banking and financial technology",
+        "E-commerce: Online retail and marketplace solutions",
+        "Education: Educational technology and e-learning",
+        "Manufacturing: Industrial software and automation",
+        "Real Estate: Property management and real estate tech",
+        "Transportation: Logistics and transportation software",
+        "Entertainment: Gaming and media software"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for software development companies",
+      "points": [
+        "Follow agile development methodologies",
+        "Implement proper code review processes",
+        "Use version control and CI/CD practices",
+        "Maintain high code quality standards",
+        "Invest in employee training and development",
+        "Foster innovation and creativity",
+        "Build strong client relationships",
+        "Stay updated with technology trends",
+        "Implement proper project management",
+        "Focus on delivering value to clients"
+      ]
+    }
+  ]
+}

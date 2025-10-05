@@ -1,0 +1,250 @@
+{
+  "subject": "ReactJS",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of React library and its core concepts",
+      "points": [
+        "React is a front-end library developed by Facebook",
+        "Used for handling the view layer for web and mobile apps",
+        "Allows creation of reusable UI components",
+        "Currently one of the most popular JavaScript libraries",
+        "Component-based front-end library responsible for the view layer",
+        "The V(view part) in the MVC (Model-View-Controller) model",
+        "Declarative, efficient, and flexible JavaScript library"
+      ]
+    },
+    {
+      "title": "Setup and Commands",
+      "description": "Getting started with React development",
+      "points": [
+        "npm init - initialize new project",
+        "create-react-app my-app / npx create-react-app my-app",
+        "cd my-app - navigate to project directory",
+        "npm start - start development server",
+        "npm i react-router - install routing",
+        "npm i react-router-dom - install DOM routing (BrowserRouter, Route, Link, Switch)",
+        "React = npx create-react-app project_name",
+        "Vite = npm create vite@latest - modern bundler alternative"
+      ]
+    },
+    {
+      "title": "Environment Setup",
+      "description": "Prerequisites and installation methods",
+      "points": [
+        "Prerequisites: NodeJS and NPM, React and React DOM, Webpack, Babel (transpiler)",
+        "Manual setup: npm init -y, npm install react react-dom --save",
+        "Webpack setup: npm install webpack webpack-dev-server webpack-cli --save",
+        "Babel setup: npm install babel-core babel-loader babel-preset-env babel-preset-react --save-dev",
+        "Create-react-app method: npm install -g create-react-app, create-react-app jtp-reactapp"
+      ]
+    },
+    {
+      "title": "Core Concepts",
+      "description": "Fundamental React concepts and principles",
+      "points": [
+        "React updates only the specific item that changed, not the entire page",
+        "JavaScript is fast but DOM is slow",
+        "React creates new virtual DOM and compares with old virtual DOM",
+        "Updates only the specific part that changed",
+        "State is the source of truth that drives the app",
+        "View is a declarative description of UI based on current state",
+        "Actions are events that occur based on user input and trigger state updates"
+      ]
+    },
+    {
+      "title": "JSX",
+      "description": "JavaScript XML syntax extension",
+      "points": [
+        "JSX is JavaScript syntax extension",
+        "XML or HTML-like syntax used by ReactJS",
+        "Extends ES6 so HTML-like text can co-exist with JavaScript",
+        "Not necessary but recommended for React development",
+        "Faster because it performs optimization while compiling to JavaScript",
+        "Type-safe with errors caught during compilation",
+        "Makes it easier and faster to write templates",
+        "Faster than regular JavaScript due to optimization",
+        "Makes it easier to create templates"
+      ]
+    },
+    {
+      "title": "Components",
+      "description": "Building blocks of React applications",
+      "points": [
+        "React is all about components - think of everything as a component",
+        "Components let you split UI into independent, reusable pieces",
+        "Think about each piece in isolation",
+        "Class Components: Stateful components, more complex, extend from React",
+        "Functional Components: Stateless components, JavaScript functions that may receive props",
+        "Controlled Components: Support instant field validation, conditionally disable/enable buttons",
+        "Uncontrolled Components: Form data handled by DOM instead of React component"
+      ],
+      "children": [
+        {
+          "title": "Component Types",
+          "description": "Different types of React components",
+          "points": [
+            "Presentational Components: Focus on how things look, use props to read data",
+            "Container Components: Concerned with how things work, subscribe to Redux state",
+            "Smart Components: Aware of application state",
+            "Dumb Components: Only used for displaying data"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "State and Props",
+      "description": "Data management in React components",
+      "points": [
+        "State: Place where data comes from, should be as simple as possible",
+        "Minimize number of stateful components",
+        "State object stores property values belonging to component",
+        "When state changes, component re-renders",
+        "Props: Properties used for passing data between components",
+        "Props are read-only and immutable",
+        "Props allow child components to read values from parent components"
+      ],
+      "children": [
+        {
+          "title": "State vs Props",
+          "description": "Key differences between state and props",
+          "points": [
+            "Props are read-only vs State changes can be asynchronous",
+            "Props are immutable vs State is mutable",
+            "Props allow data passing between components vs State holds component information",
+            "Props can be accessed by child components vs State cannot be accessed by child components",
+            "Props are used for component communication vs State used for dynamic changes",
+            "Stateless components can have Props vs Stateless components cannot have State"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Virtual DOM",
+      "description": "React's virtual representation of the DOM",
+      "points": [
+        "An in-memory representation of Real DOM",
+        "React Virtual DOM exists entirely in memory",
+        "Representation of UI kept in memory and synced with real DOM",
+        "Step between render function being called and displaying elements",
+        "Render() => Virtual DOM => Display on UI",
+        "Entire process is called reconciliation",
+        "JavaScript virtual DOM is faster than regular DOM"
+      ]
+    },
+    {
+      "title": "React Fiber",
+      "description": "Reconciliation algorithm in React",
+      "points": [
+        "Reconciliation Algorithm - reimplementation of core algorithm",
+        "React Fiber provides better support for handling concurrent updates",
+        "Allows React to pause, abort, or resume rendering as needed",
+        "Diff algorithm for efficient updates",
+        "Steps: State/Props Change → Virtual DOM Reconciliation → Differential Algorithm → Update Virtual DOM → Reconciliation Diff → Real DOM Update"
+      ]
+    },
+    {
+      "title": "Hooks",
+      "description": "Modern React feature for state and lifecycle management",
+      "points": [
+        "Hooks are new feature introduced in React 16.8",
+        "Allow using state and other React features without writing classes",
+        "Functions that hook into React state and lifecycle features",
+        "Do not work inside classes",
+        "Rules: Only call Hooks at top level, only call Hooks from React functions",
+        "useEffect equivalent to lifecycle methods in class components"
+      ],
+      "children": [
+        {
+          "title": "useEffect",
+          "description": "Hook for side effects and lifecycle management",
+          "points": [
+            "componentDidMount equivalent: useEffect(() => {}, [])",
+            "componentDidUpdate equivalent: useEffect(() => {})",
+            "componentWillUnmount equivalent: useEffect(() => { return () => {} }, [])",
+            "Empty dependency array means runs once after mount",
+            "No dependency array means runs after every update"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Routing",
+      "description": "Navigation in React applications",
+      "points": [
+        "Library: React-Router-Dom",
+        "BrowserRouter: Used for handling dynamic URL",
+        "HashRouter: Used for handling static request",
+        "Route: Defines and renders components based on specified path",
+        "Link: Like href but doesn't refresh page",
+        "Switch: Optional, won't check further routes on matching specific route",
+        "Private Routing (AuthGuard) for protected routes"
+      ]
+    },
+    {
+      "title": "State Management",
+      "description": "Managing application state in React",
+      "points": [
+        "Redux: Pattern and library for managing application state",
+        "Redux Toolkit: Recommended approach for writing Redux logic",
+        "Zustand: Lightweight state management",
+        "Context APIs: Built-in React state management",
+        "Redux helps manage global state needed across many parts of application"
+      ]
+    },
+    {
+      "title": "Forms",
+      "description": "Handling user input in React",
+      "points": [
+        "React offers stateful, reactive approach to build forms",
+        "Component rather than DOM usually handles React forms",
+        "Controlled component: Input form element handled by component",
+        "Uncontrolled component: DOM handles form data",
+        "Top Libraries: React Hook Form, Formik, React Final Form"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for React development",
+      "points": [
+        "Keep components small and function-specific",
+        "Reusability is important - minimize new component creation",
+        "Consolidate duplicate code - DRY principle",
+        "Put CSS in JavaScript",
+        "Comment only where necessary",
+        "Name components after function",
+        "Use capitals for component names (Title Case)",
+        "Separate stateful aspects from rendering",
+        "All files related to one component in single folder",
+        "Write tests for all code",
+        "Follow linting rules"
+      ]
+    },
+    {
+      "title": "Performance Optimization",
+      "description": "Techniques for optimizing React applications",
+      "points": [
+        "Use React.memo for preventing unnecessary re-renders",
+        "Implement shouldComponentUpdate for class components",
+        "Use useMemo and useCallback hooks",
+        "Code splitting with React.lazy and Suspense",
+        "Virtual scrolling for large lists",
+        "Avoid inline functions in render methods",
+        "Use keys properly in lists"
+      ]
+    },
+    {
+      "title": "Testing",
+      "description": "Testing React applications",
+      "points": [
+        "Jest: JavaScript testing framework",
+        "React Testing Library: Simple and complete testing utilities",
+        "Enzyme: JavaScript testing utility for React",
+        "Write tests for all code",
+        "Test component behavior, not implementation details",
+        "Use shallow rendering for unit tests",
+        "Test user interactions and component output"
+      ]
+    }
+  ]
+}

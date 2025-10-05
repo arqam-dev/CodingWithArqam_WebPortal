@@ -1,0 +1,185 @@
+{
+  "subject": "Computer Hardware",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of computer hardware components",
+      "points": [
+        "Computer hardware consists of physical components",
+        "Essential for system operation and performance",
+        "Includes processing, memory, storage, and input/output devices",
+        "Understanding hardware helps with system optimization",
+        "Important for development environment setup",
+        "Affects application performance and capabilities"
+      ]
+    },
+    {
+      "title": "Core Components",
+      "description": "Essential computer hardware components",
+      "points": [
+        "RAM (Random Access Memory): Temporary data storage",
+        "ROM (Read-Only Memory): Permanent system instructions",
+        "CPU (Central Processing Unit): Main processor",
+        "GPU (Graphics Processing Unit): Graphics calculations",
+        "Storage: Data persistence devices",
+        "I/O (Input/Output): Communication interfaces"
+      ]
+    },
+    {
+      "title": "Processor Systems",
+      "description": "Different processor architectures and brands",
+      "points": [
+        "Intel Processors: i3, i5, i7, i9 series",
+        "AMD Processors: Ryzen 3, 5, 7, 9 series",
+        "Apple Silicon: M1, M2 chips",
+        "Processor cores: Single, dual, quad, octa-core",
+        "Clock speed: GHz measurements",
+        "Cache memory: L1, L2, L3 levels",
+        "Thermal design power (TDP)",
+        "Overclocking capabilities"
+      ]
+    },
+    {
+      "title": "Memory Systems",
+      "description": "RAM and memory technologies",
+      "points": [
+        "DDR (Double Data Rate): DDR1, DDR2, DDR3, DDR4, DDR5",
+        "Memory channels: Single channel, dual channel, quad channel",
+        "Memory capacity: 4GB, 8GB, 16GB, 32GB, 64GB",
+        "Memory speed: MHz ratings",
+        "ECC (Error-Correcting Code) memory",
+        "Memory timings: CAS latency, RAS to CAS delay",
+        "Memory overclocking and XMP profiles",
+        "Memory compatibility and motherboard support"
+      ]
+    },
+    {
+      "title": "Storage Technologies",
+      "description": "Different storage devices and interfaces",
+      "points": [
+        "HDD (Hard Disk Drive): Traditional magnetic storage",
+        "SSD (Solid State Drive): Flash-based storage",
+        "NVMe (Non-Volatile Memory Express): High-speed SSD interface",
+        "SATA interface: Serial ATA for storage connections",
+        "M.2 form factor: Compact SSD design",
+        "PCIe interface: High-speed data transfer",
+        "Storage capacity: GB, TB measurements",
+        "Read/write speeds: MB/s, GB/s ratings"
+      ]
+    },
+    {
+      "title": "Graphics Processing",
+      "description": "GPU technologies and configurations",
+      "points": [
+        "Integrated Graphics: Built into CPU",
+        "Dedicated Graphics: Separate GPU card",
+        "Graphics memory: VRAM (Video RAM)",
+        "GPU architecture: CUDA, OpenCL, DirectX",
+        "Graphics performance: FPS, resolution support",
+        "Multi-GPU setups: SLI, CrossFire",
+        "GPU cooling: Air cooling, liquid cooling",
+        "Graphics drivers and optimization"
+      ]
+    },
+    {
+      "title": "Motherboard",
+      "description": "Main circuit board and connectivity",
+      "points": [
+        "Chipset: Northbridge, Southbridge functionality",
+        "Socket types: CPU compatibility",
+        "RAM slots: Memory configuration",
+        "Expansion slots: PCIe, PCI slots",
+        "Storage connectors: SATA, M.2 slots",
+        "USB ports: USB 2.0, 3.0, 3.1, Type-C",
+        "Network connectivity: Ethernet, Wi-Fi",
+        "Audio: Onboard sound processing"
+      ]
+    },
+    {
+      "title": "Cooling Systems",
+      "description": "Thermal management and cooling solutions",
+      "points": [
+        "Air cooling: CPU coolers, case fans",
+        "Liquid cooling: AIO (All-in-One) coolers",
+        "Thermal paste: Heat transfer compound",
+        "Fan control: PWM (Pulse Width Modulation)",
+        "Temperature monitoring: Software and sensors",
+        "Overclocking cooling requirements",
+        "Noise levels: dB measurements",
+        "Cooling efficiency: CFM (Cubic Feet per Minute)"
+      ]
+    },
+    {
+      "title": "Power Supply",
+      "description": "Power delivery and efficiency",
+      "points": [
+        "Wattage: Power output capacity",
+        "Efficiency ratings: 80 Plus Bronze, Silver, Gold, Platinum",
+        "Modular vs non-modular designs",
+        "Power connectors: 24-pin, 8-pin EPS, PCIe",
+        "Power factor correction (PFC)",
+        "Voltage regulation: 12V, 5V, 3.3V rails",
+        "Overcurrent protection (OCP)",
+        "Power supply sizing for components"
+      ]
+    },
+    {
+      "title": "Networking Hardware",
+      "description": "Network connectivity and communication",
+      "points": [
+        "Ethernet: Wired network connections",
+        "Wi-Fi: Wireless network adapters",
+        "Network cards: PCIe, USB adapters",
+        "Router and switch hardware",
+        "Network cables: Cat5e, Cat6, Cat6a",
+        "Port forwarding: Network configuration",
+        "Bandwidth: Mbps, Gbps measurements",
+        "Latency: Network response times"
+      ]
+    },
+    {
+      "title": "Performance Optimization",
+      "description": "Hardware optimization for development",
+      "points": [
+        "CPU optimization: Multi-core utilization",
+        "Memory optimization: RAM allocation",
+        "Storage optimization: SSD vs HDD performance",
+        "GPU acceleration: CUDA, OpenCL programming",
+        "Thermal management: Temperature monitoring",
+        "Power management: Energy efficiency",
+        "Hardware monitoring: Performance metrics",
+        "Benchmarking: Performance testing tools"
+      ]
+    },
+    {
+      "title": "Development Considerations",
+      "description": "Hardware requirements for software development",
+      "points": [
+        "Minimum system requirements",
+        "Recommended specifications for development",
+        "Virtualization support: VT-x, AMD-V",
+        "Docker and containerization requirements",
+        "Database server hardware needs",
+        "Web server performance requirements",
+        "Mobile development hardware needs",
+        "Cloud development vs local development"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for hardware management",
+      "points": [
+        "Regular hardware maintenance and cleaning",
+        "Monitor system temperatures and performance",
+        "Keep drivers and firmware updated",
+        "Use appropriate cooling solutions",
+        "Plan for hardware upgrades and scalability",
+        "Implement proper power management",
+        "Use quality components and brands",
+        "Document hardware configurations",
+        "Implement backup and recovery strategies",
+        "Consider energy efficiency and environmental impact"
+      ]
+    }
+  ]
+}

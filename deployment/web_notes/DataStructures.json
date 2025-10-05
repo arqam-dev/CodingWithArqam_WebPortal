@@ -1,0 +1,254 @@
+{
+  "subject": "Data Structures",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of data structures and algorithms",
+      "points": [
+        "Data structures are ways of organizing data in computer memory",
+        "Algorithms are step-by-step procedures for solving problems",
+        "Essential for efficient software development",
+        "Foundation for computer science and programming",
+        "Help optimize performance and memory usage",
+        "Enable complex problem-solving capabilities"
+      ]
+    },
+    {
+      "title": "Why Learn Data Structures and Algorithms?",
+      "description": "Importance and applications of data structures",
+      "points": [
+        "Applications are getting complex and data-rich",
+        "Three common problems applications face:",
+        "Data Search: Finding items in large datasets (e.g., 1 million inventory items)",
+        "Processor Speed: Limited by data growth to billions of records",
+        "Multiple Requests: Thousands of users searching simultaneously on web servers",
+        "Performance optimization for large-scale applications",
+        "Memory management and efficiency",
+        "Scalability solutions for growing data"
+      ]
+    },
+    {
+      "title": "Applications of Data Structures and Algorithms",
+      "description": "Common operations performed on data structures",
+      "points": [
+        "Search: Finding specific data items",
+        "Sort: Arranging data in specific order",
+        "Insert: Adding new data items",
+        "Update: Modifying existing data",
+        "Delete: Removing data items",
+        "Traversal: Visiting all data items",
+        "Merging: Combining multiple data structures",
+        "Splitting: Dividing data structures"
+      ]
+    },
+    {
+      "title": "Foundation Terms",
+      "description": "Basic concepts in data structures",
+      "points": [
+        "Interface: Set of operations a data structure supports",
+        "Implementation: Internal representation and algorithms",
+        "Correctness: Data structure should implement interface correctly",
+        "Time Complexity: Execution time of operations should be minimal",
+        "Space Complexity: Memory usage should be minimal",
+        "Worst Case: Maximum time required for operation",
+        "Average Case: Expected time for operation",
+        "Best Case: Minimum time required for operation"
+      ]
+    },
+    {
+      "title": "Basic Terminology",
+      "description": "Fundamental terms in data structures",
+      "points": [
+        "Data: Values or set of values",
+        "Data Item: Single unit of values",
+        "Group Items: Data items divided into sub-items",
+        "Elementary Items: Data items that cannot be divided",
+        "Attribute: Properties of an entity",
+        "Entity: Object containing certain attributes",
+        "Entity Set: Entities with similar attributes",
+        "Field: Single elementary unit of information",
+        "Record: Collection of related data items",
+        "File: Collection of records"
+      ]
+    },
+    {
+      "title": "Linear Data Structures",
+      "description": "Data structures with linear arrangement",
+      "points": [
+        "Array: Fixed-size collection of elements",
+        "Linked List: Dynamic collection of nodes",
+        "Stack: Last In, First Out (LIFO) structure",
+        "Queue: First In, First Out (FIFO) structure",
+        "Deque: Double-ended queue",
+        "Priority Queue: Queue with priority ordering",
+        "String: Sequence of characters",
+        "Vector: Dynamic array with automatic resizing"
+      ],
+      "children": [
+        {
+          "title": "Array",
+          "description": "Fixed-size linear data structure",
+          "points": [
+            "Elements stored in contiguous memory locations",
+            "Index-based access (O(1) time complexity)",
+            "Fixed size determined at creation",
+            "Memory efficient for homogeneous data",
+            "Random access capability",
+            "Insertion/deletion can be expensive",
+            "Static memory allocation"
+          ]
+        },
+        {
+          "title": "Linked List",
+          "description": "Dynamic linear data structure",
+          "points": [
+            "Nodes connected via pointers/references",
+            "Dynamic size (can grow/shrink)",
+            "Sequential access (O(n) for search)",
+            "Efficient insertion/deletion at any position",
+            "Extra memory for storing pointers",
+            "Types: Singly, Doubly, Circular",
+            "No random access capability"
+          ]
+        },
+        {
+          "title": "Stack",
+          "description": "LIFO (Last In, First Out) data structure",
+          "points": [
+            "Operations: Push (add), Pop (remove), Peek (view top)",
+            "Top element is most recently added",
+            "Used in function calls, expression evaluation",
+            "Can be implemented using array or linked list",
+            "Applications: Undo operations, backtracking",
+            "Time complexity: O(1) for all operations"
+          ]
+        },
+        {
+          "title": "Queue",
+          "description": "FIFO (First In, First Out) data structure",
+          "points": [
+            "Operations: Enqueue (add), Dequeue (remove), Front (view)",
+            "First element added is first to be removed",
+            "Used in scheduling, breadth-first search",
+            "Can be implemented using array or linked list",
+            "Types: Simple, Circular, Priority, Deque",
+            "Time complexity: O(1) for enqueue/dequeue"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Non-Linear Data Structures",
+      "description": "Data structures with hierarchical or network arrangement",
+      "points": [
+        "Tree: Hierarchical structure with root and nodes",
+        "Binary Tree: Tree with at most two children per node",
+        "Binary Search Tree: Sorted binary tree",
+        "Heap: Complete binary tree with heap property",
+        "Graph: Collection of vertices and edges",
+        "Hash Table: Key-value pairs with hash function",
+        "Trie: Tree-like structure for strings",
+        "B-Tree: Self-balancing tree for databases"
+      ],
+      "children": [
+        {
+          "title": "Tree",
+          "description": "Hierarchical data structure",
+          "points": [
+            "Root: Top node with no parent",
+            "Leaf: Node with no children",
+            "Height: Longest path from root to leaf",
+            "Depth: Distance from root to specific node",
+            "Subtree: Tree formed by node and descendants",
+            "Traversal: Preorder, Inorder, Postorder",
+            "Applications: File systems, XML parsing"
+          ]
+        },
+        {
+          "title": "Binary Search Tree",
+          "description": "Sorted binary tree structure",
+          "points": [
+            "Left child < Parent < Right child",
+            "Efficient search, insert, delete operations",
+            "Average time complexity: O(log n)",
+            "Worst case: O(n) for skewed trees",
+            "Inorder traversal gives sorted sequence",
+            "Self-balancing variants: AVL, Red-Black trees",
+            "Applications: Database indexing, symbol tables"
+          ]
+        },
+        {
+          "title": "Graph",
+          "description": "Network of vertices and edges",
+          "points": [
+            "Vertex: Node in the graph",
+            "Edge: Connection between vertices",
+            "Directed/Undirected: Edges with/without direction",
+            "Weighted/Unweighted: Edges with/without weights",
+            "Representation: Adjacency matrix, adjacency list",
+            "Traversal: DFS (Depth-First), BFS (Breadth-First)",
+            "Applications: Social networks, maps, web pages"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sorting Algorithms",
+      "description": "Algorithms for arranging data in order",
+      "points": [
+        "Bubble Sort: Simple but inefficient O(n²)",
+        "Selection Sort: Find minimum and swap O(n²)",
+        "Insertion Sort: Insert elements in sorted position O(n²)",
+        "Merge Sort: Divide and conquer O(n log n)",
+        "Quick Sort: Partition and sort O(n log n) average",
+        "Heap Sort: Use heap data structure O(n log n)",
+        "Counting Sort: Count occurrences O(n+k)",
+        "Radix Sort: Sort by individual digits O(dn)"
+      ]
+    },
+    {
+      "title": "Searching Algorithms",
+      "description": "Algorithms for finding data items",
+      "points": [
+        "Linear Search: Check each element sequentially O(n)",
+        "Binary Search: Divide and search in sorted array O(log n)",
+        "Hash Search: Use hash table for O(1) average",
+        "Interpolation Search: Estimate position in sorted array",
+        "Exponential Search: Find range then binary search",
+        "Jump Search: Jump by fixed steps then linear search",
+        "Fibonacci Search: Use Fibonacci numbers for jumps"
+      ]
+    },
+    {
+      "title": "Time and Space Complexity",
+      "description": "Analysis of algorithm efficiency",
+      "points": [
+        "Big O Notation: Upper bound of time/space complexity",
+        "O(1): Constant time - best case",
+        "O(log n): Logarithmic time - very good",
+        "O(n): Linear time - good",
+        "O(n log n): Linearithmic time - acceptable",
+        "O(n²): Quadratic time - poor for large data",
+        "O(2ⁿ): Exponential time - very poor",
+        "Space complexity: Memory usage analysis",
+        "Trade-offs: Time vs space complexity"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Guidelines for data structure implementation",
+      "points": [
+        "Choose appropriate data structure for the problem",
+        "Consider time and space complexity requirements",
+        "Use built-in data structures when available",
+        "Implement custom data structures when needed",
+        "Test with various input sizes and edge cases",
+        "Document time and space complexity",
+        "Optimize for the most common operations",
+        "Consider memory constraints and performance requirements",
+        "Use consistent naming conventions",
+        "Handle edge cases and error conditions"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "subject": "Docker",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of Docker containerization platform",
+      "points": [
+        "Docker solves the 'works on my machine' problem",
+        "Ensures same environment across dev, test, and production",
+        "Uses host OS instead of guest OS (unlike VMs)",
+        "Applications run in lightweight containers",
+        "Containerization technology for application deployment",
+        "Enables microservices architecture",
+        "Simplifies application packaging and distribution"
+      ]
+    },
+    {
+      "title": "Docker Architecture",
+      "description": "Docker system architecture and components",
+      "points": [
+        "Host OS: Base operating system",
+        "Docker Engine: Runtime that manages containers",
+        "Containers: Lightweight, isolated application environments",
+        "Docker Images: Read-only templates for creating containers",
+        "Docker Hub: Cloud repository for Docker images",
+        "Docker Registry: Storage for Docker images",
+        "Dockerfile: Instructions for building Docker images"
+      ]
+    },
+    {
+      "title": "Docker Components",
+      "description": "Key Docker components and their functions",
+      "points": [
+        "Docker Images: Read-only templates used to create containers",
+        "Docker Containers: Runtime instances of Docker images",
+        "Dockerfile: Text file with instructions to build images",
+        "Docker Hub: Public/private repository for Docker images",
+        "Docker Registry: Storage component for Docker images",
+        "Docker Engine: Runtime that manages containers",
+        "Docker Compose: Tool for defining multi-container applications"
+      ]
+    },
+    {
+      "title": "Microservices Architecture",
+      "description": "Microservices pattern with Docker",
+      "points": [
+        "Small processes that communicate over network",
+        "Each service has single responsibility",
+        "Services communicate via APIs",
+        "Example: Online Shop microservices",
+        "User Accounts Service → Account Database",
+        "Product Catalog Service → Product Database",
+        "Order Processing Service → Order Database",
+        "Shopping Cart Service → Cart Database"
+      ]
+    },
+    {
+      "title": "Microservices Advantages",
+      "description": "Benefits of microservices architecture",
+      "points": [
+        "Easier to maintain individual services",
+        "Easy to update specific modules",
+        "Fault isolation: If one service fails, others continue",
+        "Independent scaling of services",
+        "Technology diversity: Different services can use different technologies",
+        "Team autonomy: Different teams can work on different services",
+        "Faster development and deployment cycles"
+      ]
+    },
+    {
+      "title": "Microservices Disadvantages",
+      "description": "Challenges with microservices architecture",
+      "points": [
+        "Resource wastage due to multiple containers",
+        "Increased complexity in distributed systems",
+        "Network latency between services",
+        "Data consistency challenges",
+        "Distributed system debugging difficulties",
+        "Service discovery and load balancing complexity",
+        "Monitoring and logging across multiple services"
+      ]
+    },
+    {
+      "title": "Docker vs Virtual Machines",
+      "description": "Comparison between Docker and VMs",
+      "points": [
+        "Docker: Uses host OS, lightweight, faster startup",
+        "VMs: Full guest OS, heavier, slower startup",
+        "Docker: Better resource utilization",
+        "VMs: Better isolation and security",
+        "Docker: Faster deployment and scaling",
+        "VMs: More traditional approach",
+        "Docker: Container-based virtualization",
+        "VMs: Hardware-based virtualization"
+      ]
+    },
+    {
+      "title": "Docker Workflow",
+      "description": "Typical Docker development workflow",
+      "points": [
+        "Create Dockerfile with application instructions",
+        "Build Docker image from Dockerfile",
+        "Push image to Docker Hub or registry",
+        "Pull image on target servers",
+        "Run containers from images",
+        "Deploy to staging and production environments",
+        "Monitor and manage running containers",
+        "Update and redeploy as needed"
+      ]
+    },
+    {
+      "title": "Docker Commands",
+      "description": "Essential Docker commands for development",
+      "points": [
+        "docker build: Build image from Dockerfile",
+        "docker run: Run container from image",
+        "docker pull: Download image from registry",
+        "docker push: Upload image to registry",
+        "docker images: List local images",
+        "docker ps: List running containers",
+        "docker stop: Stop running container",
+        "docker rm: Remove container",
+        "docker rmi: Remove image",
+        "docker exec: Execute command in running container"
+      ]
+    },
+    {
+      "title": "Dockerfile Best Practices",
+      "description": "Recommended practices for writing Dockerfiles",
+      "points": [
+        "Use specific base image versions",
+        "Minimize layers by combining RUN commands",
+        "Use .dockerignore to exclude unnecessary files",
+        "Run commands as non-root user when possible",
+        "Use multi-stage builds for smaller images",
+        "Cache dependencies appropriately",
+        "Keep images small and focused",
+        "Document Dockerfile with comments"
+      ]
+    },
+    {
+      "title": "Container Orchestration",
+      "description": "Managing multiple containers in production",
+      "points": [
+        "Docker Compose: Local multi-container applications",
+        "Kubernetes: Production container orchestration",
+        "Docker Swarm: Docker's native orchestration",
+        "Service discovery and load balancing",
+        "Health checks and auto-restart",
+        "Scaling containers up and down",
+        "Rolling updates and rollbacks",
+        "Resource management and limits"
+      ]
+    },
+    {
+      "title": "Docker Networking",
+      "description": "Network configuration for Docker containers",
+      "points": [
+        "Bridge network: Default network for containers",
+        "Host network: Container uses host's network",
+        "Overlay network: Multi-host container communication",
+        "Custom networks: User-defined network configurations",
+        "Port mapping: Expose container ports to host",
+        "Service discovery: Containers finding each other",
+        "Load balancing: Distribute traffic across containers",
+        "Security: Network isolation and policies"
+      ]
+    },
+    {
+      "title": "Docker Storage",
+      "description": "Data persistence and storage in Docker",
+      "points": [
+        "Volumes: Persistent data storage",
+        "Bind mounts: Mount host directories into containers",
+        "tmpfs mounts: Temporary file systems",
+        "Data containers: Containers for data persistence",
+        "Storage drivers: Different storage backends",
+        "Backup and restore strategies",
+        "Data migration between containers",
+        "Performance considerations for storage"
+      ]
+    },
+    {
+      "title": "Docker Security",
+      "description": "Security considerations for Docker containers",
+      "points": [
+        "Image security: Use trusted base images",
+        "Container isolation: Process and filesystem isolation",
+        "User permissions: Run containers as non-root",
+        "Network security: Secure container communication",
+        "Secrets management: Handle sensitive data securely",
+        "Vulnerability scanning: Regular security audits",
+        "Access control: Limit container privileges",
+        "Compliance: Meet security standards and regulations"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for Docker development",
+      "points": [
+        "Keep containers stateless when possible",
+        "Use official base images from Docker Hub",
+        "Implement proper logging and monitoring",
+        "Use environment variables for configuration",
+        "Implement health checks for containers",
+        "Use multi-stage builds for production images",
+        "Regular security updates and patches",
+        "Document container configurations",
+        "Test containers in different environments",
+        "Implement proper backup and recovery procedures"
+      ]
+    }
+  ]
+}

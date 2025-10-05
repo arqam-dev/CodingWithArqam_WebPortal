@@ -1,0 +1,164 @@
+{
+  "subject": "AWS Amplify",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of AWS Amplify platform",
+      "points": [
+        "AWS Amplify is similar to Firebase",
+        "Full-stack development platform for web and mobile applications",
+        "Provides backend services and frontend libraries",
+        "Simplifies cloud application development",
+        "Supports multiple frameworks and platforms",
+        "Integrated with AWS services",
+        "Enables rapid application development"
+      ]
+    },
+    {
+      "title": "Amplify Commands",
+      "description": "Essential AWS Amplify CLI commands",
+      "points": [
+        "amplify init: Initialize new Amplify project",
+        "amplify status: Check current project status",
+        "amplify env list: List all environments",
+        "amplify env checkout <env-name>: Switch between environments",
+        "amplify add function: Add serverless function",
+        "amplify mock function <function-name>: Test function locally",
+        "amplify console api: Open API console",
+        "amplify update api: Update API configuration"
+      ]
+    },
+    {
+      "title": "AWS Services Integration",
+      "description": "AWS services used with Amplify",
+      "points": [
+        "EC2: Elastic Compute Cloud for virtual servers",
+        "RDS: Relational Database Service",
+        "DynamoDB: NoSQL database service",
+        "S3: Simple Storage Service for file storage",
+        "CloudWatch: Monitoring and logging service",
+        "CloudFront: Content delivery network",
+        "Lambda: Serverless compute service",
+        "AppSync: GraphQL API service",
+        "Cognito: User authentication and management",
+        "IAM: Identity and Access Management",
+        "Step Functions: Workflow orchestration",
+        "API Gateway: RESTful API management",
+        "SNS: Simple Notification Service",
+        "SES: Simple Email Service",
+        "SQS: Simple Queue Service"
+      ]
+    },
+    {
+      "title": "Project Configuration",
+      "description": "Amplify project setup and configuration",
+      "points": [
+        "Environment management: Development, staging, production",
+        "User groups and permissions configuration",
+        "IAM policies for service access",
+        "Environment-specific configurations",
+        "Deployment strategies for different environments",
+        "Resource tagging and organization",
+        "Cost management and monitoring"
+      ]
+    },
+    {
+      "title": "Build Scripts",
+      "description": "Angular build and deployment scripts",
+      "points": [
+        "Memory optimization: --max_old_space_size=8048",
+        "Environment-specific builds: dev, qa, stage, production",
+        "Production builds with optimization",
+        "AWS S3 deployment: aws s3 cp ./dist s3://bucket --recursive",
+        "Linting: ESLint for client and backend code",
+        "Testing: Unit tests and end-to-end tests",
+        "Schema updates: GraphQL compilation and code generation"
+      ]
+    },
+    {
+      "title": "GraphQL Integration",
+      "description": "GraphQL API development with Amplify",
+      "points": [
+        "Schema definition: schema.graphql file",
+        "API service generation: API.service.ts",
+        "Mutations: mutation.graphql for data modifications",
+        "Queries: queries.graphql for data retrieval",
+        "Subscriptions: subscriptions.graphql for real-time updates",
+        "Code generation: Automatic TypeScript types",
+        "API testing: GraphQL playground and testing tools"
+      ]
+    },
+    {
+      "title": "Authentication",
+      "description": "User authentication with AWS Cognito",
+      "points": [
+        "User registration and login",
+        "Social authentication providers",
+        "Multi-factor authentication (MFA)",
+        "User pools and identity pools",
+        "JWT token management",
+        "Role-based access control (RBAC)",
+        "Password policies and security",
+        "User management and administration"
+      ]
+    },
+    {
+      "title": "Storage",
+      "description": "File storage and management",
+      "points": [
+        "S3 bucket configuration",
+        "File upload and download",
+        "Image and video processing",
+        "CDN integration with CloudFront",
+        "Access control and permissions",
+        "File versioning and lifecycle management",
+        "Backup and disaster recovery",
+        "Cost optimization strategies"
+      ]
+    },
+    {
+      "title": "Serverless Functions",
+      "description": "AWS Lambda functions with Amplify",
+      "points": [
+        "Function creation and configuration",
+        "Event triggers and scheduling",
+        "Environment variables and secrets",
+        "Cold start optimization",
+        "Monitoring and logging",
+        "Error handling and debugging",
+        "Performance optimization",
+        "Cost management"
+      ]
+    },
+    {
+      "title": "Deployment",
+      "description": "Application deployment strategies",
+      "points": [
+        "Environment-specific deployments",
+        "CI/CD pipeline integration",
+        "Blue-green deployments",
+        "Rollback strategies",
+        "Health checks and monitoring",
+        "Performance testing",
+        "Security scanning and compliance",
+        "Documentation and change management"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for AWS Amplify development",
+      "points": [
+        "Use environment-specific configurations",
+        "Implement proper error handling",
+        "Monitor costs and usage",
+        "Follow security best practices",
+        "Use version control for all configurations",
+        "Test in multiple environments",
+        "Document API endpoints and schemas",
+        "Implement proper logging and monitoring",
+        "Use infrastructure as code",
+        "Regular security audits and updates"
+      ]
+    }
+  ]
+}

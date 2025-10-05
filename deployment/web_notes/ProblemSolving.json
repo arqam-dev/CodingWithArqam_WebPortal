@@ -1,0 +1,206 @@
+{
+  "subject": "Problem Solving",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of problem-solving approaches in programming",
+      "points": [
+        "Problem-solving is a systematic approach to finding solutions",
+        "Involves breaking down complex problems into smaller parts",
+        "Requires understanding of data structures and algorithms",
+        "Essential skill for software development and technical interviews",
+        "Combines logical thinking with programming knowledge",
+        "Foundation for efficient and scalable solutions"
+      ]
+    },
+    {
+      "title": "Problem-Solving Approaches",
+      "description": "Different methodologies for solving programming problems",
+      "points": [
+        "Incremental Approach: Using single and nested loops",
+        "Decrease and Conquer: Reduce problem size step by step",
+        "Binary Search: Efficient searching in sorted data",
+        "Divide and Conquer: Break problem into smaller subproblems",
+        "Two Pointers: Use two pointers to traverse data",
+        "Dynamic Programming: Solve overlapping subproblems",
+        "Greedy Approach: Make locally optimal choices",
+        "Backtracking: Exhaustive search with pruning",
+        "Bit Manipulation: Use bitwise operations for optimization"
+      ]
+    },
+    {
+      "title": "Incremental Approach",
+      "description": "Solving problems using loops and iteration",
+      "points": [
+        "Use single loops for linear problems",
+        "Use nested loops for multi-dimensional problems",
+        "Iterate through data structures systematically",
+        "Build solution incrementally",
+        "Examples: Array traversal, matrix operations",
+        "Time complexity: O(n) for single loop, O(n²) for nested loops",
+        "Space complexity: Usually O(1) for in-place operations"
+      ]
+    },
+    {
+      "title": "Decrease and Conquer",
+      "description": "Reduce problem size at each step",
+      "points": [
+        "Reduce problem size by constant factor",
+        "Solve smaller version of the same problem",
+        "Examples: Binary search, quick select",
+        "Time complexity: O(log n) for binary search",
+        "Space complexity: O(log n) for recursive implementation",
+        "Efficient for sorted data and selection problems"
+      ]
+    },
+    {
+      "title": "Binary Search",
+      "description": "Efficient searching in sorted data",
+      "points": [
+        "Works on sorted arrays or data structures",
+        "Time complexity: O(log n)",
+        "Space complexity: O(1) for iterative, O(log n) for recursive",
+        "Divide search space in half at each step",
+        "Applications: Finding elements, insertion points, ranges",
+        "Variations: Lower bound, upper bound, rotated arrays",
+        "Implementation: Iterative and recursive approaches"
+      ]
+    },
+    {
+      "title": "Divide and Conquer",
+      "description": "Break problem into smaller subproblems",
+      "points": [
+        "Divide: Split problem into smaller parts",
+        "Conquer: Solve subproblems recursively",
+        "Combine: Merge solutions of subproblems",
+        "Examples: Merge sort, quick sort, binary tree operations",
+        "Time complexity: O(n log n) for many problems",
+        "Space complexity: O(log n) for recursion stack",
+        "Efficient for problems with optimal substructure"
+      ]
+    },
+    {
+      "title": "Two Pointers",
+      "description": "Use two pointers to traverse data efficiently",
+      "points": [
+        "Left and right pointers for array problems",
+        "Fast and slow pointers for cycle detection",
+        "Sliding window technique",
+        "Examples: Two sum, palindrome checking, cycle detection",
+        "Time complexity: Usually O(n)",
+        "Space complexity: O(1)",
+        "Efficient for sorted arrays and linked lists"
+      ]
+    },
+    {
+      "title": "Dynamic Programming",
+      "description": "Solve overlapping subproblems efficiently",
+      "points": [
+        "Memoization: Store results of subproblems",
+        "Tabulation: Build solution bottom-up",
+        "Optimal substructure: Optimal solution contains optimal subproblems",
+        "Examples: Fibonacci, longest common subsequence, knapsack",
+        "Time complexity: O(n²) to O(n³) for many problems",
+        "Space complexity: O(n) to O(n²)",
+        "Efficient for optimization problems"
+      ]
+    },
+    {
+      "title": "Greedy Approach",
+      "description": "Make locally optimal choices at each step",
+      "points": [
+        "Make best choice at current step",
+        "Don't reconsider previous choices",
+        "Examples: Activity selection, Huffman coding, minimum spanning tree",
+        "Time complexity: Usually O(n log n) for sorting",
+        "Space complexity: Usually O(1)",
+        "Not always optimal, but often efficient",
+        "Requires proof of correctness"
+      ]
+    },
+    {
+      "title": "Backtracking",
+      "description": "Exhaustive search with pruning",
+      "points": [
+        "Systematically explore all possible solutions",
+        "Prune branches that cannot lead to solution",
+        "Examples: N-queens, sudoku solver, permutation generation",
+        "Time complexity: Exponential in worst case",
+        "Space complexity: O(depth of recursion)",
+        "Use recursion and undo choices when backtracking",
+        "Efficient with good pruning strategies"
+      ]
+    },
+    {
+      "title": "Bit Manipulation",
+      "description": "Use bitwise operations for optimization",
+      "points": [
+        "Bitwise AND, OR, XOR operations",
+        "Bit shifting for multiplication/division by powers of 2",
+        "Examples: Power of 2, single number, bit counting",
+        "Time complexity: O(1) for many operations",
+        "Space complexity: O(1)",
+        "Memory efficient for large datasets",
+        "Useful for optimization and mathematical problems"
+      ]
+    },
+    {
+      "title": "Algorithm Examples",
+      "description": "Common algorithms and their implementations",
+      "points": [
+        "Roman to Integer: Convert Roman numerals to integers",
+        "Two Sum: Find two numbers that add up to target",
+        "Reverse String: Reverse characters in string",
+        "Valid Parentheses: Check if parentheses are balanced",
+        "Merge Sorted Arrays: Combine two sorted arrays",
+        "Binary Tree Traversal: Inorder, preorder, postorder",
+        "Graph Algorithms: DFS, BFS, shortest path",
+        "Sorting Algorithms: Quick sort, merge sort, heap sort"
+      ]
+    },
+    {
+      "title": "Problem-Solving Process",
+      "description": "Systematic approach to solving problems",
+      "points": [
+        "Understand the problem: Read and analyze requirements",
+        "Identify patterns: Look for familiar problem types",
+        "Choose approach: Select appropriate algorithm/technique",
+        "Implement solution: Write clean, efficient code",
+        "Test solution: Verify with test cases",
+        "Optimize: Improve time/space complexity if needed",
+        "Document: Explain approach and complexity",
+        "Practice: Solve similar problems to build intuition"
+      ]
+    },
+    {
+      "title": "Complexity Analysis",
+      "description": "Analyzing time and space complexity",
+      "points": [
+        "Time Complexity: How runtime scales with input size",
+        "Space Complexity: How memory usage scales with input size",
+        "Big O Notation: Upper bound of complexity",
+        "Common complexities: O(1), O(log n), O(n), O(n log n), O(n²)",
+        "Best Case: Minimum time/space required",
+        "Average Case: Expected time/space for random input",
+        "Worst Case: Maximum time/space required",
+        "Trade-offs: Time vs space complexity"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for problem solving",
+      "points": [
+        "Start with brute force, then optimize",
+        "Use appropriate data structures",
+        "Handle edge cases and error conditions",
+        "Write clean, readable code",
+        "Test with multiple test cases",
+        "Consider time and space constraints",
+        "Document your approach and reasoning",
+        "Practice regularly to build intuition",
+        "Learn from solutions and explanations",
+        "Focus on understanding, not memorization"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "subject": "Android Development",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of Android development platform",
+      "points": [
+        "Android is an open-source, Linux-based operating system",
+        "Led by Google and developed in Java",
+        "Uses Android Software Development Kit (SDK)",
+        "Supports multiple programming languages (Java, Kotlin, C++)",
+        "Large developer community and ecosystem",
+        "Wide range of devices and screen sizes",
+        "Google Play Store for app distribution"
+      ]
+    },
+    {
+      "title": "Android Components",
+      "description": "Core components of Android applications",
+      "points": [
+        "Activities: UI screens that handle user interaction",
+        "Services: Background processing for long-running operations",
+        "Broadcast Receivers: Handle communication between OS and apps",
+        "Content Providers: Manage data and database operations",
+        "Fragments: Portions of user interface within activities",
+        "Views: UI elements like buttons, lists, forms",
+        "Layouts: View hierarchies controlling screen format",
+        "Intents: Messages that wire components together"
+      ]
+    },
+    {
+      "title": "Activities",
+      "description": "Android activity lifecycle and management",
+      "points": [
+        "Activity represents a single screen with user interface",
+        "Each activity is a subclass of Activity class",
+        "Activities handle user interaction and screen navigation",
+        "Examples: Login screen, registration screen, main menu",
+        "Activity lifecycle callbacks: onCreate, onStart, onResume, onPause, onStop, onDestroy, onRestart",
+        "onCreate: First callback when activity is created",
+        "onStart: Called when activity becomes visible",
+        "onResume: Called when user starts interacting",
+        "onPause: Called when activity is paused",
+        "onStop: Called when activity is no longer visible",
+        "onDestroy: Called before activity is destroyed",
+        "onRestart: Called when activity restarts after stopping"
+      ]
+    },
+    {
+      "title": "Services",
+      "description": "Background processing in Android",
+      "points": [
+        "Services handle background processing",
+        "Perform long-running operations without UI",
+        "Implemented as subclass of Service class",
+        "Types: Started services, bound services, foreground services",
+        "Started services: Run until completion or stopped",
+        "Bound services: Allow components to bind and interact",
+        "Foreground services: Visible to user with notification",
+        "Lifecycle: onCreate, onStartCommand, onBind, onDestroy"
+      ]
+    },
+    {
+      "title": "User Interface",
+      "description": "Android UI components and layouts",
+      "points": [
+        "Views: Basic UI elements (Button, TextView, EditText)",
+        "ViewGroups: Containers that hold other views (LinearLayout, ConstraintLayout)",
+        "Widgets: Interactive UI elements",
+        "Layouts: Define structure and appearance of views",
+        "LinearLayout: Arranges views in single direction",
+        "RelativeLayout: Positions views relative to each other",
+        "ConstraintLayout: Flexible layout with constraints",
+        "GridLayout: Arranges views in grid pattern",
+        "FrameLayout: Stacks views on top of each other"
+      ]
+    },
+    {
+      "title": "Fragments",
+      "description": "Reusable UI components in Android",
+      "points": [
+        "Fragments represent portions of user interface",
+        "Can be reused across multiple activities",
+        "Have their own lifecycle independent of activities",
+        "Useful for tablet layouts and dynamic UI",
+        "Fragment lifecycle: onAttach, onCreate, onCreateView, onActivityCreated, onStart, onResume, onPause, onStop, onDestroyView, onDestroy, onDetach",
+        "Communication with activities via interfaces",
+        "Fragment transactions for adding/removing fragments"
+      ]
+    },
+    {
+      "title": "Intents",
+      "description": "Inter-component communication in Android",
+      "points": [
+        "Intents are messages that wire components together",
+        "Allow coordination between different activities",
+        "Types: Explicit intents (specific component), Implicit intents (action-based)",
+        "Intent filters: Declare what intents components can handle",
+        "Data passing: Extras for passing data between components",
+        "Intent actions: ACTION_VIEW, ACTION_SEND, ACTION_CALL, etc.",
+        "Intent categories: CATEGORY_LAUNCHER, CATEGORY_DEFAULT, etc.",
+        "Pending intents: Intents to be executed later"
+      ]
+    },
+    {
+      "title": "Data Storage",
+      "description": "Data persistence options in Android",
+      "points": [
+        "SharedPreferences: Key-value pairs for simple data",
+        "Internal Storage: Private files on device",
+        "External Storage: Public files accessible by other apps",
+        "SQLite Database: Relational database for complex data",
+        "Content Providers: Share data between applications",
+        "Room Database: Abstraction layer over SQLite",
+        "File I/O: Reading and writing files",
+        "Data backup and restore strategies"
+      ]
+    },
+    {
+      "title": "Networking",
+      "description": "Network communication in Android apps",
+      "points": [
+        "HTTP requests for web API communication",
+        "Retrofit: Type-safe HTTP client for Android",
+        "Volley: HTTP library for Android",
+        "OkHttp: HTTP client library",
+        "JSON parsing: Gson, Jackson, org.json",
+        "RESTful API integration",
+        "Network security: HTTPS, certificate pinning",
+        "Offline data caching strategies"
+      ]
+    },
+    {
+      "title": "Permissions",
+      "description": "Android permission system",
+      "points": [
+        "Runtime permissions: Requested at runtime (Android 6.0+)",
+        "Normal permissions: Automatically granted",
+        "Dangerous permissions: Require user approval",
+        "Permission groups: Related permissions grouped together",
+        "Permission checking: ContextCompat.checkSelfPermission()",
+        "Permission requesting: ActivityCompat.requestPermissions()",
+        "Permission results: onRequestPermissionsResult()",
+        "Common permissions: CAMERA, LOCATION, STORAGE, INTERNET"
+      ]
+    },
+    {
+      "title": "Material Design",
+      "description": "Google's design language for Android",
+      "points": [
+        "Material Design: Google's design language",
+        "Material Components: Pre-built UI components",
+        "Material Theming: Customizable color, typography, shape",
+        "Material Icons: Consistent iconography",
+        "Material Motion: Meaningful motion and transitions",
+        "Material Guidelines: Design principles and patterns",
+        "Material Design 3: Latest version with updated components",
+        "Accessibility: Inclusive design principles"
+      ]
+    },
+    {
+      "title": "Testing",
+      "description": "Testing strategies for Android applications",
+      "points": [
+        "Unit Testing: Test individual components in isolation",
+        "Integration Testing: Test component interactions",
+        "UI Testing: Test user interface interactions",
+        "Espresso: UI testing framework for Android",
+        "JUnit: Unit testing framework",
+        "Mockito: Mocking framework for Java",
+        "Robolectric: Unit testing for Android",
+        "Test-driven development (TDD) practices"
+      ]
+    },
+    {
+      "title": "Performance Optimization",
+      "description": "Techniques for optimizing Android app performance",
+      "points": [
+        "Memory Management: Avoid memory leaks and optimize usage",
+        "UI Performance: Smooth 60fps animations and scrolling",
+        "Battery Optimization: Minimize background processing",
+        "Network Optimization: Efficient API calls and caching",
+        "Image Optimization: Proper image loading and caching",
+        "ProGuard: Code obfuscation and optimization",
+        "APK Size: Minimize app size for faster downloads",
+        "Profiling: Use Android Studio profiler tools"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for Android development",
+      "points": [
+        "Follow Android design guidelines and Material Design",
+        "Implement proper error handling and user feedback",
+        "Use appropriate data storage for different data types",
+        "Handle different screen sizes and orientations",
+        "Implement proper lifecycle management",
+        "Use dependency injection for better testability",
+        "Follow security best practices",
+        "Optimize for performance and battery life",
+        "Test on multiple devices and Android versions",
+        "Keep up with Android updates and new features"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "subject": "Project Management (PMP)",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of Project Management Professional (PMP) concepts",
+      "points": [
+        "PMP is a globally recognized project management certification",
+        "Based on PMI (Project Management Institute) standards",
+        "Covers project management best practices and methodologies",
+        "Essential for project managers and team leaders",
+        "Includes agile and traditional project management approaches",
+        "Focuses on project lifecycle and stakeholder management",
+        "Emphasizes quality, scope, time, and cost management"
+      ]
+    },
+    {
+      "title": "Agile Framework",
+      "description": "Agile project management principles and practices",
+      "points": [
+        "Agile is an umbrella term, not a methodology itself",
+        "Emphasizes iterative development and collaboration",
+        "Sprint duration: Minimum 3 weeks (Google, Microsoft standard)",
+        "Software artifacts: Packages and deliverables",
+        "Testable code: Includes unit testing requirements",
+        "Customer collaboration over contract negotiation",
+        "Responding to change over following a plan",
+        "Working software over comprehensive documentation"
+      ]
+    },
+    {
+      "title": "Scrum Framework",
+      "description": "Scrum methodology for agile project management",
+      "points": [
+        "Product Owner: Responsible for overall product success",
+        "Development Team: Developers and testers working together",
+        "Scrum Master: Facilitates the scrum process",
+        "Sprint Planning: Planning each iteration",
+        "Sprint Backlog: Tasks broken down from product backlog",
+        "Sprint Duration: 1 week to 1 month iterations",
+        "Daily Scrum: 15-minute team meetings",
+        "Sprint Review: Meeting with product owner",
+        "Sprint Retrospective: Process improvement discussions"
+      ]
+    },
+    {
+      "title": "Extreme Programming (XP)",
+      "description": "XP methodology for agile development",
+      "points": [
+        "Emphasizes technical practices and teamwork",
+        "Customer works closely with development team",
+        "Core Values: Simplicity, Communication, Feedback, Respect, Courage",
+        "Technical practices: Test-driven development, pair programming",
+        "Continuous integration and deployment",
+        "Refactoring and code quality",
+        "Collective code ownership",
+        "Sustainable development pace"
+      ]
+    },
+    {
+      "title": "Lean Methodology",
+      "description": "Lean principles for project management",
+      "points": [
+        "Also known as 'Just-in-time' production",
+        "Eliminating Waste: Remove non-value activities",
+        "Amplifying Learning: Continuous improvement",
+        "Deciding as Late as Possible: Delay decisions until necessary",
+        "Delivering as Fast as Possible: Rapid delivery cycles",
+        "Empowering the Team: Team autonomy and decision-making",
+        "Building Integrity In: Quality built into process",
+        "Seeing the Whole: Systems thinking approach"
+      ]
+    },
+    {
+      "title": "Other Agile Frameworks",
+      "description": "Additional agile methodologies",
+      "points": [
+        "Kanban: Visual workflow management",
+        "Crystal: Lightweight methodology family",
+        "DSDM: Dynamic Systems Development Method",
+        "FDD: Feature-Driven Development",
+        "SAFe: Scaled Agile Framework",
+        "LeSS: Large-Scale Scrum",
+        "Nexus: Scaled Professional Scrum",
+        "Disciplined Agile: Hybrid approach"
+      ]
+    },
+    {
+      "title": "Project Lifecycle",
+      "description": "Traditional project management phases",
+      "points": [
+        "Initiation: Project charter and stakeholder identification",
+        "Planning: Scope, schedule, budget, and resource planning",
+        "Execution: Project work and team management",
+        "Monitoring and Controlling: Performance tracking",
+        "Closing: Project completion and lessons learned",
+        "Each phase has specific deliverables and processes",
+        "Continuous stakeholder engagement throughout",
+        "Risk management across all phases"
+      ]
+    },
+    {
+      "title": "Knowledge Areas",
+      "description": "PMI knowledge areas for project management",
+      "points": [
+        "Integration Management: Coordinating all project elements",
+        "Scope Management: Defining and controlling project scope",
+        "Schedule Management: Time planning and control",
+        "Cost Management: Budget planning and control",
+        "Quality Management: Quality planning and assurance",
+        "Resource Management: Human and physical resources",
+        "Communications Management: Information distribution",
+        "Risk Management: Risk identification and mitigation",
+        "Procurement Management: Contracting and purchasing",
+        "Stakeholder Management: Stakeholder engagement"
+      ]
+    },
+    {
+      "title": "Stakeholder Management",
+      "description": "Managing project stakeholders effectively",
+      "points": [
+        "Stakeholder Identification: Who are the stakeholders",
+        "Stakeholder Analysis: Power, interest, and influence mapping",
+        "Stakeholder Engagement: Communication and involvement strategies",
+        "Stakeholder Register: Document stakeholder information",
+        "Communication Plans: How and when to communicate",
+        "Expectation Management: Managing stakeholder expectations",
+        "Conflict Resolution: Addressing stakeholder conflicts",
+        "Stakeholder Satisfaction: Measuring and improving satisfaction"
+      ]
+    },
+    {
+      "title": "Risk Management",
+      "description": "Project risk identification and mitigation",
+      "points": [
+        "Risk Identification: Finding potential project risks",
+        "Risk Analysis: Qualitative and quantitative analysis",
+        "Risk Assessment: Probability and impact evaluation",
+        "Risk Response Planning: Mitigation, avoidance, transfer, acceptance",
+        "Risk Monitoring: Ongoing risk tracking",
+        "Risk Register: Document all identified risks",
+        "Contingency Planning: Backup plans for high-impact risks",
+        "Lessons Learned: Risk management improvement"
+      ]
+    },
+    {
+      "title": "Quality Management",
+      "description": "Ensuring project quality standards",
+      "points": [
+        "Quality Planning: Defining quality standards",
+        "Quality Assurance: Process improvement",
+        "Quality Control: Deliverable inspection",
+        "Quality Metrics: Measuring quality performance",
+        "Continuous Improvement: Process enhancement",
+        "Quality Audits: Regular quality reviews",
+        "Customer Satisfaction: Meeting stakeholder needs",
+        "Quality Documentation: Standards and procedures"
+      ]
+    },
+    {
+      "title": "Communication Management",
+      "description": "Effective project communication strategies",
+      "points": [
+        "Communication Planning: Who, what, when, how",
+        "Information Distribution: Sharing project information",
+        "Performance Reporting: Status and progress updates",
+        "Stakeholder Communication: Targeted messaging",
+        "Meeting Management: Effective meeting facilitation",
+        "Documentation: Project documentation standards",
+        "Communication Tools: Technology and platforms",
+        "Feedback Mechanisms: Two-way communication"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for project management",
+      "points": [
+        "Use appropriate methodology for project type",
+        "Maintain clear project documentation",
+        "Regular stakeholder communication",
+        "Proactive risk management",
+        "Continuous monitoring and control",
+        "Team development and motivation",
+        "Lessons learned documentation",
+        "Professional development and certification",
+        "Ethical project management practices",
+        "Adapt to changing project requirements"
+      ]
+    }
+  ]
+}

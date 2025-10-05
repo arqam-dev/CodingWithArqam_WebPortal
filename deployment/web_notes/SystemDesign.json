@@ -1,0 +1,181 @@
+{
+  "subject": "System Design",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of system design principles and concepts",
+      "points": [
+        "System design is the process of defining system architecture",
+        "Involves designing scalable, reliable, and maintainable systems",
+        "Essential for large-scale applications and distributed systems",
+        "Combines software engineering and architecture principles",
+        "Focuses on performance, scalability, and reliability",
+        "Important for technical interviews and system architecture roles",
+        "Covers both functional and non-functional requirements"
+      ]
+    },
+    {
+      "title": "Design Patterns",
+      "description": "Essential design patterns for system architecture",
+      "points": [
+        "Creational Patterns (5): Object instantiation patterns",
+        "Structural Patterns (7): Class structure and composition",
+        "Behavioral Patterns (11): Class interaction patterns",
+        "Abstract Factory: Create families of related objects",
+        "Factory Method: Create objects without specifying exact class",
+        "Builder: Construct complex objects step by step",
+        "Prototype: Clone existing objects",
+        "Singleton: Ensure single instance of class"
+      ]
+    },
+    {
+      "title": "Creational Patterns",
+      "description": "Design patterns for object creation",
+      "points": [
+        "Abstract Factory: Create families of related objects",
+        "Factory Method: Create objects without specifying exact class",
+        "Builder: Construct complex objects step by step",
+        "Prototype: Clone existing objects",
+        "Singleton: Ensure single instance of class",
+        "Object Pool: Reuse expensive objects",
+        "Dependency Injection: Invert control of object creation",
+        "Factory: Create objects based on parameters"
+      ]
+    },
+    {
+      "title": "Structural Patterns",
+      "description": "Design patterns for class structure and composition",
+      "points": [
+        "Adapter: Make incompatible interfaces work together",
+        "Bridge: Separate abstraction from implementation",
+        "Composite: Treat individual and composite objects uniformly",
+        "Decorator: Add behavior to objects dynamically",
+        "Facade: Provide simplified interface to complex subsystem",
+        "Flyweight: Share common state between objects",
+        "Proxy: Provide placeholder for another object",
+        "Module: Encapsulate related functionality"
+      ]
+    },
+    {
+      "title": "Behavioral Patterns",
+      "description": "Design patterns for class interaction and behavior",
+      "points": [
+        "Chain of Responsibility: Pass requests along chain of handlers",
+        "Command: Encapsulate requests as objects",
+        "Interpreter: Define grammar and interpreter",
+        "Iterator: Access elements of aggregate sequentially",
+        "Mediator: Define how objects interact",
+        "Observer: Notify multiple objects of changes",
+        "State: Allow object to alter behavior when state changes",
+        "Strategy: Define family of algorithms and make them interchangeable",
+        "Template Method: Define algorithm skeleton",
+        "Visitor: Add operations to object structure",
+        "Memento: Capture and restore object state"
+      ]
+    },
+    {
+      "title": "Design Principles",
+      "description": "Fundamental principles for good system design",
+      "points": [
+        "Divide and Conquer: Break complex problems into smaller parts",
+        "Increase Cohesion: Keep related functionality together",
+        "Reducing Coupling: Minimize dependencies between modules",
+        "Increase Abstraction: Use interfaces and abstract classes",
+        "Increase Reusability: Follow DRY (Don't Repeat Yourself)",
+        "Design for Flexibility: Allow for future changes",
+        "Anticipate Obsolescence: Plan for technology changes",
+        "Design for Portability: Ensure cross-platform compatibility",
+        "Design for Testability: Make systems easy to test",
+        "Design Defensively: Handle errors and edge cases"
+      ]
+    },
+    {
+      "title": "Application Scaling",
+      "description": "Strategies for scaling applications",
+      "points": [
+        "Horizontal Scaling: Add more servers/instances",
+        "Vertical Scaling: Increase server resources",
+        "Load Balancing: Distribute traffic across servers",
+        "Caching: Store frequently accessed data",
+        "Database Optimization: Improve database performance",
+        "CDN: Content delivery networks for global reach",
+        "Microservices: Break monolith into smaller services",
+        "Auto-scaling: Automatically adjust resources based on demand"
+      ]
+    },
+    {
+      "title": "Database Scaling",
+      "description": "Database scaling strategies and techniques",
+      "points": [
+        "Database Replication: Copy data to multiple databases",
+        "Master-Slave Replication: Primary database for writes, slaves for reads",
+        "Sharding: Split large database into smaller pieces",
+        "Horizontal Partitioning: Distribute data across multiple servers",
+        "Vertical Partitioning: Split tables by columns",
+        "Read Replicas: Distribute read operations",
+        "Database Clustering: Multiple database instances",
+        "Caching Layers: Reduce database load with caching"
+      ]
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Distributing traffic across multiple servers",
+      "points": [
+        "Round Robin: Distribute requests evenly",
+        "Least Connections: Route to server with fewest connections",
+        "Weighted Round Robin: Assign weights to servers",
+        "IP Hash: Route based on client IP",
+        "Health Checks: Monitor server health",
+        "Session Persistence: Maintain user sessions",
+        "Geographic Distribution: Route based on location",
+        "Load Balancer Types: Hardware, software, cloud-based"
+      ]
+    },
+    {
+      "title": "Caching Strategies",
+      "description": "Implementing effective caching systems",
+      "points": [
+        "Application-Level Caching: Cache within application",
+        "Database Caching: Cache database queries",
+        "CDN Caching: Cache static content globally",
+        "Redis: In-memory data structure store",
+        "Memcached: Distributed memory caching",
+        "Cache Invalidation: Remove outdated cache entries",
+        "Cache-Aside: Application manages cache",
+        "Write-Through: Write to cache and database",
+        "Write-Behind: Write to cache, sync to database later"
+      ]
+    },
+    {
+      "title": "Microservices Architecture",
+      "description": "Designing distributed systems with microservices",
+      "points": [
+        "Service Decomposition: Break monolith into services",
+        "API Gateway: Single entry point for services",
+        "Service Discovery: Find and communicate with services",
+        "Load Balancing: Distribute requests across services",
+        "Circuit Breaker: Prevent cascade failures",
+        "Bulkhead: Isolate resources for services",
+        "Saga Pattern: Manage distributed transactions",
+        "Event Sourcing: Store events instead of state",
+        "CQRS: Separate read and write models"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for system design",
+      "points": [
+        "Start with requirements and constraints",
+        "Design for scalability from the beginning",
+        "Use appropriate design patterns",
+        "Implement proper error handling",
+        "Plan for monitoring and logging",
+        "Consider security implications",
+        "Design for testability",
+        "Document architecture decisions",
+        "Plan for maintenance and updates",
+        "Consider cost and resource optimization"
+      ]
+    }
+  ]
+}

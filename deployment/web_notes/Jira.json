@@ -1,0 +1,154 @@
+{
+  "subject": "Jira",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of Jira project management tool",
+      "points": [
+        "Jira is a project management and issue tracking tool",
+        "Developed by Atlassian",
+        "Widely used in software development and agile teams",
+        "Supports agile methodologies like Scrum and Kanban",
+        "Enables team collaboration and workflow management",
+        "Integrates with other development tools",
+        "Provides comprehensive project visibility"
+      ]
+    },
+    {
+      "title": "Issue Types",
+      "description": "Different types of issues and tasks in Jira",
+      "points": [
+        "Build Delivery: Software build and deployment tasks",
+        "Bug: Software defects and issues",
+        "Client Reported Bug: Issues reported by end users",
+        "New Feature: New functionality development",
+        "Story: User story implementation",
+        "Change Request: Modifications to existing features",
+        "QA Suggestion: Quality assurance recommendations",
+        "Epic: Large feature or initiative",
+        "Testing Report: Test results and findings",
+        "Question: Clarification requests",
+        "Impediments: Blockers and obstacles",
+        "Leaves: Time off and absence tracking",
+        "Management Task: Administrative tasks",
+        "Support Tasks: Customer support activities",
+        "QA Estimation: Quality assurance effort estimation",
+        "Improvement: Process and system improvements"
+      ]
+    },
+    {
+      "title": "Project Management",
+      "description": "Project organization and management features",
+      "points": [
+        "Project creation and configuration",
+        "Issue tracking and management",
+        "Workflow customization",
+        "Permission and access control",
+        "Project templates and configurations",
+        "Dashboard and reporting",
+        "Integration with development tools",
+        "Time tracking and estimation"
+      ]
+    },
+    {
+      "title": "Agile Support",
+      "description": "Agile methodology support in Jira",
+      "points": [
+        "Scrum boards: Sprint planning and management",
+        "Kanban boards: Workflow visualization",
+        "Sprint planning: Iteration management",
+        "Backlog management: Feature prioritization",
+        "Burndown charts: Progress tracking",
+        "Velocity tracking: Team performance metrics",
+        "Sprint retrospectives: Process improvement",
+        "Epic management: Large feature tracking"
+      ]
+    },
+    {
+      "title": "Workflow Management",
+      "description": "Issue lifecycle and workflow configuration",
+      "points": [
+        "Status transitions: Open, In Progress, Done",
+        "Workflow states: To Do, In Progress, Review, Done",
+        "Custom workflows: Team-specific processes",
+        "Automation rules: Automatic status changes",
+        "Conditional logic: Workflow branching",
+        "Approval processes: Multi-step approvals",
+        "Notification rules: Automated alerts",
+        "Workflow validation: Business rule enforcement"
+      ]
+    },
+    {
+      "title": "Reporting and Analytics",
+      "description": "Jira reporting and analytics features",
+      "points": [
+        "Burndown charts: Sprint progress visualization",
+        "Velocity charts: Team performance over time",
+        "Cumulative flow diagrams: Workflow analysis",
+        "Issue statistics: Task completion metrics",
+        "Time tracking reports: Effort analysis",
+        "Custom dashboards: Personalized views",
+        "Gadgets: Widget-based reporting",
+        "Export capabilities: Data extraction"
+      ]
+    },
+    {
+      "title": "Integration Capabilities",
+      "description": "Jira integrations with other tools",
+      "points": [
+        "Git integration: Code repository linking",
+        "CI/CD tools: Jenkins, Bamboo integration",
+        "Testing tools: Test management integration",
+        "Documentation: Confluence integration",
+        "Communication: Slack, Microsoft Teams",
+        "Development IDEs: IDE plugins",
+        "API access: REST and GraphQL APIs",
+        "Webhook support: Real-time notifications"
+      ]
+    },
+    {
+      "title": "User Management",
+      "description": "User roles and permissions in Jira",
+      "points": [
+        "User roles: Admin, Project Admin, Developer, Reporter",
+        "Permission schemes: Access control configuration",
+        "User groups: Team-based access management",
+        "Authentication: LDAP, SSO integration",
+        "User profiles: Personal information management",
+        "Notification preferences: Email and in-app alerts",
+        "Dashboard customization: Personal views",
+        "Language and timezone settings"
+      ]
+    },
+    {
+      "title": "Customization",
+      "description": "Jira customization and configuration options",
+      "points": [
+        "Custom fields: Additional data collection",
+        "Issue types: Project-specific issue types",
+        "Workflow customization: Process adaptation",
+        "Screen configuration: Form customization",
+        "Field configurations: Conditional field display",
+        "Permission schemes: Access control customization",
+        "Notification schemes: Alert customization",
+        "Project templates: Standardized project setup"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for Jira usage",
+      "points": [
+        "Use consistent naming conventions",
+        "Implement proper workflow design",
+        "Regular backlog grooming and prioritization",
+        "Effective use of labels and components",
+        "Proper issue linking and dependencies",
+        "Regular reporting and metrics review",
+        "Team training and documentation",
+        "Regular cleanup and maintenance",
+        "Security and access control management",
+        "Integration with development processes"
+      ]
+    }
+  ]
+}

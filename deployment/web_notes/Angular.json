@@ -1,0 +1,243 @@
+{
+  "subject": "Angular",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of Angular framework and its key concepts",
+      "points": [
+        "Angular is a development platform built on TypeScript",
+        "It includes a component-based framework for building scalable web applications",
+        "Collection of libraries with over 1.7 billion developers",
+        "TypeScript is a superset of JavaScript - a layer around JS with more methods",
+        "Angular (start-9) is a JavaScript framework for client-side work",
+        "Angular also supports workspaces with multiple projects"
+      ]
+    },
+    {
+      "title": "Commands",
+      "description": "Essential Angular CLI commands for development",
+      "points": [
+        "npm install -g @angular/cli@latest",
+        "ng new App-Name",
+        "cd App-Name",
+        "ng serve - to run angular project like npm run",
+        "ng serve --open - to run angular project like npm run",
+        "ng generate component component_name - to generate component",
+        "ng g c component_name - to generate component",
+        "ng generate service service_name - creates service_name.service.ts",
+        "ng build --prod / ng build - for taking the build to deploy",
+        "ng g cl class_name - generate ts file with a class"
+      ]
+    },
+    {
+      "title": "Project Structure",
+      "description": "Understanding Angular project architecture and file organization",
+      "points": [
+        "Flow: main.ts -> app.module.ts -> AppComponent (app.component.ts + html)",
+        "index.html - entry point of the application",
+        "main.ts file acts as the entry point of the application",
+        "polyfills.ts file - polyfill for features not supported by current browser",
+        "styles.css file - for global styling",
+        "test.ts file - for testing configuration",
+        ".browserslistrc file - Angular CLI uses Browserslist for browser compatibility",
+        ".editorconfig file - rules for code formatting in IDEs",
+        "angular.json file - defines working directory architecture, global styling file path, assets folder path"
+      ]
+    },
+    {
+      "title": "Components",
+      "description": "Core building blocks of Angular applications",
+      "points": [
+        "Component = html file + ts file + style file",
+        "Just a class that serves as a controller for the user interface",
+        "Consists of three parts: TypeScript code, HTML template, CSS/scss styles",
+        "Components let you split the UI into independent, reusable pieces",
+        "Component LifeCycle includes: ngOnChanges, ngOnInit, ngDoCheck, ngAfterContentInit, ngAfterContentChecked, ngAfterViewInit, ngAfterViewChecked, ngOnDestroy"
+      ],
+      "children": [
+        {
+          "title": "Component Interaction",
+          "description": "How components communicate with each other",
+          "points": [
+            "Parent to Child - use @Input",
+            "Child to Parent - use @Output and EventEmitter",
+            "Parent interacts with child using local variable",
+            "Parent calls an @ViewChild()",
+            "Parent and children communicate using a service"
+          ]
+        },
+        {
+          "title": "Component Styles",
+          "description": "Styling approaches in Angular components",
+          "points": [
+            "Using component styles",
+            "Special selectors",
+            "Styles in component metadata",
+            "Style files in component metadata",
+            "Template inline styles",
+            "Template link tags",
+            "CSS @imports",
+            "External and global style files"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Data Binding",
+      "description": "Communication between TypeScript code and HTML templates",
+      "points": [
+        "One-way Data Binding: Uni-directional from Component to View or View to Component",
+        "String interpolation: {{}} for displaying data",
+        "Property binding: [] for setting element properties",
+        "Event binding: () for listening to user events",
+        "Two-way binding: [()] combination of property and event binding",
+        "ngModel directive for two-way data binding"
+      ]
+    },
+    {
+      "title": "Directives",
+      "description": "Classes that add additional behavior to elements",
+      "points": [
+        "Component directives - directives with a template",
+        "Attribute directives - change appearance or behavior of elements",
+        "Structural directives - change DOM layout by adding and removing elements",
+        "Built-in directives: *ngIf, *ngFor, *ngSwitch, ngClass, ngStyle, ngModel"
+      ]
+    },
+    {
+      "title": "Services",
+      "description": "Singleton objects for sharing data and business logic",
+      "points": [
+        "Singleton objects - get instantiated only once during application lifetime",
+        "Organize and share business logic, models, or data and functions",
+        "A class with a narrow, well-defined purpose",
+        "Code to be used everywhere on the page",
+        "Access methods and properties across other components in the entire project",
+        "ng g service myservice - to generate service"
+      ]
+    },
+    {
+      "title": "Routing",
+      "description": "Navigation between different components and pages",
+      "points": [
+        "Routes are definitions comprised from at least a path and a component",
+        "Path = Part of the URL that determines a unique view",
+        "Component = Angular component associated with a path",
+        "router-outlet works as a placeholder for loading different components",
+        "Navigation can be done using router-outlet directive",
+        "Activated component takes place inside router-outlet"
+      ],
+      "children": [
+        {
+          "title": "Route Guards",
+          "description": "Interfaces for controlling route access",
+          "points": [
+            "CanActivate - controls if route can be activated",
+            "CanActivateChild - controls if child routes can be activated",
+            "CanDeactivate - controls if route can be deactivated",
+            "Resolve - pre-fetch data before route activation",
+            "CanLoad - controls if feature module can be loaded"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Forms",
+      "description": "Handling user input and form validation",
+      "points": [
+        "Template Driven Forms - use FormsModule, asynchronous, most logic in template",
+        "Reactive Forms - use ReactiveFormsModule, synchronous, logic in component",
+        "FormBuilder, FormGroup, FormControls for reactive forms",
+        "Validators for form validation",
+        "Material Angular uses reactive forms with FormControls, FormBuilder, FormGroup, Validators"
+      ]
+    },
+    {
+      "title": "Pipes",
+      "description": "Data transformation and formatting",
+      "points": [
+        "Do formatting of data before displaying in the View",
+        "Use pipe operator | for data transformation",
+        "Takes integers, strings, arrays, and date",
+        "Built-in pipes: DatePipe, UpperCasePipe, LowerCasePipe, CurrencyPipe, DecimalPipe, PercentPipe",
+        "Custom pipes can be created for specific transformations"
+      ]
+    },
+    {
+      "title": "Dependency Injection",
+      "description": "Design pattern for managing dependencies",
+      "points": [
+        "A way to create objects that depend on other objects",
+        "Dependency Injection system supplies dependent objects when creating instances",
+        "Angular's DI framework provides dependencies to classes upon instantiation",
+        "Components consume services through dependency injection",
+        "Services can be injected into component constructors"
+      ]
+    },
+    {
+      "title": "Angular Material",
+      "description": "UI component library for Angular applications",
+      "points": [
+        "UI/UX components in Angular are known as Angular Materials",
+        "ng add @angular/material - to install Angular Material",
+        "Material angular doesn't support input fields of type 'file'",
+        "Need external libraries like 'npm i angular-material-fileupload' for file uploads",
+        "Components include: AutoComplete, Badge, Button, Card, Checkbox, Chips, DatePicker, Dialog, etc."
+      ]
+    },
+    {
+      "title": "Angular vs AngularJS",
+      "description": "Comparison between Angular and AngularJS",
+      "points": [
+        "Architecture: MVC design vs Components and directives",
+        "Language: JavaScript vs TypeScript (superset of ES6)",
+        "Mobile support: AngularJS doesn't support vs Angular supports",
+        "Routing: $routerprovider.when() vs @RouteConfig",
+        "Dependency Injection: AngularJS doesn't use vs Angular uses hierarchical DI",
+        "Structure: Less manageable vs Better structure, easy to manage",
+        "Speed: Reduced development effort vs Angular 4+ is fastest version"
+      ]
+    },
+    {
+      "title": "TypeScript",
+      "description": "Programming language used in Angular development",
+      "points": [
+        "TypeScript is an open-source programming language developed by Microsoft",
+        "Primary language for Angular application development",
+        "Superset of JavaScript with design-time support for type safety",
+        "Browsers can't execute TypeScript directly - must be transpiled to JavaScript",
+        "tsconfig.json - TypeScript compiler configuration",
+        "Supports optional static typing, classes, and interfaces",
+        "Open-source pure object-oriented programming language"
+      ],
+      "children": [
+        {
+          "title": "TypeScript Features",
+          "description": "Key features and capabilities of TypeScript",
+          "points": [
+            "OOP language with support for JS libraries",
+            "Portable and supports DOM manipulation",
+            "Static typing at compile time",
+            "User-defined types: Array, Class, Tuple, Enum, Interface, Functions",
+            "Generics for creating reusable components",
+            "Decorators for adding metadata to classes and methods"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for Angular development",
+      "points": [
+        "Keep components small and focused",
+        "Use services for shared business logic",
+        "Implement proper error handling",
+        "Use TypeScript for type safety",
+        "Follow Angular style guide",
+        "Use reactive forms for complex forms",
+        "Implement lazy loading for better performance",
+        "Use OnPush change detection strategy when appropriate"
+      ]
+    }
+  ]
+}

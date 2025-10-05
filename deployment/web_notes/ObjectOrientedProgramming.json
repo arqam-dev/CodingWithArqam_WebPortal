@@ -1,0 +1,188 @@
+{
+  "subject": "Object-Oriented Programming",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of Object-Oriented Programming paradigm",
+      "points": [
+        "OOP is a programming paradigm based on objects",
+        "Objects contain data (attributes) and code (methods)",
+        "Four main principles: Encapsulation, Inheritance, Polymorphism, Abstraction",
+        "Promotes code reusability and maintainability",
+        "Models real-world entities and relationships",
+        "Supports modular and organized code structure",
+        "Widely used in modern programming languages"
+      ]
+    },
+    {
+      "title": "Core Principles",
+      "description": "Four fundamental principles of OOP",
+      "points": [
+        "Encapsulation: Bundling data and methods together, hiding internal details",
+        "Inheritance: Creating new classes based on existing classes",
+        "Polymorphism: Same interface, different implementations",
+        "Abstraction: Hiding complex implementation details",
+        "Data hiding: Protecting data from external access",
+        "Code reusability: Reusing existing code through inheritance",
+        "Method overriding: Providing specific implementation in child classes"
+      ]
+    },
+    {
+      "title": "Classes and Objects",
+      "description": "Fundamental building blocks of OOP",
+      "points": [
+        "Class: Blueprint or template for creating objects",
+        "Object: Instance of a class with specific data",
+        "Attributes: Data members or properties of a class",
+        "Methods: Functions that operate on class data",
+        "Constructor: Special method called when object is created",
+        "Destructor: Special method called when object is destroyed",
+        "Instance variables: Variables specific to each object",
+        "Class variables: Variables shared among all instances"
+      ]
+    },
+    {
+      "title": "Inheritance",
+      "description": "Creating new classes from existing classes",
+      "points": [
+        "Parent Class (Superclass): Base class being inherited from",
+        "Child Class (Subclass): Class that inherits from parent",
+        "Single Inheritance: Class inherits from one parent",
+        "Multiple Inheritance: Class inherits from multiple parents",
+        "Method Overriding: Child class provides specific implementation",
+        "Super keyword: Access parent class members",
+        "Protected access: Accessible by class and its subclasses",
+        "IS-A relationship: Child is a type of parent"
+      ]
+    },
+    {
+      "title": "Abstract Classes",
+      "description": "Classes that cannot be instantiated directly",
+      "points": [
+        "Abstract class: Class declared with abstract keyword",
+        "May or may not include abstract methods",
+        "Cannot be instantiated directly",
+        "Subclass must implement all abstract methods",
+        "Can have both abstract and concrete methods",
+        "Can have constructors (called when subclass is instantiated)",
+        "Purpose: Define common behavior for subclasses",
+        "Example: Shape class with abstract area() method",
+        "Concrete subclass: Implements all abstract methods"
+      ]
+    },
+    {
+      "title": "Interfaces",
+      "description": "Contracts that classes must implement",
+      "points": [
+        "Interface: Contains only method declarations (no implementation)",
+        "All methods in interface are abstract by default",
+        "Variables in interface are public, static, and final",
+        "Class can implement multiple interfaces",
+        "Must implement all methods of interface (unless abstract class)",
+        "Provides multiple inheritance in languages like Java",
+        "Example: Media player interface with play, pause, stop methods",
+        "Security: Enforces certain properties on objects",
+        "Implicit vs Explicit implementation"
+      ]
+    },
+    {
+      "title": "Polymorphism",
+      "description": "Same interface, different implementations",
+      "points": [
+        "Runtime Polymorphism: Method overriding",
+        "Compile-time Polymorphism: Method overloading",
+        "Method Overriding: Child class provides specific implementation",
+        "Method Overloading: Same method name, different parameters",
+        "Virtual Methods: Can be overridden in derived classes",
+        "Pure Virtual Methods: Must be implemented by derived classes",
+        "Dynamic Binding: Method call resolved at runtime",
+        "Static Binding: Method call resolved at compile time"
+      ]
+    },
+    {
+      "title": "Encapsulation",
+      "description": "Bundling data and methods together",
+      "points": [
+        "Data Hiding: Private data members cannot be accessed directly",
+        "Access Modifiers: Public, Private, Protected, Internal",
+        "Getters and Setters: Controlled access to private data",
+        "Properties: Special methods for data access",
+        "Information Hiding: Hide implementation details",
+        "Data Abstraction: Show only essential features",
+        "Benefits: Security, maintainability, flexibility"
+      ]
+    },
+    {
+      "title": "Access Modifiers",
+      "description": "Control visibility of class members",
+      "points": [
+        "Public: Accessible from anywhere",
+        "Private: Accessible only within the same class",
+        "Protected: Accessible within class and its subclasses",
+        "Internal: Accessible within the same assembly/package",
+        "Package-private: Default access in Java",
+        "Friend: Accessible within the same assembly (C#)",
+        "Static: Belongs to class rather than instance",
+        "Final: Cannot be overridden or modified"
+      ]
+    },
+    {
+      "title": "Special Methods",
+      "description": "Special methods in object-oriented programming",
+      "points": [
+        "Constructor: Called when object is created",
+        "Destructor: Called when object is destroyed",
+        "Static Methods: Belong to class, not instance",
+        "Virtual Methods: Can be overridden in derived classes",
+        "Pure Virtual Methods: Must be implemented by derived classes",
+        "Abstract Methods: No implementation, must be overridden",
+        "Sealed Methods: Cannot be overridden",
+        "Override Methods: Provide new implementation"
+      ]
+    },
+    {
+      "title": "Advanced Concepts",
+      "description": "Advanced OOP concepts and techniques",
+      "points": [
+        "Composition: HAS-A relationship between classes",
+        "Aggregation: Weak ownership relationship",
+        "Association: General relationship between classes",
+        "Dependency: One class depends on another",
+        "Nested Classes: Classes defined within other classes",
+        "Inner Classes: Non-static nested classes",
+        "Anonymous Classes: Classes without names",
+        "Lambda Expressions: Anonymous functions"
+      ]
+    },
+    {
+      "title": "Design Patterns",
+      "description": "Common OOP design patterns",
+      "points": [
+        "Singleton: Ensure only one instance exists",
+        "Factory: Create objects without specifying exact class",
+        "Observer: Notify multiple objects about changes",
+        "Strategy: Define family of algorithms, make them interchangeable",
+        "Decorator: Add behavior to objects dynamically",
+        "Adapter: Make incompatible interfaces work together",
+        "Template Method: Define algorithm skeleton",
+        "Command: Encapsulate requests as objects"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for OOP development",
+      "points": [
+        "Follow SOLID principles",
+        "Use meaningful class and method names",
+        "Keep classes focused on single responsibility",
+        "Prefer composition over inheritance",
+        "Use interfaces for contracts",
+        "Implement proper encapsulation",
+        "Avoid deep inheritance hierarchies",
+        "Use design patterns appropriately",
+        "Write unit tests for classes",
+        "Document public interfaces"
+      ]
+    }
+  ]
+}

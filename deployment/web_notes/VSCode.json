@@ -1,0 +1,178 @@
+{
+  "subject": "VS Code",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of Visual Studio Code editor",
+      "points": [
+        "VS Code is a free, open-source code editor",
+        "Developed by Microsoft",
+        "Lightweight and fast performance",
+        "Cross-platform support (Windows, macOS, Linux)",
+        "Extensive extension ecosystem",
+        "Built-in Git integration",
+        "IntelliSense and debugging support",
+        "Widely used by developers worldwide"
+      ]
+    },
+    {
+      "title": "Keyboard Shortcuts",
+      "description": "Essential keyboard shortcuts for productivity",
+      "points": [
+        "Ctrl+K Ctrl+0: Fold all functions in a file (level 0)",
+        "Ctrl+K Ctrl+J: Unfold all functions in a file",
+        "Ctrl+K Ctrl+1: Fold to level 1 (nested functions)",
+        "Ctrl+K Ctrl+2: Fold to level 2",
+        "Ctrl+K Ctrl+3: Fold to level 3",
+        "Ctrl+K Ctrl+4: Fold to level 4",
+        "Ctrl+K Ctrl+5: Fold to level 5",
+        "Ctrl+K Ctrl+6: Fold to level 6",
+        "Ctrl+K Ctrl+7: Fold to level 7",
+        "Ctrl+K Ctrl+8: Fold to level 8",
+        "Ctrl+K Ctrl+9: Fold to level 9"
+      ]
+    },
+    {
+      "title": "Code Folding",
+      "description": "Managing code structure and readability",
+      "points": [
+        "Fold All: Collapse all code blocks",
+        "Unfold All: Expand all code blocks",
+        "Fold Level: Control folding depth",
+        "Fold Functions: Collapse function definitions",
+        "Fold Classes: Collapse class definitions",
+        "Fold Comments: Collapse comment blocks",
+        "Fold Regions: Collapse custom regions",
+        "Toggle Folding: Expand/collapse specific blocks"
+      ]
+    },
+    {
+      "title": "Extensions",
+      "description": "Popular VS Code extensions for development",
+      "points": [
+        "Language Support: Python, JavaScript, TypeScript, Java, C++",
+        "Theme Extensions: Dark themes, light themes, custom themes",
+        "Git Extensions: GitLens, Git Graph, Git History",
+        "Debugging: Debugger extensions for various languages",
+        "Linting: ESLint, Pylint, Prettier",
+        "IntelliSense: Enhanced code completion and suggestions",
+        "Snippets: Code snippets for faster development",
+        "Productivity: Auto-rename tag, Bracket pair colorizer"
+      ]
+    },
+    {
+      "title": "Built-in Features",
+      "description": "Core features built into VS Code",
+      "points": [
+        "IntelliSense: Smart code completion",
+        "Debugging: Built-in debugger for multiple languages",
+        "Git Integration: Source control management",
+        "Terminal: Integrated terminal",
+        "File Explorer: Project file management",
+        "Search and Replace: Advanced search capabilities",
+        "Multi-cursor: Edit multiple locations simultaneously",
+        "Code Navigation: Go to definition, find references"
+      ]
+    },
+    {
+      "title": "Workspace Management",
+      "description": "Managing projects and workspaces",
+      "points": [
+        "Workspace: Collection of folders and settings",
+        "Multi-root Workspace: Multiple project folders",
+        "Workspace Settings: Project-specific configurations",
+        "Folder Management: Adding/removing project folders",
+        "Workspace Trust: Security for untrusted folders",
+        "Workspace Extensions: Project-specific extensions",
+        "Workspace Tasks: Project-specific tasks",
+        "Workspace Launch: Project-specific debug configurations"
+      ]
+    },
+    {
+      "title": "Debugging",
+      "description": "Debugging applications in VS Code",
+      "points": [
+        "Breakpoints: Set and manage breakpoints",
+        "Debug Console: Interactive debugging",
+        "Call Stack: Function call hierarchy",
+        "Variables: Inspect variable values",
+        "Watch: Monitor specific expressions",
+        "Debug Configurations: Custom debug setups",
+        "Step Through: Line-by-line execution",
+        "Debug Extensions: Language-specific debugging"
+      ]
+    },
+    {
+      "title": "Git Integration",
+      "description": "Version control with Git in VS Code",
+      "points": [
+        "Source Control Panel: Git operations interface",
+        "Diff Viewer: Compare file changes",
+        "Merge Conflicts: Resolve conflicts visually",
+        "Branch Management: Switch and create branches",
+        "Commit History: View commit history",
+        "Staging Changes: Add files to staging area",
+        "Push/Pull: Sync with remote repositories",
+        "Git Extensions: Enhanced Git functionality"
+      ]
+    },
+    {
+      "title": "Customization",
+      "description": "Customizing VS Code for personal preferences",
+      "points": [
+        "Themes: Color schemes and appearance",
+        "Fonts: Code font customization",
+        "Settings: User and workspace settings",
+        "Keybindings: Custom keyboard shortcuts",
+        "Snippets: Custom code snippets",
+        "Tasks: Automated task configurations",
+        "Launch Configurations: Debug and run setups",
+        "Extensions: Install and manage extensions"
+      ]
+    },
+    {
+      "title": "Productivity Features",
+      "description": "Features that enhance development productivity",
+      "points": [
+        "Multi-cursor Editing: Edit multiple locations",
+        "Code Snippets: Reusable code templates",
+        "Emmet: HTML/CSS abbreviation expansion",
+        "Find and Replace: Advanced search and replace",
+        "Command Palette: Quick command access",
+        "Quick Open: Fast file navigation",
+        "Symbol Search: Find functions, classes, variables",
+        "Outline View: Code structure overview"
+      ]
+    },
+    {
+      "title": "Language Support",
+      "description": "Programming language support in VS Code",
+      "points": [
+        "JavaScript/TypeScript: Full IntelliSense and debugging",
+        "Python: Debugging, linting, and IntelliSense",
+        "Java: Maven, Gradle, and Spring Boot support",
+        "C/C++: IntelliSense and debugging",
+        "C#: .NET development support",
+        "PHP: Web development features",
+        "Go: Language server and debugging",
+        "Rust: Language server and cargo support"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for VS Code usage",
+      "points": [
+        "Use appropriate extensions for your language",
+        "Customize settings for your workflow",
+        "Learn keyboard shortcuts for efficiency",
+        "Use workspace settings for project consistency",
+        "Enable auto-save for better productivity",
+        "Use integrated terminal for development tasks",
+        "Configure debugging for your applications",
+        "Use source control integration effectively",
+        "Organize extensions by functionality",
+        "Regularly update VS Code and extensions"
+      ]
+    }
+  ]
+}

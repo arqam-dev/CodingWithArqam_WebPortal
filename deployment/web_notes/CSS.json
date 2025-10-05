@@ -1,0 +1,199 @@
+{
+  "subject": "CSS",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of CSS and its role in web development",
+      "points": [
+        "CSS (Cascading Style Sheets) is a stylesheet language",
+        "Used to describe the presentation of HTML documents",
+        "Controls layout, colors, fonts, and visual effects",
+        "Separates content from presentation",
+        "Enables responsive web design",
+        "Works with HTML and JavaScript to create interactive websites"
+      ]
+    },
+    {
+      "title": "Selectors",
+      "description": "Different ways to target HTML elements",
+      "points": [
+        "Element selectors: p, h1, div",
+        "Class selectors: .classname",
+        "ID selectors: #idname",
+        "Attribute selectors: [type='text']",
+        "Pseudo-classes: :hover, :focus, :active",
+        "Pseudo-elements: ::before, ::after",
+        "Descendant selectors: div p",
+        "Child selectors: div > p",
+        "Adjacent sibling selectors: h1 + p",
+        "General sibling selectors: h1 ~ p"
+      ]
+    },
+    {
+      "title": "Box Model",
+      "description": "Understanding how elements are sized and spaced",
+      "points": [
+        "Content: The actual content of the element",
+        "Padding: Space between content and border",
+        "Border: Line around the padding",
+        "Margin: Space outside the border",
+        "box-sizing: content-box (default)",
+        "box-sizing: border-box (includes padding and border in width/height)",
+        "Margin collapse: Adjacent vertical margins combine"
+      ]
+    },
+    {
+      "title": "Layout",
+      "description": "Different layout methods in CSS",
+      "points": [
+        "Display property: block, inline, inline-block, flex, grid",
+        "Position property: static, relative, absolute, fixed, sticky",
+        "Float property: left, right, none",
+        "Clear property: left, right, both, none",
+        "Flexbox: One-dimensional layout",
+        "CSS Grid: Two-dimensional layout",
+        "Z-index: Controls stacking order"
+      ],
+      "children": [
+        {
+          "title": "Flexbox",
+          "description": "Flexible box layout for one-dimensional layouts",
+          "points": [
+            "display: flex - creates flex container",
+            "flex-direction: row, column, row-reverse, column-reverse",
+            "justify-content: flex-start, center, flex-end, space-between, space-around",
+            "align-items: stretch, flex-start, center, flex-end, baseline",
+            "flex-wrap: nowrap, wrap, wrap-reverse",
+            "flex-grow, flex-shrink, flex-basis properties"
+          ]
+        },
+        {
+          "title": "CSS Grid",
+          "description": "Two-dimensional grid layout system",
+          "points": [
+            "display: grid - creates grid container",
+            "grid-template-columns: defines column sizes",
+            "grid-template-rows: defines row sizes",
+            "grid-gap: space between grid items",
+            "grid-area: names grid areas",
+            "grid-column, grid-row: item placement",
+            "justify-items, align-items: item alignment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Creating websites that work on all devices",
+      "points": [
+        "Mobile-first approach",
+        "Media queries: @media (max-width: 768px)",
+        "Viewport meta tag: <meta name='viewport' content='width=device-width, initial-scale=1'>",
+        "Fluid layouts with percentages and relative units",
+        "Flexible images: max-width: 100%",
+        "Breakpoints: 320px, 768px, 1024px, 1200px",
+        "CSS Grid and Flexbox for responsive layouts"
+      ]
+    },
+    {
+      "title": "Typography",
+      "description": "Styling text and fonts",
+      "points": [
+        "font-family: specifies font stack",
+        "font-size: controls text size",
+        "font-weight: normal, bold, 100-900",
+        "font-style: normal, italic, oblique",
+        "line-height: controls line spacing",
+        "text-align: left, center, right, justify",
+        "text-decoration: none, underline, overline, line-through",
+        "text-transform: none, uppercase, lowercase, capitalize",
+        "letter-spacing: controls character spacing",
+        "word-spacing: controls word spacing"
+      ]
+    },
+    {
+      "title": "Colors and Backgrounds",
+      "description": "Working with colors and background properties",
+      "points": [
+        "Color values: hex (#ff0000), rgb(255,0,0), rgba(255,0,0,0.5), hsl(0,100%,50%)",
+        "background-color: sets element background color",
+        "background-image: url('image.jpg')",
+        "background-size: cover, contain, 100% 100%",
+        "background-position: top, center, bottom, left, right",
+        "background-repeat: no-repeat, repeat, repeat-x, repeat-y",
+        "background-attachment: scroll, fixed",
+        "Gradients: linear-gradient(), radial-gradient()"
+      ]
+    },
+    {
+      "title": "Transitions and Animations",
+      "description": "Adding motion and interactivity to elements",
+      "points": [
+        "transition: property duration timing-function delay",
+        "transition-property: specifies which properties to animate",
+        "transition-duration: how long transition takes",
+        "transition-timing-function: ease, linear, ease-in, ease-out, ease-in-out",
+        "animation: name duration timing-function delay iteration-count direction",
+        "@keyframes: defines animation steps",
+        "transform: translate(), rotate(), scale(), skew()",
+        "transform-origin: sets transformation point"
+      ]
+    },
+    {
+      "title": "Pseudo-classes and Pseudo-elements",
+      "description": "Styling elements based on state or position",
+      "points": [
+        "Pseudo-classes: :hover, :focus, :active, :visited, :link",
+        "Structural pseudo-classes: :first-child, :last-child, :nth-child()",
+        "Pseudo-elements: ::before, ::after, ::first-line, ::first-letter",
+        "Content property: used with ::before and ::after",
+        "Positioning pseudo-elements",
+        "Styling form elements with pseudo-classes"
+      ]
+    },
+    {
+      "title": "CSS Preprocessors",
+      "description": "Advanced CSS with preprocessors",
+      "points": [
+        "Sass/SCSS: Variables, nesting, mixins, functions",
+        "Less: Similar to Sass with different syntax",
+        "Stylus: Flexible syntax, no semicolons or braces required",
+        "Variables: $primary-color: #007bff",
+        "Nesting: .parent { .child { color: red; } }",
+        "Mixins: Reusable style blocks",
+        "Functions: Built-in and custom functions",
+        "Import: @import 'partials/header'"
+      ]
+    },
+    {
+      "title": "CSS Frameworks",
+      "description": "Popular CSS frameworks for rapid development",
+      "points": [
+        "Bootstrap: Most popular CSS framework",
+        "Tailwind CSS: Utility-first CSS framework",
+        "Foundation: Responsive front-end framework",
+        "Bulma: Modern CSS framework based on Flexbox",
+        "Materialize: Material Design components",
+        "Semantic UI: Development-friendly framework",
+        "Pure CSS: Lightweight framework",
+        "Custom frameworks: Building your own"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for CSS development",
+      "points": [
+        "Use semantic class names",
+        "Follow BEM methodology (Block, Element, Modifier)",
+        "Organize CSS with logical structure",
+        "Use CSS custom properties (variables)",
+        "Minimize specificity conflicts",
+        "Use shorthand properties when possible",
+        "Optimize for performance",
+        "Use CSS Grid and Flexbox for layouts",
+        "Write mobile-first responsive CSS",
+        "Use CSS preprocessors for complex projects"
+      ]
+    }
+  ]
+}

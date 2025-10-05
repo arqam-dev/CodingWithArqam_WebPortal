@@ -1,0 +1,200 @@
+{
+  "subject": "HTML",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of HTML markup language",
+      "points": [
+        "HTML (HyperText Markup Language) is a markup language",
+        "Used to create structure and content of web pages",
+        "All HTML tags must be enclosed within < > brackets",
+        "Every tag in HTML performs different tasks",
+        "HTML 5 is the latest version with new semantic elements",
+        "Works with CSS for styling and JavaScript for interactivity"
+      ]
+    },
+    {
+      "title": "HTML5 Semantic Elements",
+      "description": "New semantic tags introduced in HTML5",
+      "points": [
+        "<article>: Defines independent piece of content like blog or magazine article",
+        "<aside>: Specifies content slightly related to the rest of the page",
+        "<header>: Defines header section of page or section",
+        "<footer>: Defines footer section of page or section",
+        "<nav>: Defines navigation links",
+        "<section>: Defines section in document",
+        "<main>: Defines main content of document",
+        "<figure>: Defines self-contained content like photos, diagrams",
+        "<figcaption>: Defines caption for figure element",
+        "<mark>: Highlights text",
+        "<time>: Defines date/time",
+        "<progress>: Represents progress of a task",
+        "<dialog>: Creates dialog box or window"
+      ]
+    },
+    {
+      "title": "Form Elements",
+      "description": "HTML form elements and input types",
+      "points": [
+        "<form>: Container for form elements",
+        "<input>: Various input types (text, email, password, number, date, etc.)",
+        "<textarea>: Multi-line text input",
+        "<select>: Dropdown list",
+        "<option>: Options within select element",
+        "<button>: Clickable button",
+        "<label>: Label for form controls",
+        "<fieldset>: Groups related form elements",
+        "<legend>: Caption for fieldset",
+        "<datalist>: Provides autocomplete feature for text fields",
+        "<details>: Additional information or controls",
+        "<menuitem>: Command that user can invoke from popup menu"
+      ]
+    },
+    {
+      "title": "Media Elements",
+      "description": "HTML elements for multimedia content",
+      "points": [
+        "<audio>: Embeds sound content",
+        "<video>: Embeds video content",
+        "<source>: Specifies media resources for audio/video",
+        "<track>: Text tracks for audio/video elements",
+        "<canvas>: Draw graphics via JavaScript",
+        "<svg>: Scalable Vector Graphics",
+        "<img>: Embeds images",
+        "<picture>: Responsive image container",
+        "<iframe>: Embeds another HTML page"
+      ]
+    },
+    {
+      "title": "Text Formatting",
+      "description": "HTML elements for text formatting and structure",
+      "points": [
+        "<h1> to <h6>: Heading elements (h1 most important)",
+        "<p>: Paragraph element",
+        "<br>: Line break",
+        "<hr>: Horizontal rule",
+        "<strong>: Important text (bold)",
+        "<em>: Emphasized text (italic)",
+        "<mark>: Highlighted text",
+        "<small>: Smaller text",
+        "<del>: Deleted text",
+        "<ins>: Inserted text",
+        "<sub>: Subscript text",
+        "<sup>: Superscript text",
+        "<abbr>: Abbreviation with title attribute",
+        "<code>: Inline code",
+        "<pre>: Preformatted text",
+        "<blockquote>: Block quotation"
+      ]
+    },
+    {
+      "title": "Lists and Tables",
+      "description": "HTML elements for organizing data",
+      "points": [
+        "<ul>: Unordered list",
+        "<ol>: Ordered list",
+        "<li>: List item",
+        "<dl>: Description list",
+        "<dt>: Description term",
+        "<dd>: Description definition",
+        "<table>: Table element",
+        "<thead>: Table header",
+        "<tbody>: Table body",
+        "<tfoot>: Table footer",
+        "<tr>: Table row",
+        "<th>: Table header cell",
+        "<td>: Table data cell",
+        "<caption>: Table caption",
+        "<colgroup>: Groups columns",
+        "<col>: Column properties"
+      ]
+    },
+    {
+      "title": "Links and Navigation",
+      "description": "HTML elements for linking and navigation",
+      "points": [
+        "<a>: Anchor element for links",
+        "href attribute: Specifies link destination",
+        "target attribute: _blank, _self, _parent, _top",
+        "title attribute: Tooltip text",
+        "rel attribute: Relationship between documents",
+        "download attribute: Downloads linked file",
+        "mailto: Email links",
+        "tel: Phone number links",
+        "Anchor links: #section for page navigation",
+        "External links: Full URLs",
+        "Internal links: Relative paths"
+      ]
+    },
+    {
+      "title": "Document Structure",
+      "description": "Basic HTML document structure",
+      "points": [
+        "<!DOCTYPE html>: Document type declaration",
+        "<html>: Root element of HTML document",
+        "<head>: Contains metadata about document",
+        "<title>: Document title (appears in browser tab)",
+        "<meta>: Metadata about document",
+        "<link>: Links to external resources (CSS, icons)",
+        "<script>: JavaScript code or external script",
+        "<style>: Internal CSS styles",
+        "<body>: Main content of document",
+        "lang attribute: Specifies language of document"
+      ]
+    },
+    {
+      "title": "Attributes",
+      "description": "Common HTML attributes",
+      "points": [
+        "id: Unique identifier for element",
+        "class: CSS class name(s)",
+        "style: Inline CSS styles",
+        "title: Tooltip text",
+        "alt: Alternative text for images",
+        "src: Source URL for media elements",
+        "href: Link destination",
+        "target: Link target window",
+        "type: MIME type for media elements",
+        "width/height: Element dimensions",
+        "data-*: Custom data attributes",
+        "aria-*: Accessibility attributes",
+        "role: ARIA role for accessibility"
+      ]
+    },
+    {
+      "title": "Accessibility",
+      "description": "HTML elements and attributes for accessibility",
+      "points": [
+        "alt attribute: Alternative text for images",
+        "title attribute: Tooltip text for elements",
+        "aria-label: Accessible name for element",
+        "aria-labelledby: References element that labels current element",
+        "aria-describedby: References element that describes current element",
+        "role attribute: Defines element's role",
+        "tabindex: Keyboard navigation order",
+        "lang attribute: Specifies language",
+        "Semantic HTML: Use proper heading hierarchy",
+        "Form labels: Associate labels with form controls",
+        "Skip links: Allow keyboard users to skip to main content"
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "description": "Recommended practices for HTML development",
+      "points": [
+        "Use semantic HTML elements",
+        "Write valid, well-formed HTML",
+        "Use proper heading hierarchy (h1, h2, h3, etc.)",
+        "Include alt text for all images",
+        "Use meaningful class and id names",
+        "Keep HTML structure clean and organized",
+        "Use comments to document complex sections",
+        "Validate HTML with W3C validator",
+        "Ensure accessibility compliance",
+        "Use external CSS and JavaScript files",
+        "Optimize for search engines (SEO)",
+        "Test across different browsers"
+      ]
+    }
+  ]
+}

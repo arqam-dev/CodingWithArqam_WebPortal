@@ -1,0 +1,238 @@
+{
+  "subject": "Node.js",
+  "topics": [
+    {
+      "title": "Introduction",
+      "description": "Overview of Node.js runtime and its characteristics",
+      "points": [
+        "Node.js is asynchronous, single-threaded",
+        "Built on Chrome's V8 JavaScript engine",
+        "Uses event-driven, non-blocking I/O model",
+        "Perfect for data-intensive real-time applications",
+        "JavaScript runtime for server-side development",
+        "NPM (Node Package Manager) - world's largest software registry",
+        "Over 3 billion downloads per week",
+        "No other platform comes close to Node.js"
+      ]
+    },
+    {
+      "title": "Architecture",
+      "description": "Node.js internal architecture and components",
+      "points": [
+        "V8 Engine: Converts JavaScript to machine code",
+        "LibUV: Handles asynchronous I/O operations",
+        "Event Loop: Manages callback execution",
+        "Call Stack: Tracks function execution",
+        "Thread Pool: Default 4 threads, configurable with UV_THREADPOOL_SIZE",
+        "Single-threaded event loop for JavaScript execution",
+        "Multi-threaded for I/O operations"
+      ],
+      "children": [
+        {
+          "title": "Event Loop",
+          "description": "How Node.js handles asynchronous operations",
+          "points": [
+            "Execution priorities: Events → Next Tick → Micro Tasks → Next Tick → Macro Tasks → Next Tick → Pending Callbacks → Next Tick → Immediate Queue → Next Tick",
+            "Micro Tasks: Promises, process.nextTick(), queueMicrotask()",
+            "Macro Tasks: setTimeout, setInterval, setImmediate",
+            "I/O Queue: File system, network operations",
+            "Check Queue: setImmediate callbacks",
+            "Close Callbacks: cleanup operations"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Core Modules",
+      "description": "Built-in Node.js modules for common operations",
+      "points": [
+        "http: Create HTTP servers and clients",
+        "fs: File system operations",
+        "path: Handle file and directory paths",
+        "url: URL parsing and formatting",
+        "querystring: Parse and stringify URL query strings",
+        "crypto: Cryptographic functionality",
+        "util: Utility functions",
+        "events: Event emitter functionality",
+        "stream: Streaming data",
+        "buffer: Handle binary data"
+      ]
+    },
+    {
+      "title": "File System Operations",
+      "description": "Working with files and directories in Node.js",
+      "points": [
+        "fs.readFile() - read file contents",
+        "fs.writeFile() - write data to file",
+        "fs.appendFile() - append data to file",
+        "fs.unlink() - delete file",
+        "fs.mkdir() - create directory",
+        "fs.rmdir() - remove directory",
+        "fs.readdir() - read directory contents",
+        "fs.stat() - get file/directory information",
+        "fs.watch() - watch file/directory changes",
+        "Streaming: fs.createReadStream(), fs.createWriteStream()"
+      ]
+    },
+    {
+      "title": "HTTP and Web Servers",
+      "description": "Creating HTTP servers and handling requests",
+      "points": [
+        "http.createServer() - create HTTP server",
+        "Request handling: req.url, req.method, req.headers",
+        "Response handling: res.writeHead(), res.write(), res.end()",
+        "Routing: URL parsing and route handling",
+        "Middleware: Express.js for web framework",
+        "Static file serving",
+        "CORS handling for cross-origin requests",
+        "HTTPS servers with SSL certificates"
+      ]
+    },
+    {
+      "title": "Streams and Buffers",
+      "description": "Handling data streams and binary data",
+      "points": [
+        "Streams: Efficient way to handle reading/writing data",
+        "Types: Readable, Writable, Duplex, Transform",
+        "Events: data, end, error, finish",
+        "Piping: stream.pipe() for data flow",
+        "Buffers: Handle binary data in Node.js",
+        "Buffer methods: toString(), slice(), concat()",
+        "Memory efficient for large files",
+        "Backpressure handling"
+      ]
+    },
+    {
+      "title": "Event Emitters",
+      "description": "Event-driven programming in Node.js",
+      "points": [
+        "EventEmitter class for custom events",
+        "Methods: on(), emit(), once(), removeListener()",
+        "Event-driven architecture",
+        "Custom events and listeners",
+        "Error handling in event emitters",
+        "Event delegation patterns",
+        "Memory management for event listeners"
+      ]
+    },
+    {
+      "title": "Child Processes",
+      "description": "Spawning and managing child processes",
+      "points": [
+        "child_process.spawn() - spawn new process",
+        "child_process.exec() - execute shell commands",
+        "child_process.fork() - fork new Node.js process",
+        "Process communication via IPC",
+        "Worker threads for CPU-intensive tasks",
+        "Clusters for load balancing",
+        "Process monitoring and management"
+      ]
+    },
+    {
+      "title": "NPM and Package Management",
+      "description": "Managing dependencies and packages",
+      "points": [
+        "npm init - initialize package.json",
+        "npm install - install dependencies",
+        "npm install --save - install and save to dependencies",
+        "npm install --save-dev - install and save to devDependencies",
+        "npm scripts in package.json",
+        "npm publish - publish packages",
+        "npm audit - security vulnerability scanning",
+        "yarn alternative to npm",
+        "package-lock.json for dependency locking"
+      ]
+    },
+    {
+      "title": "Popular Libraries",
+      "description": "Essential Node.js libraries and frameworks",
+      "points": [
+        "Express.js - web application framework",
+        "Socket.io - real-time communication",
+        "Axios - HTTP client",
+        "Lodash - utility library",
+        "Moment.js/date-fns - date manipulation",
+        "Crypto-js - cryptographic functions",
+        "Multer - file upload handling",
+        "JWT - JSON Web Tokens",
+        "Bcrypt - password hashing",
+        "Dotenv - environment variables"
+      ]
+    },
+    {
+      "title": "Database Integration",
+      "description": "Connecting to databases with Node.js",
+      "points": [
+        "MongoDB with Mongoose ODM",
+        "MySQL/PostgreSQL with Sequelize ORM",
+        "Redis for caching",
+        "Database connection pooling",
+        "Query builders: Knex.js",
+        "ORM vs Query Builder comparison",
+        "Database migrations and seeding",
+        "Connection error handling"
+      ]
+    },
+    {
+      "title": "Security",
+      "description": "Security best practices for Node.js applications",
+      "points": [
+        "Input validation and sanitization",
+        "Authentication and authorization",
+        "Password hashing with bcrypt",
+        "JWT token management",
+        "HTTPS and SSL certificates",
+        "CORS configuration",
+        "Rate limiting",
+        "SQL injection prevention",
+        "XSS protection",
+        "Security headers"
+      ]
+    },
+    {
+      "title": "Performance Optimization",
+      "description": "Optimizing Node.js application performance",
+      "points": [
+        "Clustering for multi-core utilization",
+        "Worker threads for CPU-intensive tasks",
+        "Memory management and garbage collection",
+        "Streaming for large data processing",
+        "Caching strategies",
+        "Database query optimization",
+        "Load balancing",
+        "Monitoring and profiling",
+        "Memory leak detection"
+      ]
+    },
+    {
+      "title": "Testing",
+      "description": "Testing Node.js applications",
+      "points": [
+        "Jest - JavaScript testing framework",
+        "Mocha - flexible testing framework",
+        "Chai - assertion library",
+        "Supertest - HTTP testing",
+        "Unit testing best practices",
+        "Integration testing",
+        "Mocking and stubbing",
+        "Test coverage",
+        "Continuous integration"
+      ]
+    },
+    {
+      "title": "Deployment",
+      "description": "Deploying Node.js applications",
+      "points": [
+        "PM2 - process manager",
+        "Docker containerization",
+        "Environment variables",
+        "Logging and monitoring",
+        "Health checks",
+        "Load balancing",
+        "SSL/TLS configuration",
+        "Database migrations in production",
+        "Backup strategies"
+      ]
+    }
+  ]
+}
